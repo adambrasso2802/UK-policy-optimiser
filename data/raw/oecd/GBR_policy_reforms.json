@@ -1,0 +1,26 @@
+{
+  "country": "UK",
+  "iso3": "GBR",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "Universal Credit rollout (2013\u2013present)",
+      "description": "Merged six legacy benefits into one; improved work-incentives by smoothing taper rate; reduced welfare trap for low-income earners.",
+      "outcome": "Employment rate rose to record highs pre-pandemic; marginal effective tax rate on benefits reduced.",
+      "source": "OECD Economic Survey of the UK 2023; DWP evaluation"
+    },
+    {
+      "reform": "Bank of England independence & post-GFC macro-prudential framework (2008\u20132014)",
+      "description": "Creation of Financial Policy Committee; stress-testing regime; higher capital buffers prevented second banking collapse.",
+      "outcome": "Financial sector stabilised after 2008; UK avoided full bank nationalisation beyond RBS/HBOS.",
+      "source": "OECD Economic Survey of the UK 2010; Bank of England Financial Stability Reports"
+    },
+    {
+      "reform": "North Sea oil fiscal regime reform & Hinkley / energy diversification (2012\u20132024)",
+      "description": "Reform of petroleum revenue tax; commitment to renewable energy targets under CfD auctions; offshore wind scale-up.",
+      "outcome": "UK became global leader in offshore wind; energy security improved; green industrial strategy emerged.",
+      "source": "OECD Economic Survey of the UK 2022"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.344832Z"
+}

@@ -1,0 +1,26 @@
+{
+  "country": "Germany",
+  "iso3": "DEU",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "Hartz labour market reforms (2002\u20132005)",
+      "description": "Four-stage reform: tightened job-search conditionality, merged unemployment assistance and social aid (Hartz IV), expanded temporary work agencies, created mini-job categories.",
+      "outcome": "Unemployment fell from ~11% (2005) to ~3% (2019); 'German jobs miracle'; real wage growth initially suppressed but recovered.",
+      "source": "OECD Economic Survey of Germany 2008, 2012, 2021"
+    },
+    {
+      "reform": "Energiewende \u2014 energy transition (2000\u2013present)",
+      "description": "Renewable Energy Act (EEG) 2000 set feed-in tariffs; subsequent reforms moved to auction-based CfDs; phase-out of nuclear (completed 2023).",
+      "outcome": "Renewable share of electricity ~55% by 2023; created global export industries in solar, wind technology; energy costs initially raised.",
+      "source": "OECD Economic Survey of Germany 2021, 2023"
+    },
+    {
+      "reform": "German reunification integration & fiscal consolidation (1990\u20132007)",
+      "description": "Solidarity surcharge financed eastern reconstruction; Schuldenbremse (debt brake) constitutionalised from 2009; structural surplus achieved by 2014.",
+      "outcome": "Eastern productivity convergence (still incomplete); constitutional fiscal discipline; debt fell from ~80% to ~60% GDP pre-pandemic.",
+      "source": "OECD Economic Survey of Germany 2006, 2010"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.345613Z"
+}

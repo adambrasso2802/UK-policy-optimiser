@@ -1,0 +1,13 @@
+{
+  "country": "Germany",
+  "iso3": "DEU",
+  "metric": "Tax revenue and mix (OECD Revenue Statistics)",
+  "source": "OECD Revenue Statistics 2023",
+  "year": 2022,
+  "total_pct_gdp": 38.5,
+  "income_tax_pct_gdp": 11.4,
+  "corporate_tax_pct_gdp": 2.4,
+  "vat_pct_gdp": 7.0,
+  "social_contributions_pct_gdp": 14.9,
+  "fetched_at": "2026-05-17T10:44:09.342879Z"
+}

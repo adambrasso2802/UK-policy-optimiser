@@ -1,0 +1,45 @@
+{
+  "country": "Denmark",
+  "iso3": "DNK",
+  "metric": "GDP growth rate (annual %)",
+  "source": "OECD National Accounts / reference data",
+  "fetched_at": "2026-05-17T10:44:08.004021Z",
+  "records": [
+    {
+      "year": 2016,
+      "value": 3.2
+    },
+    {
+      "year": 2017,
+      "value": 3.4
+    },
+    {
+      "year": 2018,
+      "value": 2.0
+    },
+    {
+      "year": 2019,
+      "value": 2.6
+    },
+    {
+      "year": 2020,
+      "value": -2.0
+    },
+    {
+      "year": 2021,
+      "value": 5.1
+    },
+    {
+      "year": 2022,
+      "value": 1.8
+    },
+    {
+      "year": 2023,
+      "value": 1.8
+    },
+    {
+      "year": 2024,
+      "value": 2.1
+    }
+  ]
+}

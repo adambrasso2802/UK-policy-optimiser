@@ -1,0 +1,9 @@
+{
+  "country": "Australia",
+  "iso3": "AUS",
+  "metric": "Gini coefficient (equivalised disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "value": 0.326,
+  "fetched_at": "2026-05-17T10:44:08.555520Z"
+}

@@ -1,0 +1,10 @@
+{
+  "country": "Singapore",
+  "iso3": "SGP",
+  "metric": "GDP per hour worked (USD PPP, current prices)",
+  "source": "MOM Singapore / World Bank",
+  "year": 2023,
+  "value": 74.5,
+  "note": "",
+  "fetched_at": "2026-05-17T10:44:08.557694Z"
+}

@@ -1,0 +1,26 @@
+{
+  "country": "Singapore",
+  "iso3": "SGP",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "SkillsFuture national programme (2015\u2013present)",
+      "description": "Government-funded S$500 credit per adult for training; sectoral workforce transformation programmes; Earn & Learn pathways.",
+      "outcome": "Adult participation in training rose to among highest in Asia; productivity growth accelerated; economy pivoted toward high-value services.",
+      "source": "OECD Economic Survey of Singapore 2018, 2022"
+    },
+    {
+      "reform": "Economic restructuring from manufacturing to services hub (1997\u20132010)",
+      "description": "Deliberate shift from labour-intensive manufacturing toward finance, biomedical, ICT; attracted MNC regional HQs via tax incentives and IP regime.",
+      "outcome": "GDP per capita overtook most G7 nations; Singapore became top global financial centre alongside London/New York.",
+      "source": "OECD Economic Survey of Singapore 2016"
+    },
+    {
+      "reform": "Medisave / MediShield Life healthcare financing reform (2015)",
+      "description": "Expanded mandatory health savings (Medisave) and universal catastrophic insurance (MediShield Life); added Pioneer Generation subsidies.",
+      "outcome": "Universal health coverage achieved at low cost; out-of-pocket spending remains high but financial risk protection improved.",
+      "source": "OECD Health Policy Studies \u2014 Singapore 2023"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.345670Z"
+}

@@ -1,0 +1,9 @@
+{
+  "country": "Netherlands",
+  "iso3": "NLD",
+  "metric": "Gini coefficient (equivalised disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "value": 0.284,
+  "fetched_at": "2026-05-17T10:44:08.554853Z"
+}

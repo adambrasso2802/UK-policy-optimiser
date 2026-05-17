@@ -1,0 +1,9 @@
+{
+  "country": "Canada",
+  "iso3": "CAN",
+  "metric": "Government Effectiveness (World Bank WGI, scale -2.5 to +2.5)",
+  "source": "World Bank WGI GE.EST",
+  "year": 2023,
+  "value": 1.62,
+  "fetched_at": "2026-05-17T10:44:09.341569Z"
+}

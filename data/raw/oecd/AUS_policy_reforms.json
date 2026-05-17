@@ -1,0 +1,26 @@
+{
+  "country": "Australia",
+  "iso3": "AUS",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "Hawke-Keating microeconomic reform package (1983\u20131996)",
+      "description": "Floating AUD; financial deregulation; tariff reduction; enterprise bargaining; privatisation of Qantas, Commonwealth Bank, Telstra; compulsory superannuation (1992).",
+      "outcome": "Record 27-year recession-free growth (1991\u20132020); productivity growth accelerated through 1990s; superannuation assets now >AUD 3.5tn.",
+      "source": "OECD Economic Survey of Australia 2004, 2012"
+    },
+    {
+      "reform": "Mining boom revenue management & sovereign wealth fund (2004\u20132013)",
+      "description": "Future Fund established 2006; resource super profits tax debate; stimulus package (2008) credited with avoiding recession; infrastructure investment.",
+      "outcome": "Australia was only OECD economy to avoid GFC recession; Future Fund assets >AUD 200bn; fiscal surpluses during boom years.",
+      "source": "OECD Economic Survey of Australia 2010, 2014"
+    },
+    {
+      "reform": "NDIS \u2014 National Disability Insurance Scheme (2013\u2013present)",
+      "description": "Universal insurance model replacing fragmented state services for disability; individualised funding packages; choice and control for participants.",
+      "outcome": "600,000+ Australians receiving support by 2024; labour market participation for people with disability increased; significant fiscal cost (~AUD 44bn/yr).",
+      "source": "OECD Disability Policy Review Australia 2023"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.345993Z"
+}

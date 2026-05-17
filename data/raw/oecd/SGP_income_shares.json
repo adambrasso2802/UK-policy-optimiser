@@ -1,0 +1,11 @@
+{
+  "country": "Singapore",
+  "iso3": "SGP",
+  "metric": "Income share of top 10% and bottom 10% (disposable income)",
+  "source": "Singstat",
+  "year": 2022,
+  "top10_pct": 32.9,
+  "bottom10_pct": 2.0,
+  "top10_to_bottom10_ratio": 16.4,
+  "fetched_at": "2026-05-17T10:44:08.560597Z"
+}

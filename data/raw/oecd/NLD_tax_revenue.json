@@ -1,0 +1,13 @@
+{
+  "country": "Netherlands",
+  "iso3": "NLD",
+  "metric": "Tax revenue and mix (OECD Revenue Statistics)",
+  "source": "OECD Revenue Statistics 2023",
+  "year": 2022,
+  "total_pct_gdp": 38.8,
+  "income_tax_pct_gdp": 9.5,
+  "corporate_tax_pct_gdp": 4.2,
+  "vat_pct_gdp": 6.6,
+  "social_contributions_pct_gdp": 14.0,
+  "fetched_at": "2026-05-17T10:44:09.342790Z"
+}

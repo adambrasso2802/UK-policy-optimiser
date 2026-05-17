@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "iso3": "AUS",
+  "metric": "Income share of top 10% and bottom 10% (disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "top10_pct": 26.9,
+  "bottom10_pct": 2.8,
+  "top10_to_bottom10_ratio": 9.6,
+  "fetched_at": "2026-05-17T10:44:08.560965Z"
+}

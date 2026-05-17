@@ -1,0 +1,9 @@
+{
+  "country": "Singapore",
+  "iso3": "SGP",
+  "metric": "Gini coefficient (equivalised disposable income)",
+  "source": "Singstat / World Bank",
+  "year": 2022,
+  "value": 0.375,
+  "fetched_at": "2026-05-17T10:44:08.555064Z"
+}

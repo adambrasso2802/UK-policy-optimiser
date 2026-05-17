@@ -1,0 +1,9 @@
+{
+  "country": "South Korea",
+  "iso3": "KOR",
+  "metric": "Gini coefficient (equivalised disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "value": 0.314,
+  "fetched_at": "2026-05-17T10:44:08.555110Z"
+}

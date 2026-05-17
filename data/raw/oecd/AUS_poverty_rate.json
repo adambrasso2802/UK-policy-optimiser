@@ -1,0 +1,9 @@
+{
+  "country": "Australia",
+  "iso3": "AUS",
+  "metric": "Relative poverty rate (% below 50% median income, OECD definition)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "value": 12.4,
+  "fetched_at": "2026-05-17T10:44:08.556393Z"
+}

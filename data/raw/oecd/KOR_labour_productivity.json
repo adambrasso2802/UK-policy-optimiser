@@ -1,0 +1,10 @@
+{
+  "country": "South Korea",
+  "iso3": "KOR",
+  "metric": "GDP per hour worked (USD PPP, current prices)",
+  "source": "OECD Productivity Statistics PDB_LV",
+  "year": 2023,
+  "value": 44.8,
+  "note": "",
+  "fetched_at": "2026-05-17T10:44:08.557732Z"
+}

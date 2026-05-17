@@ -1,0 +1,11 @@
+{
+  "country": "Singapore",
+  "iso3": "SGP",
+  "metric": "Social mobility \u2014 intergenerational earnings elasticity (IGE; lower = more mobile)",
+  "source": "Lee Kuan Yew School of Public Policy / World Bank estimate",
+  "year": 2022,
+  "ige": 0.25,
+  "mobility_rank_within_set": 3,
+  "note": "Strong mobility via meritocratic education; Gini limits bottom decile",
+  "fetched_at": "2026-05-17T10:44:09.343789Z"
+}
