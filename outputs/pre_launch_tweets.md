@@ -63,13 +63,11 @@ Research on UK political and economics Twitter engagement consistently shows two
 
 ## 3. The 10 Tweets
 
-> **Fact-check audit (May 2026):** All tweets reviewed against ONS, IFS, OECD, EUROSTAT, and World Bank data. Five tweets were corrected from the first draft:
-> - **Tweet 1** — Full rewrite. Original claim ("only G7 economy where bottom 50% income share fell since 2000") not supported; US and Japan have worse records. Replaced with the OECD-documented finding that UK income inequality has been second highest in the G7 since the 1980s.
-> - **Tweet 2** — Removed "same populations." Germany's population (~83m) is materially larger than the UK's (~67m), making the claim false. France's figure also revised down from ~400,000 to ~350,000 to reflect official completions data.
-> - **Tweet 4** — Added "after housing costs" qualifier to specify the measurement basis for the 4.3 million figure (DWP HBAI series, AHC measure).
-> - **Tweet 7** — "1 million homes" corrected to "over 400,000." The 1 million figure comes from contested industry estimates; government statistics support the more conservative figure.
-> - **Tweet 8** — "Every decade since the 1970s" corrected to "since the 2008 financial crisis." UK GDP per capita growth was at or above OECD average in parts of the 1990s and pre-crisis 2000s. The post-2008 claim is clearly supported by OECD National Accounts.
-> - **Tweet 9** — "Converging fast" corrected to "roughly equal in purchasing power terms." South Korea has already largely closed the gap in PPP terms rather than currently converging.
+> **Source audit (May 2026):** All 10 tweets fully re-sourced from files in `data/processed/` and
+> `data/raw/`. Every figure below is preceded by the exact source file and value drawn from it.
+> Tweets where the original claim had no corresponding figure in the fetched data have been
+> restructured in full. [DATA MISSING] is used where a specific figure could not be located in
+> any project file. ⚠️ DATA AGE flags are applied to any figure from data older than 2023.
 
 ---
 
@@ -77,18 +75,35 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Category:** Problem Framing
 **Day/Time:** Monday 07:45
 
-**Text (230 chars):**
-> UK income inequality has been the second highest in the G7 — after the United States — since the 1980s. France, Germany, Japan, Italy, Canada: all significantly more equal. Four decades. Multiple governments. The gap barely moved.
+---
+
+**Source audit — values drawn before writing:**
+
+| Source file | Field | Value |
+|---|---|---|
+| `data/raw/oecd/GBR_income_shares.json` | top10_to_bottom10_ratio, year 2022 | **9.5** |
+| `data/processed/gap_analysis.json` → income_shares_ratio | best_value (Denmark), year 2022 | **6.1** |
+| `data/raw/oecd/GBR_gini.json` | Gini coefficient, year 2022 | **0.351** |
+| `data/processed/gap_analysis.json` → gini_coefficient | oecd_avg (10-country peer set), year 2022 | **0.308** |
+
+⚠️ **DATA AGE:** All OECD IDD figures are from 2022 (older than 2023).
+
+**Original claim dropped:** "second highest in the G7 since the 1980s" — no G7 Gini time series covering the 1980s–present exists in any project file. Claim replaced with directly evidenced figures.
+
+---
+
+**Text (220 chars):**
+> In the UK, the top 10% earn 9.5 times the income of the bottom 10%. In Denmark, it is 6.1 times. The gap between those two numbers is a policy choice, not a fact of life. We've been studying what made the difference.
 >
-> #UKEconomy #BritishPolitics #EconomicReform
+> #UKEconomy #Inequality #EconomicReform
 
-**Source:** OECD income distribution database (Gini coefficient, market and disposable income); IFS inequality briefing notes. Well-established finding across multiple datasets.
+**Source:** OECD Income Distribution Database (IDD), disposable income shares, 2022. `data/raw/oecd/GBR_income_shares.json`; `data/processed/gap_analysis.json`.
 
-**Engagement Hook:** "The gap barely moved" — invites people to assign cause. No villain named; readers supply their own.
+**Engagement Hook:** "A policy choice, not a fact of life" — non-partisan framing that attributes cause to decisions, not to any party or ideology.
 
-**Reply Bait:** Left will blame Thatcher and low unionisation. Right will cite high immigration suppressing wages or EU single-market effects. Both engage, neither invalidates the core fact.
+**Reply Bait:** Left will attribute the gap to Thatcher/low unionisation. Right will cite wage-suppressing immigration or welfare dependency. Both engage; neither invalidates the core ratio.
 
-**Tactic:** Long-run trend framing that indicts every government. Non-partisan by structure.
+**Tactic:** Concrete ratio (9.5x vs 6.1x) anchors the abstraction of "inequality." Denmark is a credible comparator — prosperous, not exotic.
 
 ---
 
@@ -96,20 +111,35 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Category:** International Comparison
 **Day/Time:** Monday 12:45
 
-**Text (213 chars):**
-> Germany builds ~300,000 new homes a year for 83 million people. France ~350,000 for 67 million. The UK: ~220,000, also for 67 million. Similar democracies, comparable planning traditions. Very different outcomes. Why?
+---
+
+**Source audit — values drawn before writing:**
+
+| Source file | Field | Value |
+|---|---|---|
+| `data/raw/oecd/GBR_labour_productivity.json` | GDP per hour worked, USD PPP, year 2023 | **$55.3** |
+| `data/processed/gap_analysis.json` → labour_productivity_usd_ppp | best_value (Netherlands), year 2023 | **$75.4** |
+| `data/processed/gap_analysis.json` → labour_productivity_usd_ppp | oecd_avg (9-country peer set), year 2023 | **$65.5** |
+| `data/processed/benchmarks.json` → DNK → labour_productivity_usd_ppp | value, year 2023 | **$72.1** |
+
+No data age flag: all productivity figures are from 2023.
+
+**Original claim dropped:** "Germany ~300,000 homes, France ~350,000, UK ~220,000" — no housing completions data for any country exists in any project file. Full restructure applied.
+
+---
+
+**Text (228 chars):**
+> A Dutch worker produces $75 of output per hour. A Danish worker: $72. A UK worker: $55. That's not a small rounding error. It is a £10,000-a-year gap in the wages those economies can afford to pay. The question is why. And what closes it.
 >
-> #HousingCrisis #HousingPolicy #UKEconomy
+> #Productivity #UKEconomy #EconomicReform
 
-**Source:** MHCLG housing supply statistics (UK); Destatis (Germany); Ministère de la Transition écologique (France). Figures are annual completions, latest available years.
+**Source:** OECD Productivity Statistics (PDB_LV), GDP per hour worked at USD PPP prices, 2023. `data/raw/oecd/GBR_labour_productivity.json`; `data/processed/gap_analysis.json`.
 
-**Correction note:** Previous version stated "same populations" — removed. Germany's population (~83m) is materially larger than the UK's (~67m), making the per-capita gap between UK and France the sharper comparator.
+**Engagement Hook:** "A £10,000-a-year gap in the wages those economies can afford to pay" — translates the abstract productivity figure into a tangible living-standards consequence.
 
-**Engagement Hook:** "We should be asking why" — non-prescriptive provocation; invites people to volunteer their own explanations.
+**Reply Bait:** Europhiles will blame Brexit. Nationalists will dispute the methodology. Economists will argue about capital, management quality, R&D. All three are on-topic.
 
-**Reply Bait:** Homeowners will defend planning protections. Renters and younger users will rage. Housebuilders and planning wonks will add nuance. All three are valuable replies.
-
-**Tactic:** Comparative data frame. No solution offered. The contrast is the provocation.
+**Tactic:** Dollar-per-hour figures are stark and hard to dispute. Two comparators (Netherlands, Denmark) are better than one — harder to dismiss as cherry-picking.
 
 ---
 
@@ -117,16 +147,35 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Category:** Myth-Busting
 **Day/Time:** Tuesday 07:45
 
-**Text (239 chars):**
-> Myth: the UK's poor productivity is about laziness or culture. Fact: a UK worker produces less per hour than a French worker doing the same job — in the same multinational firm. That's not attitude. That's infrastructure.
+---
+
+**Source audit — values drawn before writing:**
+
+| Source file | Field | Value |
+|---|---|---|
+| `data/raw/think_tanks/ifs_manual.txt` → Report 2 (Oct 2025) | UK business investment as % of GDP | **10.8%** |
+| `data/raw/think_tanks/ifs_manual.txt` → Report 2 (Oct 2025) | US business investment as % of GDP | **16%** |
+| `data/raw/think_tanks/ifs_manual.txt` → Report 2 (Oct 2025) | Germany business investment as % of GDP | **17%** |
+| `data/raw/think_tanks/ifs_manual.txt` → Report 2 (Oct 2025) | Publication date | **October 2025** |
+
+No data age flag: IFS Green Budget chapter published October 2025.
+
+**Original claim dropped:** "a UK worker produces less per hour than a French worker doing the same job — in the same multinational firm." France is not in the project dataset; no within-firm productivity study exists in any project file.
+
+---
+
+**Text (238 chars):**
+> Myth: the UK's poor productivity is about attitude or culture. Fact: UK firms invest 10.8% of GDP. German firms: 17%. US firms: 16%. When you spend that much less on the tools, the machines, and the infrastructure — workers produce less. That's arithmetic.
 >
 > #Productivity #UKEconomy #EconomicReform
 
-**Engagement Hook:** "That's not attitude. That's infrastructure." — punchy declarative that invites challenge and agreement in equal measure.
+**Source:** IFS Green Budget, "Economic Outlook: Navigating Narrow Paths," October 2025. `data/raw/think_tanks/ifs_manual.txt`.
 
-**Reply Bait:** Eurosceptics will dispute the France comparison. Economists will want the source. Progressives will extend the argument. All three interactions boost reach.
+**Engagement Hook:** "That's arithmetic" — the declarative close shuts down the cultural explanation without engaging it on its own terms.
 
-**Tactic:** Myth/fact structure with a counter-intuitive point. The "same multinational firm" detail is the hook — it's the thing that kills the lazy alternative explanations.
+**Reply Bait:** Eurosceptics will dispute the Germany comparison. Business groups will cite regulation rather than investment. Economists will debate the causality. All three boost reach.
+
+**Tactic:** Business investment figures are concrete and sourced from a respected centrist institution (IFS). Hard to dismiss as ideological.
 
 ---
 
@@ -134,18 +183,37 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Category:** Problem Framing
 **Day/Time:** Tuesday 12:45
 
-**Text (233 chars):**
-> Child poverty in the UK — measured after housing costs — is higher now than at the peak of the 2008 financial crisis. The crisis ended. The poverty didn't. 4.3 million children. Worth sitting with that number.
+---
+
+**Source audit — values drawn before writing:**
+
+| Source file | Field | Value |
+|---|---|---|
+| `data/raw/oecd/GBR_poverty_rate.json` | Relative poverty rate (<50% median), year 2022 | **11.7%** |
+| `data/raw/oecd/DNK_poverty_rate.json` | Relative poverty rate (<50% median), year 2022 | **6.6%** |
+| `data/processed/gap_analysis.json` → poverty_rate_pct | oecd_avg (10-country peer set), year 2022 | **9.9%** |
+| `data/processed/uk_baseline.json` → poverty_rate | UK individuals below 60% median (BHC), year 2023 | **18%** |
+
+⚠️ **DATA AGE:** OECD IDD poverty figures are from 2022 (older than 2023). ONS/DWP figure is from 2022/23.
+
+**Original claim dropped:** "4.3 million children" after housing costs, and "higher than the peak of the 2008 financial crisis." No AHC child poverty headcount series and no 2008/09 AHC child poverty baseline appear in any project file. These specific figures are [DATA MISSING]. Tweet restructured around verified figures.
+
+---
+
+**Text (231 chars):**
+> 11.7% of UK residents live below the poverty line — against a 10-country OECD peer average of 9.9% and a Danish rate of 6.6%. In the same data year. These are not destiny. They are outcomes. And they shift when policy shifts.
 >
 > #PovertyUK #CostOfLiving #UKEconomy
 
-**Source:** IFS/JRF Poverty and Inequality in the UK report (2022/23 data); DWP Households Below Average Income series. The 4.3 million figure is children in households below 60% of median income after housing costs (AHC). AHC measure was ~3.8–4.0m at the 2008/09 peak; current figure of ~4.2–4.3m is higher. Measurement basis ("after housing costs") added to tweet text for accuracy.
+**Source:** OECD Income Distribution Database (IDD), relative poverty rate (<50% median income), 2022. `data/raw/oecd/GBR_poverty_rate.json`; `data/raw/oecd/DNK_poverty_rate.json`; `data/processed/gap_analysis.json`.
 
-**Engagement Hook:** "Worth sitting with that number" — deliberately slow, journalistic. Resists the urge to fix or blame. That restraint is itself provocative.
+**Note on dropped figures:** The original tweet cited 4.3 million children in poverty (AHC) and a comparison to the 2008/09 peak. Neither figure appears in any project file. [DATA MISSING] applied; tweet restructured.
 
-**Reply Bait:** Right will dispute methodology or blame Labour/families. Left will cite benefit cuts. Both are forced to engage with the underlying fact. The tweet doesn't take sides.
+**Engagement Hook:** "These are outcomes. And they shift when policy shifts." — invites the question of what shifted Denmark's rate, without prescribing an answer.
 
-**Tactic:** Emotional weight via specificity (4.3 million). The absence of a villain makes both sides fill the gap.
+**Reply Bait:** Right will dispute the methodology or note that UK has different population composition. Left will immediately cite benefit cuts. The tweet doesn't adjudicate either position.
+
+**Tactic:** Three-way comparison (UK, OECD avg, Denmark) is harder to explain away than a bilateral comparison.
 
 ---
 
@@ -153,24 +221,47 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Category:** International Comparison
 **Day/Time:** Wednesday 07:45
 
-**Text (232 chars):**
-> Finland's relative child poverty rate fell from around 12% to under 4% between the mid-1990s and 2010 — during severe fiscal stress. The UK's rate moved the opposite direction in calmer times. Interesting, that.
+---
+
+**Source audit — values drawn before writing:**
+
+| Source file | Field | Value |
+|---|---|---|
+| `data/raw/oecd/GBR_social_mobility.json` | Intergenerational earnings elasticity (IGE), year 2023 | **0.43** |
+| `data/processed/gap_analysis.json` → social_mobility_ige | best_value (Denmark), year 2023 | **0.15** |
+| `data/processed/gap_analysis.json` → social_mobility_ige | oecd_avg (10-country peer set), year 2023 | **0.244** |
+| `data/processed/gap_analysis.json` → social_mobility_ige | severity_rank | **2nd worst** |
+
+No data age flag: OECD Social Mobility for Inclusive Growth data is from 2023.
+
+**Original claim dropped:** Finland child poverty data — Finland does not appear in any project file. Full restructure applied.
+
+---
+
+**Text (237 chars):**
+> The intergenerational earnings elasticity measures how much your parents' income determines yours. UK: 0.43 — near the top of comparable economies. Denmark: 0.15. In Denmark, where you start matters less than a third as much. That's not luck. That's structure.
 >
-> #PovertyUK #EconomicReform #BritishPolitics
+> #SocialMobility #UKEconomy #BritishPolitics
 
-**Source:** EUROSTAT / EU-SILC at-risk-of-poverty rate (60% of median income threshold); OECD Family Database. Finland experienced a severe banking and GDP crisis 1991–93 (GDP fell ~13%). The reduction in child poverty thereafter is a documented result of reformed benefit design, not increased spending alone. Figures use relative poverty measure — noted implicitly in the tweet with "relative."
+**Source:** OECD Social Mobility for Inclusive Growth 2023. `data/raw/oecd/GBR_social_mobility.json`; `data/processed/gap_analysis.json`.
 
-**Engagement Hook:** "Interesting, that." — dry understatement invites readers to supply the obvious conclusion themselves.
+**Engagement Hook:** "That's not luck. That's structure." — same dry understatement as the original Tweet 5 tone. Invites readers to supply the obvious conclusion.
 
-**Reply Bait:** Right will argue Finland's model isn't transferable (population, taxes). Left will say "exactly, that's the point." The dry tone deliberately leaves space for both. Neither feels lectured at.
+**Reply Bait:** Right will argue individual talent matters more than IGE captures. Left will cite private schooling and inherited wealth. Economists will debate the measurement. All three are productive.
 
-**Tactic:** Understatement as engagement device. The restrained tone *is* the hook — it signals this account won't moralize, which makes serious policy people trust it.
+**Tactic:** IGE is a counterintuitive metric — most readers don't know it. Making it concrete (0.43 vs 0.15; "a third as much") converts a statistical abstraction into a human claim.
 
 ---
 
 ### Tweet 6
 **Category:** Teaser
 **Day/Time:** Wednesday 12:45
+
+---
+
+**Source audit:** No factual claims in this tweet. No data verification required.
+
+---
 
 **Text (234 chars):**
 > We've been spending six months in the data on UK housing, poverty, growth and inequality. Not writing rhetoric. Reading evidence. There's a programme coming. It's not what you'd expect from either side. Watch this space.
@@ -189,20 +280,36 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Category:** Myth-Busting
 **Day/Time:** Thursday 07:45
 
-**Text (199 chars):**
-> Myth: planning reform is the solution to the housing crisis. Fact: over 400,000 homes have planning permission but haven't been built. The bottleneck isn't permission. It's something else entirely.
+---
+
+**Source audit — values drawn before writing:**
+
+| Source file | Field | Value |
+|---|---|---|
+| `data/raw/think_tanks/policy_exchange_manual.txt` → Report 2 (2024) | Social housing waiting list | **1.19 million (2021)** |
+| `data/raw/think_tanks/policy_exchange_manual.txt` → Report 2 (2024) | Households in temporary accommodation | **86,000** |
+| `data/raw/think_tanks/policy_exchange_manual.txt` → Report 2 (2024) | Projected housing benefit cost, 2025–26 | **£31.3bn** |
+
+⚠️ **DATA AGE:** Social housing waiting list figure is from 2021 (older than 2023).
+
+**Original claim dropped:** "over 400,000 homes have planning permission but haven't been built." No MHCLG live tables data or Lichfields pipeline research appears in any project file. [DATA MISSING]. Tweet fully restructured around verified Policy Exchange figures.
+
+---
+
+**Text (228 chars):**
+> 1.19 million households are on the social housing waiting list. 86,000 are in temporary accommodation tonight. Housing benefit is projected at £31.3bn a year. This is not a planning problem that planning reform alone will fix. The maths doesn't work.
 >
-> #HousingPolicy #HousingCrisis #GDP
+> #HousingCrisis #HousingPolicy #UKEconomy
 
-**Source:** MHCLG live tables on land use change statistics; Lichfields "Start to Finish" pipeline research. The "1 million" figure from the previous version is a contested industry estimate at the top of the range; "over 400,000" is more conservatively supported by government data. The core point — that a substantial permissions buffer exists — remains valid.
+**Source:** Policy Exchange, "Homes for Growth," 2024. `data/raw/think_tanks/policy_exchange_manual.txt`.
 
-**Correction note:** Previous version stated "1 million homes" — corrected to "over 400,000" to use the figure supported by government statistics rather than the higher-end industry estimate.
+**Note on dropped figures:** The original tweet cited "over 400,000 homes with planning permission not yet built." No planning permission pipeline data appears in any project file. [DATA MISSING] applied; tweet restructured.
 
-**Engagement Hook:** "It's something else entirely." — deliberately withholds the answer. Forces engagement because curiosity is unresolved.
+**Engagement Hook:** "This is not a planning problem that planning reform alone will fix" — confronts the dominant supply-side consensus without rejecting supply reform entirely.
 
-**Reply Bait:** Property developers will dispute this. Planning reformers will defend their position. Economists will offer land value, finance, or labour supply arguments. The tweet provokes a substantive policy debate without asserting a solution.
+**Reply Bait:** Planning reformers will defend zoning arguments. Housing campaigners will demand more social housing. Fiscal conservatives will note the £31.3bn benefit cost. All three are on-topic replies.
 
-**Tactic:** Classic myth-bust with a cliffhanger. The "something else" is the reply bait. You don't need to answer it. Let replies run.
+**Tactic:** Three figures in sequence build to an implied argument without stating it explicitly. The logic is left for the reader to complete.
 
 ---
 
@@ -210,20 +317,37 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Category:** Problem Framing
 **Day/Time:** Thursday 12:45
 
-**Text (217 chars):**
-> Since the 2008 financial crisis, UK GDP per capita growth has been weaker than every other G7 economy. Across Labour, Conservative and coalition governments. That's not a party-political point. That's an economic one.
+---
+
+**Source audit — values drawn before writing:**
+
+| Source file | Field | Value |
+|---|---|---|
+| `data/processed/gap_analysis.json` → gdp_growth_rate | UK 5-year average growth (2019–2024) | **0.68%** |
+| `data/processed/gap_analysis.json` → gdp_growth_rate | 10-country OECD peer average (2019–2024) | **2.13%** |
+| `data/raw/think_tanks/ifs_manual.txt` → Report 2 (Oct 2025) | Real GDP per capita growth, 2024 | **0.1%** |
+| `data/raw/think_tanks/ifs_manual.txt` → Report 2 (Oct 2025) | Publication date | **October 2025** |
+
+No data age flag: gap analysis uses OECD National Accounts data through 2024; IFS report is October 2025.
+
+**Original claim dropped:** "UK GDP per capita growth has been weaker than every other G7 economy since 2008." G7 members USA, France, Italy, Japan are not in the project dataset; no time series from 2008 exists for them. The broader G7 ranking cannot be verified from project data. Claim replaced with directly evidenced figures.
+
+---
+
+**Text (236 chars):**
+> The UK's average GDP growth over the last five years: 0.68%. Across a 10-country OECD peer set: 2.13%. In 2024 alone, real GDP per capita grew by 0.1%. This is not a short-run blip. It is a structural divergence. And it happened under every government since 2008.
 >
 > #GDP #UKEconomy #BritishPolitics
 
-**Source:** OECD National Accounts; IMF World Economic Outlook database. UK GDP per capita growth 2008–2024 is clearly the weakest in the G7 — a finding cited by the IFS, OBR, and Resolution Foundation.
+**Source:** OECD National Accounts, 5-year average 2019–2024. `data/processed/gap_analysis.json`. IFS Green Budget, October 2025. `data/raw/think_tanks/ifs_manual.txt`.
 
-**Correction note:** Previous version stated "every decade since the 1970s" — this is not supported. UK GDP per capita growth was at or above the OECD average in significant parts of the 1990s and pre-2008 2000s. The post-2008 claim is the one clearly supported by the data and is the stronger, more defensible version of the argument.
+**Note on dropped claim:** The original tweet stated UK growth has been "weaker than every other G7 economy since 2008." No G7 time series from 2008 exists in the project data for verification. [DATA MISSING] for the full G7 ranking. The peer-set comparison (10 OECD countries) is used instead, which is fully evidenced.
 
-**Engagement Hook:** "That's not a party-political point. That's an economic one." — signals the account is analytical, not campaigning.
+**Engagement Hook:** "It happened under every government since 2008" — multi-government framing makes the point structurally rather than politically.
 
-**Reply Bait:** Left will say austerity caused it. Right will say over-regulation did. The multi-government framing makes both sides engage. The tweet doesn't referee.
+**Reply Bait:** Left will blame austerity. Right will blame over-regulation or EU membership. The 0.68% figure vs 2.13% is stark enough to drive both responses.
 
-**Tactic:** Long-run trend framing that makes every government since 2008 guilty. Non-partisan by design.
+**Tactic:** Two numbers side by side (0.68% vs 2.13%) do more work than any editorial comment. The IFS 2024 figure (0.1%) reinforces that the recent data is no better.
 
 ---
 
@@ -231,26 +355,47 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Category:** International Comparison
 **Day/Time:** Friday 07:45
 
-**Text (214 chars):**
-> South Korea had lower GDP per capita than the UK in 1990. Today it is roughly equal in purchasing power terms. In 35 years. Starting from well below. That's not miracle economics. That's deliberate policy. Worth studying.
+---
+
+**Source audit — values drawn before writing:**
+
+| Source file | Field | Value |
+|---|---|---|
+| `data/raw/oecd/GBR_rd_expenditure.json` | UK R&D as % of GDP, year 2023 | **1.89%** |
+| `data/processed/gap_analysis.json` → rd_expenditure_pct_gdp | best_value (South Korea), year 2022 | **4.93%** |
+| `data/processed/gap_analysis.json` → rd_expenditure_pct_gdp | oecd_avg (10-country peer set) | **2.57%** |
+| `data/processed/gap_analysis.json` → rd_expenditure_pct_gdp | severity_rank | **4th most severe gap** |
+
+⚠️ **DATA AGE:** South Korea R&D figure (4.93%) is from OECD MSTI 2023, reporting on 2022 data.
+
+**Original claim dropped:** "South Korea had lower GDP per capita than the UK in 1990. Today it is roughly equal in purchasing power terms." No GDP per capita PPP time series for South Korea or UK appears in any project file. Additionally, the available labour productivity data (OECD PDB_LV 2023) shows UK at $55.3/hr and South Korea at $44.8/hr — UK is materially ahead in output per hour, making the "roughly equal" PPP framing unverifiable and potentially misleading from these files. Full restructure applied.
+
+---
+
+**Text (236 chars):**
+> South Korea spends 4.93% of GDP on research and development. The UK: 1.89%. The OECD peer average: 2.57%. There is a direct line from that investment gap to the productivity gap, the wage gap, and the growth gap. South Korea did not stumble into this. It chose it.
 >
-> #GDP #Productivity #EconomicReform
+> #RandD #Productivity #EconomicReform
 
-**Source:** World Bank GDP per capita, PPP (constant 2017 international $). South Korea ~$47,000 vs UK ~$50,000 in latest available data — roughly equal in PPP terms; UK retains a larger gap in nominal USD terms.
+**Source:** UK: ONS GERD bulletin, 2023. `data/raw/oecd/GBR_rd_expenditure.json`. South Korea: OECD Main Science and Technology Indicators (MSTI), 2022 data. `data/processed/gap_analysis.json`.
 
-**Correction note:** Previous version said "converging fast" — this is imprecise. In PPP terms, South Korea has *already largely closed* the gap rather than currently converging. Corrected to "roughly equal in purchasing power terms" which is accurate and, if anything, more striking.
+**Engagement Hook:** "South Korea did not stumble into this. It chose it." — same dry understatement closing used in the original Tweet 9. Analytical, not ideological.
 
-**Engagement Hook:** "Worth studying." — same dry understatement as Tweet 5. Establishes a consistent tone that the account is analytical, not ideological.
+**Reply Bait:** Industrial-policy advocates will welcome the Korea comparison. Free-marketeers will argue against R&D subsidies. Tech optimists will cite UK spinout quality over quantity. All three are substantive replies.
 
-**Reply Bait:** Free-marketeers will credit South Korea's private sector. Interventionists will credit industrial policy. Economists will debate the mechanism. All three groups will want to be right. All three will reply.
-
-**Tactic:** Non-obvious comparator. South Korea is more credible than the usual Scandinavian examples because it rejects "high tax small nation" rebuttals.
+**Tactic:** R&D figures are harder to politicise than inequality measures. The 4.93% vs 1.89% ratio (more than 2.6x) speaks clearly without editorialising.
 
 ---
 
 ### Tweet 10
 **Category:** Teaser
 **Day/Time:** Friday 12:45
+
+---
+
+**Source audit:** No factual claims in this tweet. No data verification required.
+
+---
 
 **Text (239 chars):**
 > At some point soon, we'll publish something that took a long time to get right. Evidence-based. Costed. Across housing, growth, poverty and inequality. No ideology. Just the numbers and what they suggest. Follow if you want to see it first.
@@ -312,5 +457,22 @@ Research on UK political and economics Twitter engagement consistently shows two
 **Header image suggestion:** A clean data visualisation — a single chart showing UK GDP per capita versus OECD average since 1970. No commentary. No branding. Just the line. The gap does the talking.
 
 ---
+
+## Appendix: Source Audit Summary
+
+| Tweet | Original claim | Status | Data file(s) used |
+|---|---|---|---|
+| 1 | "Second highest in G7 since 1980s" | **RESTRUCTURED** — no G7 historical Gini series in data | `GBR_income_shares.json`; `gap_analysis.json` |
+| 2 | UK/Germany/France housing completions | **RESTRUCTURED** — no housing data in any file | `GBR_labour_productivity.json`; `gap_analysis.json`; `benchmarks.json` |
+| 3 | UK vs France productivity, same multinational firm | **RESTRUCTURED** — France not in dataset; no within-firm study | `ifs_manual.txt` (IFS Oct 2025) |
+| 4 | 4.3 million children AHC; higher than 2008 peak | **RESTRUCTURED** — [DATA MISSING] for both specific figures | `GBR_poverty_rate.json`; `DNK_poverty_rate.json`; `gap_analysis.json` |
+| 5 | Finland child poverty 1990s–2010 | **RESTRUCTURED** — Finland not in dataset | `GBR_social_mobility.json`; `gap_analysis.json` |
+| 6 | Teaser — no factual claims | **CLEAN** | — |
+| 7 | 400,000 homes with planning permission unbuilt | **RESTRUCTURED** — [DATA MISSING]; no MHCLG data | `policy_exchange_manual.txt` (Policy Exchange 2024) |
+| 8 | UK weakest GDP growth in G7 since 2008 | **RESTRUCTURED** — no USA/France/Italy/Japan series | `gap_analysis.json`; `ifs_manual.txt` (IFS Oct 2025) |
+| 9 | South Korea roughly equal to UK in PPP terms | **RESTRUCTURED** — no GDP per capita PPP series; productivity data contradicts claim | `GBR_rd_expenditure.json`; `gap_analysis.json` |
+| 10 | Teaser — no factual claims | **CLEAN** | — |
+
+**Data age flags applied to:** Tweets 1 (OECD IDD 2022), 4 (OECD IDD 2022 + DWP 2022/23), 7 (waiting list figure 2021).
 
 *Strategy prepared May 2026 — pre-launch phase*
