@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>UK Policy Optimiser Report — 2026-05-17 02:09 UTC</title>
+<style>
+  body { font-family: monospace; background: #0d1117; color: #c9d1d9;
+         padding: 2rem; max-width: 1000px; margin: auto; }
+  pre  { white-space: pre-wrap; word-wrap: break-word; line-height: 1.5; }
+  h1   { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: .5rem; }
+</style>
+</head>
+<body>
+<h1>UK Economic Policy Optimiser</h1>
+<pre>======================================================================
+  UK ECONOMIC POLICY OPTIMISER — REPORT
+  Generated: 2026-05-17 02:09 UTC
+======================================================================
+
+1. CURRENT ECONOMIC PERFORMANCE SCORECARD
+----------------------------------------------------------------------
+   [not available — run analysis/policy_scorer.py first]
+
+2. OPTIMAL POLICY PARAMETERS
+----------------------------------------------------------------------
+   Baseline score : 6.70/10
+   Optimal  score : 9.60/10
+   Improvement    : +2.90
+   Converged      : True
+
+   Parameter                              Current    Optimal     Change
+   ─────────────────────────────────────────────────────────────────
+   bank_rate_pct                             5.25       9.44      +4.19
+   income_tax_basic_pct                     20.00      36.04     +16.04
+   income_tax_higher_pct                    40.00      36.90      -3.10
+   corporation_tax_pct                      25.00      12.91     -12.09
+   govt_spend_gdp_pct                       44.00      48.49      +4.49
+   vat_standard_pct                         20.00      27.46      +7.46
+
+   Estimated outcomes under optimal policy:
+     inflation                               1.69
+     gdp_growth                              2.82
+     unemployment                            3.29
+     psnb_gdp                                2.92
+     psnd_gdp                               94.40
+     productivity                            1.24
+     current_account                        -3.87
+     real_wages                              1.55
+
+3. POLICY SCENARIO COMPARISON
+----------------------------------------------------------------------
+   Rank   Scenario                                 Score
+   ────────────────────────────────────────────────────
+   1      Monetary Tightening                       6.80
+   2      Baseline (Current Policy)                 6.70
+   3      Growth-Oriented (Supply-Side)             6.70
+   4      High Spend / High Tax                     6.70
+   5      Balanced Consolidation                    6.50
+   6      Monetary Easing                           6.10
+   7      Fiscal Austerity                          6.00
+
+   Key outcome comparisons:
+   Metric                          Monetary Tig  Baseline (Cu  Growth-Orien  High Spend /  Balanced Con  Monetary Eas  Fiscal Auste
+   ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+   CPI Inflation (%)                       1.98          2.50          2.30          3.10          2.62          3.17          2.00
+   GDP Growth (%)                          0.65          1.00          0.70          3.55         -0.05          1.45         -1.70
+   Unemployment (%)                        4.38          4.20          4.35          2.92          4.73          3.98          5.55
+   PSNB (% GDP)                            4.67          4.50          4.05          7.12          2.40          4.28          0.65
+
+4. CAVEATS &amp; METHODOLOGY NOTES
+----------------------------------------------------------------------
+
+   The policy optimiser uses simplified linear elasticity models derived from
+   IMF Working Papers, OBR forecasting documentation, and published academic
+   literature. It is NOT a full DSGE (Dynamic Stochastic General Equilibrium)
+   model. Results should be treated as illustrative directional guidance only.
+
+   Key limitations:
+   - Policy interactions and non-linearities are simplified
+   - Supply-side structural effects (trade policy, regulation) are omitted
+   - Distributional impacts are not modelled
+   - Uncertainty bands are not reported
+   - Timing of policy transmission is not modelled (all effects are long-run)
+
+   All underlying data is sourced from:
+   - ONS Beta API  (https://api.beta.ons.gov.uk)
+   - Bank of England Statistics Database
+   
+======================================================================
+  END OF REPORT
+======================================================================</pre>
+</body>
+</html>
