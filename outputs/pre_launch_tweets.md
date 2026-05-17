@@ -117,23 +117,25 @@ Research on UK political and economics Twitter engagement consistently shows two
 
 | Source file | Field | Value |
 |---|---|---|
-| `data/raw/oecd/GBR_labour_productivity.json` | GDP per hour worked, USD PPP, year 2023 | **$55.3** |
-| `data/processed/gap_analysis.json` → labour_productivity_usd_ppp | best_value (Netherlands), year 2023 | **$75.4** |
+| `data/raw/oecd/GBR_labour_productivity.json` | GDP per hour worked, constant-price USD PPP, year 2023 | **$55.3** |
+| `data/raw/oecd/NLD_labour_productivity.json` | GDP per hour worked, constant-price USD PPP, year 2023 | **$75.4** |
+| `data/raw/oecd/DNK_labour_productivity.json` | GDP per hour worked, constant-price USD PPP, year 2023 | **$72.1** |
 | `data/processed/gap_analysis.json` → labour_productivity_usd_ppp | oecd_avg (9-country peer set), year 2023 | **$65.5** |
-| `data/processed/benchmarks.json` → DNK → labour_productivity_usd_ppp | value, year 2023 | **$72.1** |
 
 No data age flag: all productivity figures are from 2023.
+
+**Series note:** Values are constant-price USD PPP (OECD PDB_LV). These are lower than current-price PPP equivalents; the three figures are internally consistent and the ~$20/hr gap between UK and the leading peers is valid on this basis.
 
 **Original claim dropped:** "Germany ~300,000 homes, France ~350,000, UK ~220,000" — no housing completions data for any country exists in any project file. Full restructure applied.
 
 ---
 
 **Text (228 chars):**
-> A Dutch worker produces $75 of output per hour. A Danish worker: $72. A UK worker: $55. That's not a small rounding error. It is a £10,000-a-year gap in the wages those economies can afford to pay. The question is why. And what closes it.
+> A Dutch worker produces $75.40 of output per hour (2023, constant-price PPP). A Danish worker: $72.10. A UK worker: $55.30. That ~$20/hr gap is not a rounding error. It is the difference in the wages those economies can afford to pay. The question is why. And what closes it.
 >
 > #Productivity #UKEconomy #EconomicReform
 
-**Source:** OECD Productivity Statistics (PDB_LV), GDP per hour worked at USD PPP prices, 2023. `data/raw/oecd/GBR_labour_productivity.json`; `data/processed/gap_analysis.json`.
+**Source:** OECD Productivity Statistics (PDB_LV), GDP per hour worked, constant-price USD PPP, 2023. `data/raw/oecd/NLD_labour_productivity.json`; `data/raw/oecd/DNK_labour_productivity.json`; `data/raw/oecd/GBR_labour_productivity.json`.
 
 **Engagement Hook:** "A £10,000-a-year gap in the wages those economies can afford to pay" — translates the abstract productivity figure into a tangible living-standards consequence.
 
