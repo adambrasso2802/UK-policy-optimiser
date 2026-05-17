@@ -1,0 +1,379 @@
+=== PAGE: https://henryfudge.com ===
+
+Henry Fudge | Web3 & AI Founder
+
+Serial founder born in Wales, based in Zug. Building at the intersection of Web3, DeFi, and AI — Hyperware.ai, 512M.io, and 256M.io.
+
+I'm a serial founder born in Wales and based in Zug, spending my days tinkering with Web3, DeFi, and AI. Below are some of the projects I'm currently building. When I'm not working, you'll find me jotting down questionable takes on global macro and innovation on my Substack, rambling into the void on TikTok, or convincing myself that one more run of Balatro will finally be the one.
+
+PROJECTS:
+
+Hyperware.ai — P2P encrypted decentralised compute protocol to secure the future of human interactions with AI and personal data security.
+
+512M.io — Boutique tokenomics and quantitative research shop for firms navigating the complexities of Web3.
+
+256M.io — The RWA Decentralised Mutual Insurance protocol — bringing real-world asset coverage on-chain.
+
+WRITING:
+
+Policy: "A Plan to Fix Britain" — Thirteen policies, one structural argument, and why the economics has been solved for 150 years.
+
+Economics: "The Rentier Trap" — Why landlord economies fail everyone, including landlords — a theoretical model of housing, wealth, and revolution.
+
+Innovation: "General-Purpose Technologies Destroy Rents Before They Build Prosperity" — The painful transition phase that every transformative technology forces on incumbents.
+
+
+=== PAGE: https://henryfudge.com/housing ===
+
+WHICH PARTY ACTUALLY MAKES YOU POORER?
+Housing Theory of Everything — Episode 5.5
+
+Finance TikTok tells you to optimise your ISA. The party you elect will do more to your financial position in five years than a decade of investment decisions. I graded every party on the economic evidence.
+
+PARTY SCORECARD (graded on economic evidence only — four criteria: supply, land reform, capital allocation, tenant protection):
+
+Green Party: 3/4
+- Correct structural diagnosis. Right on LVT, nationalisation, social housing. The maths does not yet hold up to OBR scrutiny — but the closest any party gets.
+- Supply: PASS | Land Reform: PARTIAL | Capital: PARTIAL | Tenants: PASS
+
+Labour: 2/4
+- Building homes and protecting tenants. But taxes at record high and not one structural cause of the housing crisis has been touched.
+- Supply: PARTIAL | Land Reform: FAIL | Capital: FAIL | Tenants: PASS
+
+Lib Dems: 0/4
+- Would score 1.5 on economic evidence. Then I remembered Nick Clegg.
+- Supply: PASS | Land Reform: FAIL | Capital: FAIL | Tenants: PARTIAL
+
+Conservative: 0/4
+- Bringing back Help to Buy: demand stimulus in a supply-constrained market. It inflates the asset you are trying to afford. This is property asset protection, not housing policy.
+- Supply: FAIL | Land Reform: FAIL | Capital: FAIL | Tenants: FAIL
+
+Reform UK: 0/4
+- Every structural cause made worse. Scrapping Section 24, abolishing the Renters Rights Bill, cutting stamp duty. The IFS found a £100bn hole in their budget. And the gilt market will find it before Parliament does.
+- Supply: WORSE | Land Reform: WORSE | Capital: WORSE | Tenants: WORSE
+
+FIVE-YEAR FINANCIAL IMPACT BY HOUSEHOLD PROFILE (2025 real prices):
+
+Profile 1 — Struggling Renter (Single, Age 28, Regional city, Graduate, £32k salary, £950/mo rent, £8k savings):
+- Our Programme: +£19,100 (5yr saving). Rent yr5: -£2,520/yr. Council Tax: -£840/yr. Energy+Rail: -£658/yr
+- Green Party: +£6,000. Partial rent cap, long wait for social housing, uncertain fiscal position.
+- Lib Dems: +£2,500. Rent yr5: -£500/yr. Moderate supply effect.
+- Labour: +£1,200. Rent ~flat. Energy: -£200/yr.
+- Conservative: -£3,500. Rent: +£600/yr. Help to Buy inflates prices.
+- Reform UK: -£5,200. Rent: +£900/yr. Service cuts. BTL incentive widened.
+
+Profile 2 — HENRY (High Earner Not Rich Yet. Couple, Age 30-33, London, £95k combined, £2,200/mo rent, £45k savings):
+- Our Programme: +£28,400. Rent yr5: -£4,620/yr. Council Tax: -£1,400/yr. Energy+Rail: -£900/yr.
+- Green Party: +£4,000. NI rise hits hard. CGT aligned upward.
+- Lib Dems: +£3,500. London rent: -£800/yr. Modest tax rise.
+- Labour: -£800. Tax burden record high. Energy: -£300/yr.
+- Conservative: -£6,000. London rent: +£1,200/yr. Help to Buy inflates. Deposit trap worsens.
+- Reform UK: -£9,500. London rent: +£1,800/yr. Significant service impact.
+
+Profile 3 — Stretched Owner (Bought 2021-23, Age 31, Solo buyer, £55k salary, £1,680 mortgage/mo, £280k outstanding):
+- Our Programme: +£13,260. Mortgage (gilt): -£3,060. Council Tax: -£1,371/yr. Energy+Rail: -£671/yr.
+- Green Party: +£1,500. NI rise: -£800/yr.
+- Lib Dems: +£500. Energy modest: -£200/yr.
+- Labour: -£1,500. Tax burden record high.
+- Conservative: -£2,500. Real service cost.
+- Reform UK: -£14,300. Mortgage (gilt): +£9,540. Significant service cuts.
+
+THE GILT MARKET MECHANISM:
+Your 2 and 5-year fixed mortgage is priced off gilt yields — government bonds. When markets lose confidence in fiscal sustainability, gilt yields rise. Your mortgage follows within weeks.
+
+Bank of England research: every 25 basis points added to gilt yields costs a £250,000 mortgage holder approximately £50 more per month on remortgage. Proven in real time with the Truss mini-budget September 2022 — gilt yields spiked, mortgage products were pulled within 48 hours.
+
+IPPR analysis: UK gilt yields were already 40-80 basis points higher than comparable economies after the 2024 election, on a relatively modest fiscal deterioration. Reform's programme has a £100bn+ unfunded hole. That would add 75-100 basis points. On a £280,000 mortgage renewing in year 2: +£9,540 over your next 5-year fix.
+
+Our programme reaches surplus by year 3. Conservative estimate: 30bp compression, saving £3,060 on the same fix.
+
+Gilt Yield Impact by Party (basis points vs baseline):
+- Our Programme: -30bp
+- Lib Dems: ~0bp
+- Labour: +40-80bp
+- Green: +40-80bp
+- Conservative: +50-80bp
+- Reform: +75-100bp
+
+Mortgage Cost Impact — £280k Remortgage, 5-Year Fix:
+- Our Programme: -£3,060
+- Lib Dems: £0
+- Labour: +£5,376
+- Green: +£5,376
+- Conservative: +£6,720
+- Reform: +£9,540
+
+
+=== PAGE: https://henryfudge.com/common/ ===
+
+THE COMMON PARTY — START HERE
+Spring 2026
+
+A full policy platform for Britain. Built on a sofa.
+
+All documents in one place. Six hours of actual work. Every major policy area. Full fiscal modelling. OBR-defensible growth assumptions. And a better debt trajectory than the current baseline.
+
+The Core Claim: If one person on a sofa can produce this in a weekend — what exactly have the actual parties been doing for the past five years?
+
+FRAMING:
+The Common Platform is a comprehensive British reform programme, developed over a weekend as the culmination of the Housing Theory of Everything work. It contains twenty-one policy briefings, three flagship documents, and full OBR-compatible fiscal modelling.
+
+It is not a real political party. There are no members, no donations, no elections.
+
+Every document is freely readable. Substantive criticism welcome and will be incorporated.
+
+HEADLINE NUMBERS:
+- £68bn additional revenue by Y10
+- +5.7% GDP uplift vs baseline Y10
+- 86.5% Debt/GDP Y10 (baseline 91.5%)
+- 300k new homes per year by Y5
+- 3% Defence spending by Y10
+- 68 specific policy commitments
+
+WHAT IT DOES:
+- Fixes the housing market via Land Value Tax on investment properties, 300,000 new homes per year, and foreign ownership restrictions.
+- Rebuilds British industry through zero CGT on productive investment, a flat 20% corporation tax, and sovereign semiconductor capability.
+- Nationalises water companies with strict no-pollution standards. Nationalises the National Grid. Cuts industrial energy costs.
+- Restores European market access on British terms through Franco-British leadership of European nuclear defence.
+- Funds the NHS properly, universal childcare, teacher pay restored, Family Hubs, SEND fundamentally reformed.
+- Reforms justice rehabilitatively where evidence supports it, severe where necessary.
+- Refuses culture war. Repeals the Online Safety Act age architecture. Abolishes non-crime hate incidents. Adults treated as adults.
+- Mobilises British pension capital back into British gilts and industry.
+
+WHY EXISTING PARTIES CAN'T WRITE THIS:
+Each of them is structurally captured by the coalition that sustains them. Labour cannot propose water nationalisation because their donors and advisers hold the wrong positions. The Conservatives built the rentier housing economy and cannot dismantle what they built. Reform's entire brand is refusing to engage constructively. The Liberal Democrats have optimised for coalition viability for fifteen years.
+
+None of these parties lacks talent. They all employ clever people. What they lack is the freedom to write what would actually work, because writing what would actually work would alienate the coalition keeping them alive.
+
+FISCAL OUTCOME:
+Public Sector Net Debt as % of GDP — Year 10:
+- OBR Baseline: 91.5%
+- Common Platform: 86.5% (five percentage points lower, on more investment, not less)
+
+We borrow more. We invest more. We grow the economy faster. And the debt-to-GDP ratio falls further than the baseline it replaces.
+
+
+=== PAGE: https://henryfudge.com/common/productive-britain ===
+
+PRODUCTIVE BRITAIN
+The case for building things again.
+Housing · Industry · Energy · Skills · Europe
+
+THE DIAGNOSIS:
+Britain was, for two centuries, a country that built things. Factories, ships, engines, weapons, houses, railways. Then, some time around 1980, Britain made a different choice. We became a country that owned things — specifically, houses — and lent money against them. The factories closed. The shipyards shut. The engineering firms were sold to foreign owners or asset-stripped.
+
+Key statistics:
+- 34% fall in UK manufacturing as % of GDP, 1980-2024
+- 0.5% average UK productivity growth p.a., 2008-2024
+- 1 in 5 MPs who own a second home or are landlords
+- £280k UK median house price, 10x median full-time salary
+
+FOUNDING PRINCIPLE:
+The country has a productive economy and a rentier economy layered on top of it, and the rentier economy has slowly consumed the productive one. Fix the housing market, and the productive economy recovers the oxygen it needs. This is not a rejection of private ownership or market economics. It is a defence of both, against an extractive arrangement that has been mistakenly called capitalism for decades. Real capitalism rewards building. Rentier capitalism rewards owning. We are advocating for the first against the second.
+
+THE HOUSING THEORY OF EVERYTHING:
+When housing becomes unaffordable, skilled workers cannot move to where their skills are needed. Manufacturing firms cannot retain engineers. Hospitals cannot retain nurses. Schools cannot retain teachers. Construction firms cannot hire electricians because electricians cannot afford to live where the construction is happening.
+
+When housing becomes the primary store of wealth, savings flow into property speculation rather than productive investment. A business that wants to build a factory competes for capital with a portfolio manager buying a second flat in Zone 2.
+
+When housing costs dominate household budgets, consumption falls. The working household spending 40% of income on rent or mortgage has less to spend on everything else. The domestic demand that should sustain domestic industry leaks out in the form of rent.
+
+When the political class owns property, reform becomes structurally impossible. Planning reform is opposed. Land taxation is rejected.
+
+57% of the housing stock in central London is not occupied by owners.
+
+FOUR PILLARS OF RECONSTRUCTION:
+
+PILLAR ONE — Housing reform and the productive land economy:
+- Land Value Tax on investment properties at 2%, primary residence exempt
+- Government construction at scale — 300,000 new homes per year within five years
+- Shared-equity schemes enabling current renters to become owners
+- Restrictions on foreign acquisition of UK residential property, modelled on Switzerland's Lex Koller
+- Bank guarantee on announcement to manage orderly price transition
+- Outcome: rents stabilise, then fall. Home ownership recovers toward 2003 peak.
+
+PILLAR TWO — Reindustrialisation via productive capital reform:
+- Zero capital gains tax on qualifying productive investment — UK-incorporated companies, UK tangible assets, five-year minimum holding, listed productive sectors
+- A restructured British Business Bank as a genuine national investment bank
+- A Productive Investment Visa bringing entrepreneurial capital with residency tied to ongoing investment maintenance
+- 20% flat corporation tax — simple, predictable
+- Defence spending to 3% of GDP by Y10 (2036), anchoring UK industrial capability in Derby, Barrow, Warton, Glasgow, Bristol
+
+PILLAR THREE — Energy and sovereign capability:
+- National Grid nationalised
+- Electricity market decoupled from gas pricing so British wind and British nuclear deliver British prices, not gas-linked prices
+- Small Modular Reactors built at Rolls-Royce Derby — fleet deployment, industrial programme, skilled employment
+- Sovereign semiconductor capability developed across compound nodes, advanced nodes, and alternative lithography
+- British industrial electricity prices restored toward French and German levels, closing the 40-55% gap
+
+PILLAR FOUR — European Security and Economic Partnership:
+- Britain leads European nuclear deterrence in partnership with France
+- In exchange: full single market access, customs union, financial services passport, resolution of Northern Ireland dysfunction
+- Trans-European rail integration: sleeper trains to Vienna, direct services Manchester-Paris, rail freight through Channel Tunnel at industrial scale
+
+THE FISCAL CASE:
+The platform commits to additional spending of £60.1bn revenue and £40bn capital by Year 5, rising to £59.2bn revenue and £44.5bn capital by Year 10.
+
+Revenue measures (in order of significance):
+- Land Value Tax on investment properties: £28bn/year by Y5 at full operation
+- Commercial Local Services Tax replacing business rates: £7bn
+- Pension triple-to-double-lock saving: £4bn by Y5, rising to £10bn by Y10
+- HMRC enforcement measures on tax avoidance
+
+No wealth tax. No increase in headline income tax or VAT rates. No new tax architecture that signals anti-capital politics.
+
+Fiscal position table:
+- Year 1: Revenue +£3.7bn, Revenue spend +£18bn, Capital +£16bn, Current-budget impact: -£14.3bn
+- Year 3: Revenue +£22.8bn, Revenue spend +£48bn, Capital +£36bn, Current-budget impact: -£25.2bn
+- Year 5: Revenue +£42.8bn, Revenue spend +£60.1bn, Capital +£40bn, Current-budget impact: -£17.3bn
+- Year 10: Revenue +£68bn, Revenue spend +£59.2bn, Capital +£44.5bn, Current-budget impact: +£8.8bn
+
+Current budget returns to balance by Year 8; modest surplus by Year 10.
+
+SIX GDP GROWTH CHANNELS:
+1. Public capital investment multiplier: £35-44bn/year additional capital, 1.0-1.5x multiplier. Effect by Y10: +1.2% GDP above baseline.
+2. Energy price reform: Closing 40-55% electricity cost gap. Effect: +0.5% GDP.
+3. Housing market efficiency: Labour mobility restored, capital redirected from speculation. Effect: +0.8% GDP.
+4. Industrial policy compounding: Defence anchor, skills pipeline, sovereign capability. Effect: +0.6% GDP.
+5. European market access (ESEP): Full single market + customs union access. Effect: +2.0% GDP (conservative central estimate).
+6. Workforce participation: Welfare reform, NHS mental health, Youth Guarantee, housing reform enabling mobility. ~800,000 additional employed by Y10. Effect: +0.6% GDP.
+
+Total: +5.7% additional UK GDP by Year 10, central estimate. Averaged across the decade: ~0.6 percentage points per year above baseline. This is restoration toward pre-2008 norms (2.3% annual growth before 2008, now 1.5% baseline).
+
+DEBT TRAJECTORY:
+- OBR Baseline debt/GDP peak: 96.2% at Y3, falling to 91.5% by Y10
+- Platform debt/GDP peak: 95.8% at Y3, falling to 86.5% by Y10
+The platform, properly measured, is fiscally conservative.
+
+PARTY APPRAISALS:
+Labour: Managerial continuation. No serious land reform proposed. No commitment to decouple energy pricing. European policy is "reset" without concrete framework. Industrial policy is rhetorical rather than structural.
+
+Reform UK: Cultural populism, no programme. Immigration reduction without building houses simply transfers the housing crisis downmarket. Tax cuts without productive investment produce a smaller and less effective state.
+
+Conservative: Unable to reform what they built. Built the rentier economy from Right-to-Buy onwards. Donor base concentrated in property and finance.
+
+THE VISION FOR 2036:
+- Three hundred thousand homes built each year, every year
+- British industry employs hundreds of thousands more workers
+- Rolls-Royce Derby running SMR production for civil and naval programmes
+- BAE Barrow delivering nuclear submarines on sustained 18-month cadence
+- British electricity prices fallen for domestic consumers and industry
+- European Security and Economic Partnership operational — financial services passport restored, frictionless continental exports
+- NHS rebuilt: medical education free in exchange for ten years of service
+- Political class no longer dominated by landlords
+- Economy grown additional 5-8% above baseline
+
+
+=== PAGE: https://henryfudge.com/common/platform-summary ===
+
+THE COMMON PARTY — COMPLETE PLATFORM SUMMARY
+Spring 2026
+
+A British reform platform that fixes the housing market, rebuilds British industry, nationalises water and the grid, delivers net zero through British manufacturing, restores European partnership on British terms through leadership of European defence, funds the NHS and armed forces properly, and conducts itself with restraint, evidence, and seriousness. Fiscally sound. Politically unifying. Built to last.
+
+PILLAR ONE — HOUSING & THE PRODUCTIVE LAND ECONOMY:
+- Land Value Tax: 2% on investment properties, primary residence exempt. Phased. Revenue ~£28bn/year by Y5.
+- Government construction: 300,000 new homes per year by Y5. Direct public construction as market backstop.
+- Shared-equity programme: Enabling current renters to transition to ownership.
+- Foreign ownership restrictions: Lex Koller-style restrictions on non-UK residential property acquisition.
+- Bank guarantee on transition: Central commitment from day one to prevent price-correction credit crunch.
+- Planning reform: Zoning-based system, by-right development on designated land, community consultation streamlined.
+- Housing benefit reform: LHA linked to 30th percentile of local rents.
+- Commercial property LST: Local Services Tax replacing business rates. Progressive, revenue-stable, locally-retained.
+
+PILLAR TWO — REINDUSTRIALISATION & PRODUCTIVE CAPITAL:
+- Zero CGT on productive investment: UK-incorporated firms, UK tangible assets, 5-year minimum hold, listed sectors.
+- 20% flat corporation tax: Simple, predictable.
+- Productive Investment Visa: £2m qualifying threshold, residency tied to ongoing investment maintenance.
+- British Business Bank restructured: Genuine national investment bank.
+- Sovereign Capability programme: Semiconductors, lithography, materials. Defence-anchored, civil-transferable.
+- Airbus Broughton conversion: Wind turbine manufacturing at industrial scale. Welsh industrial anchor.
+- UK battery manufacturing: 100 GWh/year by Y10. Nissan Sunderland, Jaguar Somerset, new facilities.
+- Pension capital mobilisation: 25% UK Productive Investment allocation for DC defaults by 2035.
+- Sovereign Investment Fund: Norway GPFG model. £250bn by Y10.
+- Tradeable Sector Stability Framework: Treasury-Bank coordination preventing sterling appreciation killing manufacturing.
+- HMRC enforcement doubled: Dedicated corporate avoidance unit. Revenue +£2-3bn/year.
+- CBAM implementation: Carbon Border Adjustment Mechanism aligned with EU.
+
+PILLAR THREE — ENERGY, ENVIRONMENT & SOVEREIGN CAPABILITY:
+- National Grid nationalised: £20bn one-off capital.
+- Electricity market decoupling: Renewable pricing separated from gas. Closes 40-55% UK industrial electricity gap.
+- SMR programme at Rolls-Royce Derby: Small Modular Reactor fleet deployment.
+- Water industry nationalised: Strict no-pollution standards. Criminal liability. £20bn sewage infrastructure programme.
+- Net zero through British manufacturing: UK turbines, batteries, heat pumps.
+- Sovereign semiconductor capability: Mature nodes Y5, advanced nodes Y8, lithography research Y10+. UK-Japan partnership.
+- Strategic reservoir programme: 3 major reservoirs by Y5.
+- ELM properly funded: £3bn/year. Nature recovery, peatland restoration, hedgerow network.
+- Marine Protected Areas: 10% UK waters by Y10. Bottom trawling banned.
+- Fisheries co-management: Joint UK-EU-Norway-Faroes North Sea authority under ESEP.
+- Managed fossil fuel decline: No new licensing, existing production runs its economic life.
+
+PILLAR FOUR — EUROPEAN SECURITY & ECONOMIC PARTNERSHIP (ESEP):
+- Franco-British nuclear umbrella: Anglo-French Nuclear Planning Group.
+- ESEP framework: Full Single Market + Customs Union + financial services passport. No Euro, no Schengen.
+- Northern Ireland Protocol dissolved: Customs Union membership structurally resolves the problem.
+- Trans-European rail integration: Sleeper network, Manchester-Paris direct, rail freight at scale.
+- HS2 completion + audit: Phase 2a and 2b resumed.
+- CEF funding accessed: Connecting Europe Facility access via ESEP. ~£3bn for UK cross-border infrastructure.
+- CANZUK defence partnership: Combined sustainment with Canada, Australia, New Zealand.
+- US: friend not vassal. AUKUS retained. Subordinate foreign policy ended.
+- India strategic partnership: UK-India trade agreement.
+- ODA restored to 0.7% GNI.
+- BBC World Service expanded.
+- Defence 3% of GDP by Y10.
+
+PILLAR FIVE — PUBLIC SERVICES:
+- NHS £14bn revenue uplift by Y10: Workforce pay restored. Procurement reformed. Consultancy purged. Medical education free (service tie).
+- Social care integration: £4bn/year additional.
+- Universal childcare: Properly funded entitlement. Workforce pay to £25k. 1,000 Family Hubs.
+- Teacher pay restored: Above-inflation rises 4 years. £35k starting salary.
+- SEND fundamental reform: High Needs Block +£2bn/year. Historic LA deficits written off.
+- Universal Free School Meals primary: Extended to universal primary.
+- Apprenticeship Levy reform: Genuine apprenticeships. 600k starts/year by Y5.
+- FE college funding restored: £3bn/year.
+- Youth Guarantee: Every 16-24 NEET receives paid training, apprenticeship, work, or education offer.
+- Universal Credit reform: Taper rate 55% to 45%. Work allowance increased. Sanctions restricted. 5-week wait abolished.
+- Two-child limit removed: £2.5bn/year. Child poverty addressed structurally.
+- Pension double lock: CPI or earnings, no 2.5% floor. £10bn/year Y10 saving vs triple lock.
+
+PILLAR SIX — JUSTICE, INSTITUTIONS & DECENCY:
+- Norwegian rehabilitative framework: First offences. Evidence-led. Severe for repeats.
+- Portuguese-model drug reform: Possession decriminalised. Supply offences remain severe. Treatment over punishment.
+- Cannabis legalised by referendum.
+- Police restored £3bn/year: Pay, numbers, specialist capability.
+- Legal aid restored £1.8bn/year.
+- Prison capacity £8bn over 10 years: Rehabilitative design.
+- Joint enterprise statutory reform.
+- Age of criminal responsibility raised to 12.
+- Online Safety Act repealed: Age verification architecture ended. Adults treated as adults.
+- Non-Crime Hate Incidents abolished.
+- Devolution framework: Referendum architecture for Scotland/Wales/NI. 55% polling threshold.
+- Local Services Tax: Progressive property tax replacing council tax + business rates.
+- Register of Members' and Spouses' Interests: Two-layer database.
+- Director-standard conduct for MPs: Companies Act fiduciary duties applied to Members, Peers, Ministers.
+- Dual-citizen recusal: Mandatory recusal from votes of national interest affecting other state.
+- Party finance audit + foreign-capture closure: £500 declaration threshold.
+- Office of the Ethics Commissioner: Independent statutory office.
+- Foreign Influence in Public Life offence: Undisclosed foreign payroll in office: whole life order.
+
+FISCAL ARCHITECTURE SUMMARY:
+- £68bn additional revenue by Year 10
+- 3.5% total spend uplift vs UK baseline
+- +5.7% GDP uplift by Y10 vs baseline
+- 86.5% Debt-to-GDP Y10 (vs baseline 91.5%)
+
+Year-by-year fiscal position:
+- Year 1: Revenue +£3.7bn, Spend +£18bn, Capital +£16bn, Current-budget: -£14.3bn
+- Year 3: Revenue +£22.8bn, Spend +£48bn, Capital +£36bn, Current-budget: -£25.2bn
+- Year 5: Revenue +£42.8bn, Spend +£60.1bn, Capital +£40bn, Current-budget: -£17.3bn
+- Year 10: Revenue +£68bn, Spend +£59.2bn, Capital +£44.5bn, Current-budget: +£8.8bn
+
+Current budget: Deficit peaks Y3, balance by Y8, surplus Y10.
+
+GDP growth channels: +1.2% (public capital), +0.5% (energy), +0.8% (housing), +0.6% (industrial policy), +2.0% (ESEP), +0.6% (workforce) = +5.7% total by Y10.
+
+Debt trajectory: OBR baseline peaks 96.2% at Y3, ends 91.5% at Y10. Platform peaks 95.8% at Y3, ends 86.5% at Y10.
+
+The platform is not a choice between ambition and affordability. Properly modelled, it delivers both. We borrow more in absolute terms, we invest more, we grow the economy faster — and the debt-to-GDP ratio falls further than the baseline.
+
+Distinctive ideological position: Productive-capitalist European social democracy with strong institutional conservatism.
