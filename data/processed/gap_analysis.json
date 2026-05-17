@@ -1,0 +1,855 @@
+{
+  "generated_at": "2026-05-17",
+  "description": "UK gap analysis vs OECD peers \u2014 gap scores, policy attribution and priority matrix",
+  "metrics_analysed": 10,
+  "countries_in_benchmark": [
+    "GBR",
+    "DNK",
+    "NLD",
+    "DEU",
+    "SGP",
+    "KOR",
+    "IRL",
+    "CAN",
+    "AUS",
+    "SWE"
+  ],
+  "ranking_method": "Absolute gap score = |UK value - Best value| / StdDev; ranked descending",
+  "priority_matrix_method": "Impact (1-10) x Feasibility (1-10); product normalised to /10",
+  "gaps": {
+    "gdp_growth_rate": {
+      "label": "GDP Growth Rate (5yr avg, %)",
+      "note": "5-year average 2019-2024 from OECD National Accounts",
+      "higher_is_better": true,
+      "uk_value": 0.68,
+      "best_value": 6.28,
+      "best_country_iso3": "IRL",
+      "oecd_avg": 2.1333,
+      "uk_vs_oecd_avg": -1.4533,
+      "uk_vs_best": -5.6,
+      "gap_score": -3.5885,
+      "std_dev": 1.5606,
+      "per_country_gaps": {
+        "DNK": -1.22,
+        "NLD": -0.72,
+        "DEU": 0.38,
+        "SGP": -1.85,
+        "KOR": -1.25,
+        "IRL": -5.6,
+        "CAN": -0.64,
+        "AUS": -1.39,
+        "SWE": -0.79
+      },
+      "n_countries": 10,
+      "excluded_countries": [],
+      "policy_credit": {
+        "credited_country_iso3": "IRL",
+        "credited_country_name": "Ireland",
+        "attribution_rationale": "Ireland's FDI strategy and low corporate tax created sustained above-average growth. While MNC-distorted, the underlying lesson on investment attraction applies.",
+        "key_policies": [
+          {
+            "reform": "Low corporate tax & FDI strategy (1987\u2013present)",
+            "description": "12.5% corporate tax rate; IDA Ireland targeted MNC investment; IP-friendly Knowledge Development Box; skilled English-speaking labour.",
+            "outcome": "Ireland hosts EU HQs of Google, Apple, Meta, Pfizer, Medtronic; corporate tax receipts >\u20ac24bn (2023); GDP/GNI distortion acknowledged.",
+            "source": "OECD Economic Survey of Ireland 2015, 2022"
+          },
+          {
+            "reform": "Post-GFC fiscal consolidation & banking sector restructuring (2010\u20132015)",
+            "description": "\u20ac67bn IMF/EU bailout; NAMA bad bank created; five bank recapitalisations; \u20ac30bn fiscal consolidation over 6 years; water charges controversy.",
+            "outcome": "Ireland exited programme 2013 \u2014 fastest euro area recovery; primary surplus by 2014; 10yr bond yields normalised by 2015.",
+            "source": "OECD Economic Survey of Ireland 2013, 2016"
+          },
+          {
+            "reform": "Housing action plan & childcare investment (2021\u2013present)",
+            "description": "Housing For All plan (2021): 33,000 homes/year target; First Home shared equity; NDP capital investment; National Childcare Scheme expansion.",
+            "outcome": "Housing supply increased (though still insufficient); childcare affordability improved significantly; female labour force participation rising.",
+            "source": "OECD Economic Survey of Ireland 2023"
+          }
+        ],
+        "secondary_country_iso3": "KOR",
+        "secondary_country_name": "South Korea",
+        "secondary_rationale": "Korea's broadband & digital infrastructure investment drove structural productivity growth.",
+        "secondary_key_policies": [
+          {
+            "reform": "Post-AFC corporate & financial sector restructuring (1998\u20132003)",
+            "description": "IMF-supported restructuring of chaebols; bank recapitalisation; NPL resolution; corporate governance reform (boards, minority shareholder rights).",
+            "outcome": "Korea recovered in two years \u2014 fastest post-AFC recovery; fiscal consolidation with surplus by 2000; chaebol leverage reduced.",
+            "source": "OECD Economic Survey of Korea 2000, 2004"
+          },
+          {
+            "reform": "National pension system and social insurance expansion (1999\u20132008)",
+            "description": "Extension of National Pension Scheme to all workers; expansion of employment insurance and industrial accident insurance.",
+            "outcome": "Social safety net coverage expanded; elderly poverty still high but trending down; pension fund became global sovereign investor.",
+            "source": "OECD Economic Survey of Korea 2006, 2012"
+          },
+          {
+            "reform": "Broadband & digital infrastructure investment (1999\u20132010)",
+            "description": "Government-funded national broadband rollout; 'Informatisation' strategy; IT-cluster development in Pangyo.",
+            "outcome": "Korea became world leader in broadband penetration; ICT sector ~10% of GDP; Samsung/SK Hynix global semiconductor champions.",
+            "source": "OECD Economic Survey of Korea 2008, 2016"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 8,
+        "impact_justification": "Sustained GDP growth above peers raises wages, tax revenues and public service capacity. Each 1pp of additional growth sustains ~\u00a325bn of extra annual output over a decade.",
+        "feasibility_score": 5,
+        "feasibility_justification": "UK structural weaknesses (investment, skills, planning) are well-documented but politically contested. Trade policy post-Brexit limits easy wins. Medium-term supply-side reforms are achievable but slow-acting.",
+        "priority_product": 4.0
+      },
+      "severity_rank": 1
+    },
+    "gini_coefficient": {
+      "label": "Gini Coefficient",
+      "note": "Disposable income Gini, OECD IDD 2022",
+      "higher_is_better": false,
+      "uk_value": 0.351,
+      "best_value": 0.27,
+      "best_country_iso3": "SWE",
+      "oecd_avg": 0.308,
+      "uk_vs_oecd_avg": 0.043,
+      "uk_vs_best": 0.081,
+      "gap_score": 2.6507,
+      "std_dev": 0.0306,
+      "per_country_gaps": {
+        "DNK": 0.069,
+        "NLD": 0.067,
+        "DEU": 0.038,
+        "SGP": -0.024,
+        "KOR": 0.037,
+        "IRL": 0.053,
+        "CAN": 0.041,
+        "AUS": 0.025,
+        "SWE": 0.081
+      },
+      "n_countries": 10,
+      "excluded_countries": [],
+      "policy_credit": {
+        "credited_country_iso3": "SWE",
+        "credited_country_name": "Sweden",
+        "attribution_rationale": "Sweden's comprehensive welfare state, free education and progressive taxation have achieved the lowest Gini (0.270) among peers, sustained over decades.",
+        "key_policies": [
+          {
+            "reform": "1990s banking & fiscal crisis reforms (1992\u20131997)",
+            "description": "Bank nationalisation and good-bank/bad-bank resolution; fiscal consolidation of 11% GDP; inflation targeting adopted; pension reform initiated.",
+            "outcome": "Sweden's 'model' crisis resolution \u2014 banks sold back to market within years; fiscal surplus by 1997; widely cited as template for Ireland 2010.",
+            "source": "OECD Economic Survey of Sweden 1996, 2002"
+          },
+          {
+            "reform": "Notional defined-contribution (NDC) pension reform (1998)",
+            "description": "Replaced PAYG DB pension with income-linked notional accounts + funded premium pension; automatic balancing mechanism links benefits to longevity/growth.",
+            "outcome": "Pension system among most fiscally sustainable in OECD; incentivises longer working lives; model adopted by Norway, Poland, Italy.",
+            "source": "OECD Economic Survey of Sweden 2004, 2012"
+          },
+          {
+            "reform": "School voucher system & free school reform (1992\u2013present)",
+            "description": "Universal school choice introduced; public funding follows student to private/municipal schools; significant expansion of independent ('friskola') sector.",
+            "outcome": "Increased parental choice; mixed PISA outcomes (initial gains, later stagnation); ongoing debate on segregation; vocational tracks remain strong.",
+            "source": "OECD Economic Survey of Sweden 2015, 2021"
+          }
+        ],
+        "secondary_country_iso3": "DNK",
+        "secondary_country_name": "Denmark",
+        "secondary_rationale": "Denmark's 2011 tax reform shifted burden from income to consumption while preserving equity.",
+        "secondary_key_policies": [
+          {
+            "reform": "Flexicurity labour market model deepening (2006\u20132015)",
+            "description": "Extension of flexicurity \u2014 easy hiring/firing combined with generous unemployment benefits and active labour market policies (ALMPs).",
+            "outcome": "Unemployment stayed below 6% even through the Global Financial Crisis; one of the highest employment rates in the OECD.",
+            "source": "OECD Economic Survey of Denmark 2012, 2019"
+          },
+          {
+            "reform": "Pension reform \u2014 transition from defined-benefit to DC + mandatory labour market pensions (1987\u20132010)",
+            "description": "Gradual shift to funded ATP / occupational pensions; increased private savings rate substantially.",
+            "outcome": "Pension assets ~200% of GDP; sustainable public finances; reduced pressure on PAYG state pension.",
+            "source": "OECD Economic Survey of Denmark 2016"
+          },
+          {
+            "reform": "2011 tax reform \u2014 shift from income to consumption taxes",
+            "description": "Reduced marginal income tax rates; offset by higher environmental and property taxes; revenue-neutral.",
+            "outcome": "Improved labour supply incentives; Denmark remained highest-taxing OECD country with strong growth.",
+            "source": "OECD Economic Survey of Denmark 2012"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 7,
+        "impact_justification": "Reducing inequality improves health, social trust and intergenerational mobility. Scandinavia shows high welfare and growth are compatible.",
+        "feasibility_score": 4,
+        "feasibility_justification": "Requires sustained redistribution and wage policy changes. Politically divisive. Nordic levels require tax-to-GDP ratios ~10pp above current UK, which faces strong opposition.",
+        "priority_product": 2.8
+      },
+      "severity_rank": 6
+    },
+    "poverty_rate_pct": {
+      "label": "Poverty Rate (%)",
+      "note": "Relative poverty <50% median, OECD IDD 2022",
+      "higher_is_better": false,
+      "uk_value": 11.7,
+      "best_value": 6.6,
+      "best_country_iso3": "DNK",
+      "oecd_avg": 9.9111,
+      "uk_vs_oecd_avg": 1.7889,
+      "uk_vs_best": 5.1,
+      "gap_score": 2.2227,
+      "std_dev": 2.2945,
+      "per_country_gaps": {
+        "DNK": 5.1,
+        "NLD": 4.2,
+        "DEU": 1.9,
+        "SGP": 2.7,
+        "KOR": -2.7,
+        "IRL": 1.8,
+        "CAN": 0.2,
+        "AUS": -0.7,
+        "SWE": 3.6
+      },
+      "n_countries": 10,
+      "excluded_countries": [],
+      "policy_credit": {
+        "credited_country_iso3": "DNK",
+        "credited_country_name": "Denmark",
+        "attribution_rationale": "Denmark's flexicurity model \u2014 combining easy hiring/firing with generous unemployment benefits and active labour market policies \u2014 achieves the lowest poverty rate (6.6%) in this peer group.",
+        "key_policies": [
+          {
+            "reform": "Flexicurity labour market model deepening (2006\u20132015)",
+            "description": "Extension of flexicurity \u2014 easy hiring/firing combined with generous unemployment benefits and active labour market policies (ALMPs).",
+            "outcome": "Unemployment stayed below 6% even through the Global Financial Crisis; one of the highest employment rates in the OECD.",
+            "source": "OECD Economic Survey of Denmark 2012, 2019"
+          },
+          {
+            "reform": "Pension reform \u2014 transition from defined-benefit to DC + mandatory labour market pensions (1987\u20132010)",
+            "description": "Gradual shift to funded ATP / occupational pensions; increased private savings rate substantially.",
+            "outcome": "Pension assets ~200% of GDP; sustainable public finances; reduced pressure on PAYG state pension.",
+            "source": "OECD Economic Survey of Denmark 2016"
+          },
+          {
+            "reform": "2011 tax reform \u2014 shift from income to consumption taxes",
+            "description": "Reduced marginal income tax rates; offset by higher environmental and property taxes; revenue-neutral.",
+            "outcome": "Improved labour supply incentives; Denmark remained highest-taxing OECD country with strong growth.",
+            "source": "OECD Economic Survey of Denmark 2012"
+          }
+        ],
+        "secondary_country_iso3": "SWE",
+        "secondary_country_name": "Sweden",
+        "secondary_rationale": "Sweden's universal childcare and housing subsidies keep child poverty rates extremely low.",
+        "secondary_key_policies": [
+          {
+            "reform": "1990s banking & fiscal crisis reforms (1992\u20131997)",
+            "description": "Bank nationalisation and good-bank/bad-bank resolution; fiscal consolidation of 11% GDP; inflation targeting adopted; pension reform initiated.",
+            "outcome": "Sweden's 'model' crisis resolution \u2014 banks sold back to market within years; fiscal surplus by 1997; widely cited as template for Ireland 2010.",
+            "source": "OECD Economic Survey of Sweden 1996, 2002"
+          },
+          {
+            "reform": "Notional defined-contribution (NDC) pension reform (1998)",
+            "description": "Replaced PAYG DB pension with income-linked notional accounts + funded premium pension; automatic balancing mechanism links benefits to longevity/growth.",
+            "outcome": "Pension system among most fiscally sustainable in OECD; incentivises longer working lives; model adopted by Norway, Poland, Italy.",
+            "source": "OECD Economic Survey of Sweden 2004, 2012"
+          },
+          {
+            "reform": "School voucher system & free school reform (1992\u2013present)",
+            "description": "Universal school choice introduced; public funding follows student to private/municipal schools; significant expansion of independent ('friskola') sector.",
+            "outcome": "Increased parental choice; mixed PISA outcomes (initial gains, later stagnation); ongoing debate on segregation; vocational tracks remain strong.",
+            "source": "OECD Economic Survey of Sweden 2015, 2021"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 9,
+        "impact_justification": "Poverty directly destroys welfare \u2014 linked to 10+ year life expectancy gaps, worse child outcomes and higher long-run public costs (health, crime, benefit dependency).",
+        "feasibility_score": 6,
+        "feasibility_justification": "Targeted interventions (benefit uprating, childcare, living wage) have demonstrated impact. Universal Credit reform already shows partial gains. Politically viable under current Labour government; cost manageable vs long-run savings.",
+        "priority_product": 5.4
+      },
+      "severity_rank": 7
+    },
+    "rd_expenditure_pct_gdp": {
+      "label": "R&D Expenditure (% GDP)",
+      "note": "GERD % GDP, OECD MSTI 2023",
+      "higher_is_better": true,
+      "uk_value": 1.89,
+      "best_value": 4.93,
+      "best_country_iso3": "KOR",
+      "oecd_avg": 2.5733,
+      "uk_vs_oecd_avg": -0.6833,
+      "uk_vs_best": -3.04,
+      "gap_score": -2.9123,
+      "std_dev": 1.0438,
+      "per_country_gaps": {
+        "DNK": -0.96,
+        "NLD": -0.39,
+        "DEU": -1.24,
+        "SGP": -0.08,
+        "KOR": -3.04,
+        "IRL": 0.68,
+        "CAN": 0.18,
+        "AUS": 0.21,
+        "SWE": -1.51
+      },
+      "n_countries": 10,
+      "excluded_countries": [],
+      "policy_credit": {
+        "credited_country_iso3": "KOR",
+        "credited_country_name": "South Korea",
+        "attribution_rationale": "South Korea leads with 4.93% GERD/GDP, driven by large chaebol R&D plus government-backed broadband and ICT infrastructure investment from the late 1990s onward.",
+        "key_policies": [
+          {
+            "reform": "Post-AFC corporate & financial sector restructuring (1998\u20132003)",
+            "description": "IMF-supported restructuring of chaebols; bank recapitalisation; NPL resolution; corporate governance reform (boards, minority shareholder rights).",
+            "outcome": "Korea recovered in two years \u2014 fastest post-AFC recovery; fiscal consolidation with surplus by 2000; chaebol leverage reduced.",
+            "source": "OECD Economic Survey of Korea 2000, 2004"
+          },
+          {
+            "reform": "National pension system and social insurance expansion (1999\u20132008)",
+            "description": "Extension of National Pension Scheme to all workers; expansion of employment insurance and industrial accident insurance.",
+            "outcome": "Social safety net coverage expanded; elderly poverty still high but trending down; pension fund became global sovereign investor.",
+            "source": "OECD Economic Survey of Korea 2006, 2012"
+          },
+          {
+            "reform": "Broadband & digital infrastructure investment (1999\u20132010)",
+            "description": "Government-funded national broadband rollout; 'Informatisation' strategy; IT-cluster development in Pangyo.",
+            "outcome": "Korea became world leader in broadband penetration; ICT sector ~10% of GDP; Samsung/SK Hynix global semiconductor champions.",
+            "source": "OECD Economic Survey of Korea 2008, 2016"
+          }
+        ],
+        "secondary_country_iso3": "DEU",
+        "secondary_country_name": "Germany",
+        "secondary_rationale": "Germany's industrial R&D ecosystem (Fraunhofer institutes, Mittelstand innovation) drives 3.13% GERD.",
+        "secondary_key_policies": [
+          {
+            "reform": "Hartz labour market reforms (2002\u20132005)",
+            "description": "Four-stage reform: tightened job-search conditionality, merged unemployment assistance and social aid (Hartz IV), expanded temporary work agencies, created mini-job categories.",
+            "outcome": "Unemployment fell from ~11% (2005) to ~3% (2019); 'German jobs miracle'; real wage growth initially suppressed but recovered.",
+            "source": "OECD Economic Survey of Germany 2008, 2012, 2021"
+          },
+          {
+            "reform": "Energiewende \u2014 energy transition (2000\u2013present)",
+            "description": "Renewable Energy Act (EEG) 2000 set feed-in tariffs; subsequent reforms moved to auction-based CfDs; phase-out of nuclear (completed 2023).",
+            "outcome": "Renewable share of electricity ~55% by 2023; created global export industries in solar, wind technology; energy costs initially raised.",
+            "source": "OECD Economic Survey of Germany 2021, 2023"
+          },
+          {
+            "reform": "German reunification integration & fiscal consolidation (1990\u20132007)",
+            "description": "Solidarity surcharge financed eastern reconstruction; Schuldenbremse (debt brake) constitutionalised from 2009; structural surplus achieved by 2014.",
+            "outcome": "Eastern productivity convergence (still incomplete); constitutional fiscal discipline; debt fell from ~80% to ~60% GDP pre-pandemic.",
+            "source": "OECD Economic Survey of Germany 2006, 2010"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 8,
+        "impact_justification": "R&D investment has the highest long-run multiplier of any public spending (~3-5x). Closing half the gap to Korea/Germany could add 0.3-0.5pp to trend growth within a decade.",
+        "feasibility_score": 7,
+        "feasibility_justification": "R&D tax credits, Innovate UK grants and the Horizon association re-entry provide concrete levers. Cross-party consensus exists. Industrial Strategy already targets 2.4% GDP by 2027. Feasible but requires sustained funding commitment.",
+        "priority_product": 5.6
+      },
+      "severity_rank": 4
+    },
+    "labour_productivity_usd_ppp": {
+      "label": "Labour Productivity (USD PPP/hr)",
+      "note": "Output per hour worked, USD PPP, OECD PDB_LV 2023. IRL value MNC-distorted.",
+      "higher_is_better": true,
+      "uk_value": 55.3,
+      "best_value": 75.4,
+      "best_country_iso3": "NLD",
+      "oecd_avg": 65.525,
+      "uk_vs_oecd_avg": -10.225,
+      "uk_vs_best": -20.1,
+      "gap_score": -2.1293,
+      "std_dev": 9.4399,
+      "per_country_gaps": {
+        "DNK": -16.8,
+        "NLD": -20.1,
+        "DEU": -12.0,
+        "SGP": -19.2,
+        "KOR": 10.5,
+        "CAN": -4.3,
+        "AUS": -6.8,
+        "SWE": -13.1
+      },
+      "n_countries": 9,
+      "excluded_countries": [
+        "IRL"
+      ],
+      "policy_credit": {
+        "credited_country_iso3": "NLD",
+        "credited_country_name": "Netherlands",
+        "attribution_rationale": "Netherlands achieves $75.4 USD PPP/hr through Wassenaar wage-moderation agreements, high capital investment, and a strong vocational training system (MBO/HBO).",
+        "key_policies": [
+          {
+            "reform": "Wassenaar Agreement legacy & wage moderation framework (2010s)",
+            "description": "Building on 1982 Wassenaar, tripartite wage restraint agreements kept unit labour costs competitive; reinforced during sovereign debt crisis.",
+            "outcome": "Netherlands avoided severe competitiveness losses; maintained current account surplus; export growth.",
+            "source": "OECD Economic Survey of Netherlands 2014, 2021"
+          },
+          {
+            "reform": "Healthcare system reform \u2014 regulated competition (2006)",
+            "description": "Replaced state insurance monopoly with regulated private competition; mandatory universal basic insurance; risk-equalisation fund.",
+            "outcome": "Universal coverage achieved; cost-efficiency improved; widely cited as model for market-based universal healthcare.",
+            "source": "OECD Economic Survey of Netherlands 2008, 2023"
+          },
+          {
+            "reform": "Housing & pension system reforms (2012\u20132020)",
+            "description": "Tightening of mortgage interest deduction; introduction of social housing means-testing; gradual pension age increase to 67.",
+            "outcome": "Housing market stabilised after bubble; pension sustainability improved; fiscal consolidation achieved.",
+            "source": "OECD Economic Survey of Netherlands 2014, 2021"
+          }
+        ],
+        "secondary_country_iso3": "DEU",
+        "secondary_country_name": "Germany",
+        "secondary_rationale": "Germany's dual apprenticeship system and Mittelstand manufacturing base underpin $67.3 productivity.",
+        "secondary_key_policies": [
+          {
+            "reform": "Hartz labour market reforms (2002\u20132005)",
+            "description": "Four-stage reform: tightened job-search conditionality, merged unemployment assistance and social aid (Hartz IV), expanded temporary work agencies, created mini-job categories.",
+            "outcome": "Unemployment fell from ~11% (2005) to ~3% (2019); 'German jobs miracle'; real wage growth initially suppressed but recovered.",
+            "source": "OECD Economic Survey of Germany 2008, 2012, 2021"
+          },
+          {
+            "reform": "Energiewende \u2014 energy transition (2000\u2013present)",
+            "description": "Renewable Energy Act (EEG) 2000 set feed-in tariffs; subsequent reforms moved to auction-based CfDs; phase-out of nuclear (completed 2023).",
+            "outcome": "Renewable share of electricity ~55% by 2023; created global export industries in solar, wind technology; energy costs initially raised.",
+            "source": "OECD Economic Survey of Germany 2021, 2023"
+          },
+          {
+            "reform": "German reunification integration & fiscal consolidation (1990\u20132007)",
+            "description": "Solidarity surcharge financed eastern reconstruction; Schuldenbremse (debt brake) constitutionalised from 2009; structural surplus achieved by 2014.",
+            "outcome": "Eastern productivity convergence (still incomplete); constitutional fiscal discipline; debt fell from ~80% to ~60% GDP pre-pandemic.",
+            "source": "OECD Economic Survey of Germany 2006, 2010"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 10,
+        "impact_justification": "The UK productivity gap (~20-35% below frontier) is the single biggest driver of lower wages and living standards vs peers. Closing it fully would add ~\u00a310,000/yr to median wages.",
+        "feasibility_score": 4,
+        "feasibility_justification": "The 'productivity puzzle' has persisted since 2008 despite multiple strategies. Requires simultaneous improvement in R&D, skills, management quality, investment and infrastructure. No single lever; long gestation periods. Historically very hard to shift quickly.",
+        "priority_product": 4.0
+      },
+      "severity_rank": 8
+    },
+    "public_debt_pct_gdp": {
+      "label": "Public Debt (% GDP)",
+      "note": "General government gross debt % GDP, OECD EO 2024. SGP excluded (structural difference).",
+      "higher_is_better": false,
+      "uk_value": 99.0,
+      "best_value": 30.0,
+      "best_country_iso3": "DNK",
+      "oecd_avg": 53.125,
+      "uk_vs_oecd_avg": 45.875,
+      "uk_vs_best": 69.0,
+      "gap_score": 2.6726,
+      "std_dev": 25.8171,
+      "per_country_gaps": {
+        "DNK": 69.0,
+        "NLD": 52.4,
+        "DEU": 36.6,
+        "KOR": 51.4,
+        "IRL": 55.9,
+        "CAN": -8.6,
+        "AUS": 45.3,
+        "SWE": 65.0
+      },
+      "n_countries": 9,
+      "excluded_countries": [
+        "SGP"
+      ],
+      "policy_credit": {
+        "credited_country_iso3": "DNK",
+        "credited_country_name": "Denmark",
+        "attribution_rationale": "Denmark's fiscal consolidation through pension reform (DC transition), revenue-neutral tax reform and the Stability and Growth Pact commitment kept debt below 30% of GDP.",
+        "key_policies": [
+          {
+            "reform": "Flexicurity labour market model deepening (2006\u20132015)",
+            "description": "Extension of flexicurity \u2014 easy hiring/firing combined with generous unemployment benefits and active labour market policies (ALMPs).",
+            "outcome": "Unemployment stayed below 6% even through the Global Financial Crisis; one of the highest employment rates in the OECD.",
+            "source": "OECD Economic Survey of Denmark 2012, 2019"
+          },
+          {
+            "reform": "Pension reform \u2014 transition from defined-benefit to DC + mandatory labour market pensions (1987\u20132010)",
+            "description": "Gradual shift to funded ATP / occupational pensions; increased private savings rate substantially.",
+            "outcome": "Pension assets ~200% of GDP; sustainable public finances; reduced pressure on PAYG state pension.",
+            "source": "OECD Economic Survey of Denmark 2016"
+          },
+          {
+            "reform": "2011 tax reform \u2014 shift from income to consumption taxes",
+            "description": "Reduced marginal income tax rates; offset by higher environmental and property taxes; revenue-neutral.",
+            "outcome": "Improved labour supply incentives; Denmark remained highest-taxing OECD country with strong growth.",
+            "source": "OECD Economic Survey of Denmark 2012"
+          }
+        ],
+        "secondary_country_iso3": "SWE",
+        "secondary_country_name": "Sweden",
+        "secondary_rationale": "Sweden's constitutional expenditure ceiling and 1990s crisis resolution cut debt from 80% to 34%.",
+        "secondary_key_policies": [
+          {
+            "reform": "1990s banking & fiscal crisis reforms (1992\u20131997)",
+            "description": "Bank nationalisation and good-bank/bad-bank resolution; fiscal consolidation of 11% GDP; inflation targeting adopted; pension reform initiated.",
+            "outcome": "Sweden's 'model' crisis resolution \u2014 banks sold back to market within years; fiscal surplus by 1997; widely cited as template for Ireland 2010.",
+            "source": "OECD Economic Survey of Sweden 1996, 2002"
+          },
+          {
+            "reform": "Notional defined-contribution (NDC) pension reform (1998)",
+            "description": "Replaced PAYG DB pension with income-linked notional accounts + funded premium pension; automatic balancing mechanism links benefits to longevity/growth.",
+            "outcome": "Pension system among most fiscally sustainable in OECD; incentivises longer working lives; model adopted by Norway, Poland, Italy.",
+            "source": "OECD Economic Survey of Sweden 2004, 2012"
+          },
+          {
+            "reform": "School voucher system & free school reform (1992\u2013present)",
+            "description": "Universal school choice introduced; public funding follows student to private/municipal schools; significant expansion of independent ('friskola') sector.",
+            "outcome": "Increased parental choice; mixed PISA outcomes (initial gains, later stagnation); ongoing debate on segregation; vocational tracks remain strong.",
+            "source": "OECD Economic Survey of Sweden 2015, 2021"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 5,
+        "impact_justification": "High debt narrows fiscal space and raises debt servicing costs (~\u00a3100bn/yr already). But moderate reduction vs peers has limited direct welfare impact unless crisis materialises.",
+        "feasibility_score": 3,
+        "feasibility_justification": "UK debt trajectory is driven by post-pandemic legacy and ageing costs. Fiscal rules constrain new borrowing but structural reduction requires either growth or spending cuts both politically difficult. Comparison to DNK/SWE levels unrealistic within a decade.",
+        "priority_product": 1.5
+      },
+      "severity_rank": 5
+    },
+    "unemployment_rate_pct": {
+      "label": "Unemployment Rate (%)",
+      "note": "ILO unemployment, OECD KEI 2024",
+      "higher_is_better": false,
+      "uk_value": 4.3,
+      "best_value": 1.9,
+      "best_country_iso3": "SGP",
+      "oecd_avg": 4.4111,
+      "uk_vs_oecd_avg": -0.1111,
+      "uk_vs_best": 2.4,
+      "gap_score": 1.3733,
+      "std_dev": 1.7476,
+      "per_country_gaps": {
+        "DNK": -0.7,
+        "NLD": 0.6,
+        "DEU": 0.9,
+        "SGP": 2.4,
+        "KOR": 1.5,
+        "IRL": 0.0,
+        "CAN": -2.0,
+        "AUS": 0.4,
+        "SWE": -4.1
+      },
+      "n_countries": 10,
+      "excluded_countries": [],
+      "policy_credit": {
+        "credited_country_iso3": "SGP",
+        "credited_country_name": "Singapore",
+        "attribution_rationale": "Singapore's SkillsFuture programme and tight active labour market policies maintain structural unemployment near 1.9%; however, city-state context limits direct transferability.",
+        "key_policies": [
+          {
+            "reform": "SkillsFuture national programme (2015\u2013present)",
+            "description": "Government-funded S$500 credit per adult for training; sectoral workforce transformation programmes; Earn & Learn pathways.",
+            "outcome": "Adult participation in training rose to among highest in Asia; productivity growth accelerated; economy pivoted toward high-value services.",
+            "source": "OECD Economic Survey of Singapore 2018, 2022"
+          },
+          {
+            "reform": "Economic restructuring from manufacturing to services hub (1997\u20132010)",
+            "description": "Deliberate shift from labour-intensive manufacturing toward finance, biomedical, ICT; attracted MNC regional HQs via tax incentives and IP regime.",
+            "outcome": "GDP per capita overtook most G7 nations; Singapore became top global financial centre alongside London/New York.",
+            "source": "OECD Economic Survey of Singapore 2016"
+          },
+          {
+            "reform": "Medisave / MediShield Life healthcare financing reform (2015)",
+            "description": "Expanded mandatory health savings (Medisave) and universal catastrophic insurance (MediShield Life); added Pioneer Generation subsidies.",
+            "outcome": "Universal health coverage achieved at low cost; out-of-pocket spending remains high but financial risk protection improved.",
+            "source": "OECD Health Policy Studies \u2014 Singapore 2023"
+          }
+        ],
+        "secondary_country_iso3": "KOR",
+        "secondary_country_name": "South Korea",
+        "secondary_rationale": "Korea's social insurance expansion and active job-matching programmes sustain 2.8% unemployment.",
+        "secondary_key_policies": [
+          {
+            "reform": "Post-AFC corporate & financial sector restructuring (1998\u20132003)",
+            "description": "IMF-supported restructuring of chaebols; bank recapitalisation; NPL resolution; corporate governance reform (boards, minority shareholder rights).",
+            "outcome": "Korea recovered in two years \u2014 fastest post-AFC recovery; fiscal consolidation with surplus by 2000; chaebol leverage reduced.",
+            "source": "OECD Economic Survey of Korea 2000, 2004"
+          },
+          {
+            "reform": "National pension system and social insurance expansion (1999\u20132008)",
+            "description": "Extension of National Pension Scheme to all workers; expansion of employment insurance and industrial accident insurance.",
+            "outcome": "Social safety net coverage expanded; elderly poverty still high but trending down; pension fund became global sovereign investor.",
+            "source": "OECD Economic Survey of Korea 2006, 2012"
+          },
+          {
+            "reform": "Broadband & digital infrastructure investment (1999\u20132010)",
+            "description": "Government-funded national broadband rollout; 'Informatisation' strategy; IT-cluster development in Pangyo.",
+            "outcome": "Korea became world leader in broadband penetration; ICT sector ~10% of GDP; Samsung/SK Hynix global semiconductor champions.",
+            "source": "OECD Economic Survey of Korea 2008, 2016"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 5,
+        "impact_justification": "UK unemployment is already near structural rate. Gap to best performers (SGP/KOR) reflects very different labour market models. Marginal further reduction has limited aggregate welfare gain.",
+        "feasibility_score": 6,
+        "feasibility_justification": "Active labour market policies, better job-matching and disability employment support can modestly reduce unemployment. Universal Credit already addresses some traps. Singapore/Korea levels not realistic without fundamental model change.",
+        "priority_product": 3.0
+      },
+      "severity_rank": 9
+    },
+    "social_mobility_ige": {
+      "label": "Social Mobility (IGE)",
+      "note": "Intergenerational earnings elasticity; lower = higher mobility. OECD 2023.",
+      "higher_is_better": false,
+      "uk_value": 0.43,
+      "best_value": 0.15,
+      "best_country_iso3": "DNK",
+      "oecd_avg": 0.2444,
+      "uk_vs_oecd_avg": 0.1856,
+      "uk_vs_best": 0.28,
+      "gap_score": 3.4943,
+      "std_dev": 0.0801,
+      "per_country_gaps": {
+        "DNK": 0.28,
+        "NLD": 0.26,
+        "DEU": 0.11,
+        "SGP": 0.18,
+        "KOR": 0.18,
+        "IRL": 0.09,
+        "CAN": 0.24,
+        "AUS": 0.17,
+        "SWE": 0.16
+      },
+      "n_countries": 10,
+      "excluded_countries": [],
+      "policy_credit": {
+        "credited_country_iso3": "DNK",
+        "credited_country_name": "Denmark",
+        "attribution_rationale": "Denmark has the lowest IGE (0.15) in this peer set, achieved through free university education, universal childcare, income-compressed wages and strong early-years investment.",
+        "key_policies": [
+          {
+            "reform": "Flexicurity labour market model deepening (2006\u20132015)",
+            "description": "Extension of flexicurity \u2014 easy hiring/firing combined with generous unemployment benefits and active labour market policies (ALMPs).",
+            "outcome": "Unemployment stayed below 6% even through the Global Financial Crisis; one of the highest employment rates in the OECD.",
+            "source": "OECD Economic Survey of Denmark 2012, 2019"
+          },
+          {
+            "reform": "Pension reform \u2014 transition from defined-benefit to DC + mandatory labour market pensions (1987\u20132010)",
+            "description": "Gradual shift to funded ATP / occupational pensions; increased private savings rate substantially.",
+            "outcome": "Pension assets ~200% of GDP; sustainable public finances; reduced pressure on PAYG state pension.",
+            "source": "OECD Economic Survey of Denmark 2016"
+          },
+          {
+            "reform": "2011 tax reform \u2014 shift from income to consumption taxes",
+            "description": "Reduced marginal income tax rates; offset by higher environmental and property taxes; revenue-neutral.",
+            "outcome": "Improved labour supply incentives; Denmark remained highest-taxing OECD country with strong growth.",
+            "source": "OECD Economic Survey of Denmark 2012"
+          }
+        ],
+        "secondary_country_iso3": "NLD",
+        "secondary_country_name": "Netherlands",
+        "secondary_rationale": "Netherlands' vocational education system (MBO) provides high-quality pathways that don't require university.",
+        "secondary_key_policies": [
+          {
+            "reform": "Wassenaar Agreement legacy & wage moderation framework (2010s)",
+            "description": "Building on 1982 Wassenaar, tripartite wage restraint agreements kept unit labour costs competitive; reinforced during sovereign debt crisis.",
+            "outcome": "Netherlands avoided severe competitiveness losses; maintained current account surplus; export growth.",
+            "source": "OECD Economic Survey of Netherlands 2014, 2021"
+          },
+          {
+            "reform": "Healthcare system reform \u2014 regulated competition (2006)",
+            "description": "Replaced state insurance monopoly with regulated private competition; mandatory universal basic insurance; risk-equalisation fund.",
+            "outcome": "Universal coverage achieved; cost-efficiency improved; widely cited as model for market-based universal healthcare.",
+            "source": "OECD Economic Survey of Netherlands 2008, 2023"
+          },
+          {
+            "reform": "Housing & pension system reforms (2012\u20132020)",
+            "description": "Tightening of mortgage interest deduction; introduction of social housing means-testing; gradual pension age increase to 67.",
+            "outcome": "Housing market stabilised after bubble; pension sustainability improved; fiscal consolidation achieved.",
+            "source": "OECD Economic Survey of Netherlands 2014, 2021"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 9,
+        "impact_justification": "High IGE (0.43) means UK life outcomes are heavily determined by birth. Improving mobility unlocks untapped talent, reduces welfare dependency and raises long-run growth.",
+        "feasibility_score": 3,
+        "feasibility_justification": "Social mobility is the hardest metric to shift quickly \u2014 it reflects accumulated advantages across housing, education and networks. Denmark took 30+ years of consistent policy. UK would need radical and sustained redistribution of early-years investment.",
+        "priority_product": 2.7
+      },
+      "severity_rank": 2
+    },
+    "govt_effectiveness_wgi": {
+      "label": "Govt Effectiveness (WGI)",
+      "note": "World Bank WGI GE.EST 2023; higher = more effective",
+      "higher_is_better": true,
+      "uk_value": 1.39,
+      "best_value": 2.28,
+      "best_country_iso3": "SGP",
+      "oecd_avg": 1.7378,
+      "uk_vs_oecd_avg": -0.3478,
+      "uk_vs_best": -0.89,
+      "gap_score": -3.2148,
+      "std_dev": 0.2768,
+      "per_country_gaps": {
+        "DNK": -0.52,
+        "NLD": -0.43,
+        "DEU": -0.16,
+        "SGP": -0.89,
+        "KOR": 0.11,
+        "IRL": -0.18,
+        "CAN": -0.23,
+        "AUS": -0.29,
+        "SWE": -0.54
+      },
+      "n_countries": 10,
+      "excluded_countries": [],
+      "policy_credit": {
+        "credited_country_iso3": "SGP",
+        "credited_country_name": "Singapore",
+        "attribution_rationale": "Singapore scores 2.28 WGI \u2014 the highest in this group \u2014 through meritocratic civil service, performance pay, long-term planning institutions (GIC, Temasek) and zero-tolerance for corruption.",
+        "key_policies": [
+          {
+            "reform": "SkillsFuture national programme (2015\u2013present)",
+            "description": "Government-funded S$500 credit per adult for training; sectoral workforce transformation programmes; Earn & Learn pathways.",
+            "outcome": "Adult participation in training rose to among highest in Asia; productivity growth accelerated; economy pivoted toward high-value services.",
+            "source": "OECD Economic Survey of Singapore 2018, 2022"
+          },
+          {
+            "reform": "Economic restructuring from manufacturing to services hub (1997\u20132010)",
+            "description": "Deliberate shift from labour-intensive manufacturing toward finance, biomedical, ICT; attracted MNC regional HQs via tax incentives and IP regime.",
+            "outcome": "GDP per capita overtook most G7 nations; Singapore became top global financial centre alongside London/New York.",
+            "source": "OECD Economic Survey of Singapore 2016"
+          },
+          {
+            "reform": "Medisave / MediShield Life healthcare financing reform (2015)",
+            "description": "Expanded mandatory health savings (Medisave) and universal catastrophic insurance (MediShield Life); added Pioneer Generation subsidies.",
+            "outcome": "Universal health coverage achieved at low cost; out-of-pocket spending remains high but financial risk protection improved.",
+            "source": "OECD Health Policy Studies \u2014 Singapore 2023"
+          }
+        ],
+        "secondary_country_iso3": "SWE",
+        "secondary_country_name": "Sweden",
+        "secondary_rationale": "Sweden's transparent governance, digital public services and independent agencies drive WGI of 1.93.",
+        "secondary_key_policies": [
+          {
+            "reform": "1990s banking & fiscal crisis reforms (1992\u20131997)",
+            "description": "Bank nationalisation and good-bank/bad-bank resolution; fiscal consolidation of 11% GDP; inflation targeting adopted; pension reform initiated.",
+            "outcome": "Sweden's 'model' crisis resolution \u2014 banks sold back to market within years; fiscal surplus by 1997; widely cited as template for Ireland 2010.",
+            "source": "OECD Economic Survey of Sweden 1996, 2002"
+          },
+          {
+            "reform": "Notional defined-contribution (NDC) pension reform (1998)",
+            "description": "Replaced PAYG DB pension with income-linked notional accounts + funded premium pension; automatic balancing mechanism links benefits to longevity/growth.",
+            "outcome": "Pension system among most fiscally sustainable in OECD; incentivises longer working lives; model adopted by Norway, Poland, Italy.",
+            "source": "OECD Economic Survey of Sweden 2004, 2012"
+          },
+          {
+            "reform": "School voucher system & free school reform (1992\u2013present)",
+            "description": "Universal school choice introduced; public funding follows student to private/municipal schools; significant expansion of independent ('friskola') sector.",
+            "outcome": "Increased parental choice; mixed PISA outcomes (initial gains, later stagnation); ongoing debate on segregation; vocational tracks remain strong.",
+            "source": "OECD Economic Survey of Sweden 2015, 2021"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 7,
+        "impact_justification": "Effective government multiplies returns on all other spending. UK delivery failures in infrastructure, NHS IT and benefits add \u00a3billions in waste annually.",
+        "feasibility_score": 6,
+        "feasibility_justification": "Civil service reform, digital transformation and spending review discipline are achievable without major new spending. Missions-based government approach already underway. WGI score improvement is realistic over 5-10 years.",
+        "priority_product": 4.2
+      },
+      "severity_rank": 3
+    },
+    "income_shares_ratio": {
+      "label": "Income Shares Ratio (top/bottom 10%)",
+      "note": "Ratio of top-decile to bottom-decile income share, OECD IDD 2022",
+      "higher_is_better": false,
+      "uk_value": 9.5,
+      "best_value": 6.1,
+      "best_country_iso3": "DNK",
+      "oecd_avg": 8.9778,
+      "uk_vs_oecd_avg": 0.5222,
+      "uk_vs_best": 3.4,
+      "gap_score": 1.2149,
+      "std_dev": 2.7986,
+      "per_country_gaps": {
+        "DNK": 3.4,
+        "NLD": 2.6,
+        "DEU": 1.7,
+        "SGP": -6.9,
+        "KOR": -0.2,
+        "IRL": 1.4,
+        "CAN": -0.3,
+        "AUS": -0.1,
+        "SWE": 3.1
+      },
+      "n_countries": 10,
+      "excluded_countries": [],
+      "policy_credit": {
+        "credited_country_iso3": "SWE",
+        "credited_country_name": "Sweden",
+        "attribution_rationale": "Sweden has the lowest top/bottom income share ratio (6.4) through compressed wage distribution, universal welfare and progressive income tax with high thresholds exempting low earners.",
+        "key_policies": [
+          {
+            "reform": "1990s banking & fiscal crisis reforms (1992\u20131997)",
+            "description": "Bank nationalisation and good-bank/bad-bank resolution; fiscal consolidation of 11% GDP; inflation targeting adopted; pension reform initiated.",
+            "outcome": "Sweden's 'model' crisis resolution \u2014 banks sold back to market within years; fiscal surplus by 1997; widely cited as template for Ireland 2010.",
+            "source": "OECD Economic Survey of Sweden 1996, 2002"
+          },
+          {
+            "reform": "Notional defined-contribution (NDC) pension reform (1998)",
+            "description": "Replaced PAYG DB pension with income-linked notional accounts + funded premium pension; automatic balancing mechanism links benefits to longevity/growth.",
+            "outcome": "Pension system among most fiscally sustainable in OECD; incentivises longer working lives; model adopted by Norway, Poland, Italy.",
+            "source": "OECD Economic Survey of Sweden 2004, 2012"
+          },
+          {
+            "reform": "School voucher system & free school reform (1992\u2013present)",
+            "description": "Universal school choice introduced; public funding follows student to private/municipal schools; significant expansion of independent ('friskola') sector.",
+            "outcome": "Increased parental choice; mixed PISA outcomes (initial gains, later stagnation); ongoing debate on segregation; vocational tracks remain strong.",
+            "source": "OECD Economic Survey of Sweden 2015, 2021"
+          }
+        ],
+        "secondary_country_iso3": "DNK",
+        "secondary_country_name": "Denmark",
+        "secondary_rationale": "Denmark's income ratio of 6.1 reflects similar Nordic model with strong trade union wage floors.",
+        "secondary_key_policies": [
+          {
+            "reform": "Flexicurity labour market model deepening (2006\u20132015)",
+            "description": "Extension of flexicurity \u2014 easy hiring/firing combined with generous unemployment benefits and active labour market policies (ALMPs).",
+            "outcome": "Unemployment stayed below 6% even through the Global Financial Crisis; one of the highest employment rates in the OECD.",
+            "source": "OECD Economic Survey of Denmark 2012, 2019"
+          },
+          {
+            "reform": "Pension reform \u2014 transition from defined-benefit to DC + mandatory labour market pensions (1987\u20132010)",
+            "description": "Gradual shift to funded ATP / occupational pensions; increased private savings rate substantially.",
+            "outcome": "Pension assets ~200% of GDP; sustainable public finances; reduced pressure on PAYG state pension.",
+            "source": "OECD Economic Survey of Denmark 2016"
+          },
+          {
+            "reform": "2011 tax reform \u2014 shift from income to consumption taxes",
+            "description": "Reduced marginal income tax rates; offset by higher environmental and property taxes; revenue-neutral.",
+            "outcome": "Improved labour supply incentives; Denmark remained highest-taxing OECD country with strong growth.",
+            "source": "OECD Economic Survey of Denmark 2012"
+          }
+        ]
+      },
+      "priority_matrix": {
+        "impact_score": 6,
+        "impact_justification": "The top-to-bottom income share ratio captures distributional extremes. Reducing it lowers relative deprivation effects on health and social cohesion.",
+        "feasibility_score": 4,
+        "feasibility_justification": "Requires both raising bottom-decile incomes (minimum wage, benefits) and constraining top-end income growth (tax, corporate governance). Politically contested at both ends.",
+        "priority_product": 2.4
+      },
+      "severity_rank": 10
+    }
+  },
+  "severity_ranking": [
+    "gdp_growth_rate",
+    "social_mobility_ige",
+    "govt_effectiveness_wgi",
+    "rd_expenditure_pct_gdp",
+    "public_debt_pct_gdp",
+    "gini_coefficient",
+    "poverty_rate_pct",
+    "labour_productivity_usd_ppp",
+    "unemployment_rate_pct",
+    "income_shares_ratio"
+  ]
+}
