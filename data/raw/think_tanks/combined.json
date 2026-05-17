@@ -5,7 +5,100 @@
       "name": "Institute for Fiscal Studies",
       "lean": "centrist",
       "url": "https://ifs.org.uk/publications",
-      "recent_reports": []
+      "source_note": "Fetched manually (May 2026) — site blocked by Cloudflare bot protection",
+      "recent_reports": [
+        {
+          "title": "Living Standards, Poverty and Inequality in the UK: 2024",
+          "date": "2024-10-01",
+          "url": "https://ifs.org.uk/publications/living-standards-poverty-and-inequality-uk-2024",
+          "summary": "Comprehensive annual report on UK living standards. Covers the cost-of-living crisis impact on households, absolute and relative poverty trends, and the disproportionate effect of inflation on lower-income households who spend more on food and energy.",
+          "key_recommendations": [
+            "Housing costs must be included in poverty measurement as they disproportionately affect low-income households.",
+            "Mortgage interest rate rises have had materially different effects across households — policy responses should be targeted accordingly.",
+            "Rising in-work poverty is driven by structural factors, not just wage levels — benefits architecture needs reform.",
+            "Material deprivation measures should sit alongside income-based poverty measures for a fuller picture."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "poverty_reduction",
+            "inequality_reduction"
+          ],
+          "hf_alignment_note": "Partial — IFS confirms housing costs are central to poverty measurement, aligning with Fudge's housing-as-root-cause thesis. IFS is more cautious on structural interventions."
+        },
+        {
+          "title": "Economic Outlook: Navigating Narrow Paths",
+          "date": "2025-10-01",
+          "url": "https://ifs.org.uk/publications/economic-outlook-navigating-narrow-paths",
+          "summary": "IFS Green Budget chapter assessing UK economic prospects. UK GDP grew 0.9% in H1 2025, ahead of OBR expectations, but private domestic demand remains weak. Real GDP per capita grew just 0.1% in 2024. Business investment at 10.8% of GDP is well below US (16%) and Germany (17%) levels.",
+          "key_recommendations": [
+            "Productivity is the most important determinant of the UK's longer-term economic outlook — must be the central policy focus.",
+            "Business investment at 10.8% of GDP remains well below US (16%) and Germany (17%) levels — structural gap requires policy response.",
+            "Fiscal consolidation must not crowd out the investment needed for long-run growth.",
+            "Real income growth expected to average 1.1% per year over the next five years — insufficient to close the living standards gap."
+          ],
+          "hf_overlaps": [
+            "productivity_growth",
+            "anti_austerity",
+            "infrastructure_investment",
+            "fiscal_responsibility"
+          ],
+          "hf_alignment_note": "High — directly supports Fudge's reindustrialisation thesis and critique of chronic UK underinvestment. IFS figures on business investment gap underpin his Pillar Two case."
+        },
+        {
+          "title": "Risks and Challenges for the Public Finances",
+          "date": "2025-12-01",
+          "url": "https://ifs.org.uk/publications/risks-and-challenges-public-finances",
+          "summary": "Detailed analysis of UK fiscal risks. Debt interest payments now exceed 4% of national income — highest since 1950 — and are expected to remain between 3.5–4% of GDP throughout the forecast horizon. This represents £64bn more than expected just three years ago, roughly equivalent to the entire schools budget.",
+          "key_recommendations": [
+            "The five-year OBR forecast horizon creates structural bias against policies with long-term benefits — horizon should be extended.",
+            "OBR should publish long-term estimates of policies whose benefits or costs materialise beyond year five.",
+            "Current fiscal rules risk penalising productive investment — reform needed to distinguish current spending from capital investment.",
+            "Debt interest costs represent a permanent constraint on public service spending that must be honestly acknowledged."
+          ],
+          "hf_overlaps": [
+            "fiscal_responsibility",
+            "anti_austerity",
+            "infrastructure_investment"
+          ],
+          "hf_alignment_note": "High — IFS analysis of fiscal rule design directly supports Fudge's argument that borrowing to invest in productive assets produces better long-run debt trajectory than austerity."
+        },
+        {
+          "title": "Options for Tax Increases",
+          "date": "2025-11-01",
+          "url": "https://ifs.org.uk/publications/options-tax-increases",
+          "summary": "Comprehensive assessment of tax reform options available to the UK government. Argues for alignment of tax rates across all forms of income and gains to remove distortions. Stamp duty identified as one of the UK's most damaging taxes. Closing the corporation tax gap is a significant untapped revenue source.",
+          "key_recommendations": [
+            "Overall tax rates should be aligned across all forms of income and gains — current differential rates distort investment decisions.",
+            "Capital gains tax reform must fix the tax base (removing forgiveness at death, treating losses more generously) before adjusting rates.",
+            "Stamp duty is among the worst and most damaging UK taxes — should be reformed or replaced.",
+            "Closing the corporation tax gap (53% of small businesses under-declared 2021-22) is a significant untapped revenue source."
+          ],
+          "hf_overlaps": [
+            "fiscal_responsibility",
+            "land_value_tax"
+          ],
+          "hf_alignment_note": "Partial — IFS supports tax base reform broadly. Fudge proposes zero CGT on productive investment, which IFS would assess as creating new distortions. IFS more cautious on property tax reform speed."
+        },
+        {
+          "title": "Challenging Inequalities (IFS Deaton Review — Final Publication)",
+          "date": "2026-04-01",
+          "url": "https://ifs.org.uk/news/new-challenging-inequalities-book-launches",
+          "summary": "Final output of the multi-year IFS Deaton Review of inequalities. Summarises the breadth of UK inequalities across income, health, geography, and political power. Finds persistent economic stagnation accompanied by declining institutional trust. Political capture of policy by asset-owning classes identified as a root cause of failure to address economic inequality.",
+          "key_recommendations": [
+            "Inequalities in the UK are interconnected — policymakers must address them systemically, not in silos.",
+            "Geographical inequality is deeply structural and requires sustained place-based industrial policy — not just redistribution.",
+            "Health inequalities have direct economic consequences through inactivity — NHS investment is economic policy, not just social spending.",
+            "Political inequality (capture of policy by asset-owning classes) is a root cause of failure to address economic inequality."
+          ],
+          "hf_overlaps": [
+            "inequality_reduction",
+            "poverty_reduction",
+            "infrastructure_investment",
+            "anti_austerity"
+          ],
+          "hf_alignment_note": "High — the Deaton Review's finding that political inequality (property-owning MPs) structurally prevents reform is central to Fudge's diagnosis. His conduct and register of interests reforms directly address this."
+        }
+      ]
     },
     {
       "name": "Resolution Foundation",
@@ -556,7 +649,65 @@
       "name": "Policy Exchange",
       "lean": "centre-right",
       "url": "https://policyexchange.org.uk/publications/",
-      "recent_reports": []
+      "source_note": "Fetched manually (May 2026) — site blocked by CAPTCHA bot challenge (HTTP 202)",
+      "recent_reports": [
+        {
+          "title": "The UK's Broken Housing Market: Causes, Consequences and Cures",
+          "date": "2024-01-01",
+          "url": "https://policyexchange.org.uk/publication/the-uks-broken-housing-market/",
+          "summary": "Comprehensive diagnosis of UK housing dysfunction. Argues housing affordability crisis is 'the very core of the crisis of confidence in capitalism itself.' Sets out 16 specific reform recommendations focused on planning reform, land release, and property tax restructuring.",
+          "key_recommendations": [
+            "Scrap the 1947 Town and Country Planning Act on a limited basis via a Special Development Order.",
+            "Introduce a new rules-based planning system based on zoning — trialled first in cities and their immediate environs.",
+            "Overhaul Green Belt designation: land of genuine environmental value recategorised as AONB; remaining land zoned for permitted development.",
+            "Reform council tax: introduce two additional bands at the top, one new band at the bottom; increase rates in top bands.",
+            "Introduce a Stamp Duty exemption for last-time buyers to encourage downsizing."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "land_value_tax",
+            "fiscal_responsibility"
+          ],
+          "hf_alignment_note": "Partial — Policy Exchange and Fudge agree on planning reform urgency and supply-side diagnosis. Fudge goes further with Land Value Tax; Policy Exchange focuses on council tax reform and zoning rather than LVT."
+        },
+        {
+          "title": "Homes for Growth",
+          "date": "2024-01-01",
+          "url": "https://policyexchange.org.uk/publication/homes-for-growth/",
+          "summary": "Examines the macroeconomic consequences of housing undersupply. Argues housing shortage has a 'chilling effect on the economy as a whole.' Documents how wealth inequality driven by property is suppressing consumer spending — capital is being transferred from high-propensity-to-consume households to low-propensity-to-consume landlords. Housing benefit costs (£31.3bn projected 2025-26) will continue rising without structural supply reform.",
+          "key_recommendations": [
+            "Housing supply is the central economic constraint on UK growth — must be treated as a macroeconomic priority, not just a social policy.",
+            "Wealth inequality driven by housing is non-neutral: it transfers spending power from renters to landlords, suppressing domestic demand.",
+            "Social housing waiting list of 1.19 million (2021) and 86,000 households in temporary accommodation represent both a human and fiscal crisis.",
+            "Growth requires housing — the two policy areas cannot be separated."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "inequality_reduction",
+            "poverty_reduction"
+          ],
+          "hf_alignment_note": "High — directly supports Fudge's housing theory of everything thesis. Policy Exchange reaches similar conclusions from a centre-right supply-side perspective, without the LVT mechanism."
+        },
+        {
+          "title": "Pro-Growth Reforms Could Add Over £400bn to UK GDP",
+          "date": "2026-01-01",
+          "url": "https://policyexchange.org.uk/publication/pro-growth-reforms/",
+          "summary": "Models the GDP impact of a suite of supply-side reforms across housing, energy, taxation, and regulation. Central estimate: 10–20% uplift to UK GDP over the long term, equivalent to £428bn additional GDP by 2036, or £5,800 per capita in 2036 nominal terms. Housing, energy costs, excessive taxation, and excessive regulation are the four binding constraints on UK growth. Co-published with the Adam Smith Institute.",
+          "key_recommendations": [
+            "Planning reform alone could unlock significant GDP gains through improved capital deepening and labour mobility.",
+            "Private sector-led growth through deregulation and tax reform is the primary lever — not state investment.",
+            "UK faces an unprecedented growth challenge: current 1–2% forecasts are insufficient to sustain world-class public services.",
+            "Housing, energy costs, excessive taxation, and excessive regulation are the four binding constraints on UK growth."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "productivity_growth",
+            "fiscal_responsibility"
+          ],
+          "hf_alignment_note": "Partial — GDP uplift figures are in similar range to Fudge's +5.7% Y10 estimate, but mechanism differs fundamentally. Policy Exchange/ASI favour deregulation and private sector; Fudge favours public investment and industrial strategy alongside supply-side reform."
+        }
+      ]
     }
-  ]
+  ],
+  "manual_sources_merged_at": "2026-05-17T11:24:46.255824+00:00"
 }

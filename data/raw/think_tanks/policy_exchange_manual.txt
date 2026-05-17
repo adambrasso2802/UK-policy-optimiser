@@ -1,0 +1,53 @@
+=== SOURCE: Policy Exchange ===
+URL: https://policyexchange.org.uk
+Lean: Centre-right
+Fetched manually: May 2026
+
+--- REPORT 1 ---
+Title: The UK's Broken Housing Market: Causes, Consequences and Cures
+Date: 2024
+URL: https://policyexchange.org.uk/publication/the-uks-broken-housing-market/
+Summary: Comprehensive diagnosis of UK housing dysfunction. Argues housing affordability crisis is "the very core of the crisis of confidence in capitalism itself." Sets out 16 specific reform recommendations focused on planning reform, land release, and property tax restructuring.
+Key Recommendations:
+- Scrap the 1947 Town and Country Planning Act on a limited basis via a Special Development Order
+- Introduce a new rules-based planning system based on zoning — trialled first in cities and their immediate environs
+- Overhaul Green Belt designation: land of genuine environmental value recategorised as AONB; remaining land zoned for permitted development
+- Launch a new Public Land for Housing Programme requiring government departments to transfer land to Homes England
+- Reform council tax: introduce two additional bands at the top of the property value scale, one new band at the bottom, increase rates in top bands, remove single person exemption
+- Introduce a Stamp Duty exemption for last-time buyers to encourage downsizing
+- Make hospitals and prisons eligible for the Nationally Significant Infrastructure Projects regime
+Henry Fudge Alignment: Partial — Policy Exchange and Fudge agree on planning reform urgency and supply-side diagnosis. Fudge goes further with Land Value Tax; Policy Exchange focuses on council tax reform and zoning rather than LVT.
+
+--- REPORT 2 ---
+Title: Homes for Growth
+Date: 2024
+URL: https://policyexchange.org.uk/publication/homes-for-growth/
+Summary: Examines the macroeconomic consequences of housing undersupply. Argues housing shortage has a "chilling effect on the economy as a whole." Documents how wealth inequality driven by property is suppressing consumer spending — capital is being transferred from high-propensity-to-consume households to low-propensity-to-consume landlords.
+Key Recommendations:
+- Housing supply is the central economic constraint on UK growth — must be treated as a macroeconomic priority, not just a social policy
+- Wealth inequality driven by housing is non-neutral: it transfers spending power from renters to landlords, suppressing domestic demand
+- Social housing waiting list of 1.19 million (2021) and 86,000 households in temporary accommodation represent both a human and fiscal crisis
+- Housing benefit costs (£31.3bn projected 2025-26) will continue rising without structural supply reform
+- Growth requires housing — you cannot separate the two policy areas
+Henry Fodge Alignment: High — directly supports Fudge's housing theory of everything thesis. Policy Exchange reaches similar conclusions from a centre-right supply-side perspective, without the LVT mechanism.
+
+--- REPORT 3 ---
+Title: Pro-Growth Reforms Could Add Over £400bn to UK GDP
+Date: January 2026
+URL: https://www.adamsmith.org (co-published with Adam Smith Institute)
+Summary: Models the GDP impact of a suite of supply-side reforms across housing, energy, taxation, and regulation. Central estimate: 10-20% uplift to UK GDP over the long term, equivalent to £428bn additional GDP by 2036, or £5,800 per capita in 2036 nominal terms (£4,700 in 2025 terms).
+Key Recommendations:
+- Housing, energy costs, excessive taxation, and excessive regulation are the four binding constraints on UK growth
+- Planning reform alone could unlock significant GDP gains through improved capital deepening and labour mobility
+- Private sector-led growth through deregulation and tax reform is the primary lever — not state investment
+- UK faces an unprecedented growth challenge: current 1-2% forecasts are insufficient to sustain world-class public services
+Henry Fudge Alignment: Partial — GDP uplift figures are in similar range to Fudge's +5.7% Y10 estimate, but mechanism differs fundamentally. Policy Exchange/ASI favour deregulation and private sector; Fudge favours public investment and industrial strategy alongside supply-side reform.
+
+=== POLICY EXCHANGE OVERALL POSITIONS ===
+On GDP growth: Supply-side reform is primary lever. Housing and planning are binding constraints. Private sector deregulation preferred over state-led industrial policy.
+On inequality: Wealth inequality is a problem but primarily addressed through enabling homeownership and growth, not redistribution.
+On poverty: Housing costs are the primary driver of poverty — supply reform reduces poverty more effectively than benefit increases.
+On taxation: Lower, simpler taxes preferred. Council tax reform (more bands) rather than LVT. Stamp duty reform to encourage market mobility.
+On housing: Planning system is the root cause. Zoning-based reform, green belt reclassification, public land release. 16-point reform programme.
+On public finances: Fiscal consolidation preferred. Growth through private sector rather than public borrowing to invest.
+Ideological distinction from Fudge: Policy Exchange reaches many similar housing diagnoses but prescribes market-led supply reform rather than LVT and public construction. Strongly opposed to nationalisation (water, grid). Sceptical of European market access as growth lever.
