@@ -1,0 +1,1652 @@
+{
+  "generated_at": "2026-05-17T12:03:19.530109Z",
+  "description": "Economic impact model for top 20 UK priority policies",
+  "methodology": {
+    "gdp": "Keynesian fiscal multipliers (OBR WP13; IMF WP/12/190) + supply-side elasticities (OECD)",
+    "poverty": "Change in % households below 60% median equivalised disposable income (ONS definition)",
+    "inequality": "Gini coefficient change (ONS ETB series); quintile income share shifts",
+    "combined": "Sum of individual effects with interaction/crowding-out discounts; 10-year horizon to 2035",
+    "scenarios": "Low = 60% of central, High = 140% of central; all labelled with confidence intervals"
+  },
+  "baseline": {
+    "gdp_growth_2025_pct": 1.4,
+    "obr_10yr_avg_forecast_pct": 1.6,
+    "gini_2024": 0.329,
+    "poverty_rate_2023_pct": 18.0,
+    "people_in_poverty_m": 12.08,
+    "bottom_quintile_share_pct": 7.5,
+    "top_quintile_share_pct": 42.0,
+    "oecd_rank": 18,
+    "gdp_gbp_bn": 2700,
+    "population_m": 67.1
+  },
+  "policy_models": [
+    {
+      "id": "universal_childcare",
+      "rank": 1,
+      "name": "Universal Childcare \u2014 Properly Funded Entitlement",
+      "cluster": "Social Investment",
+      "cost_gbp_bn_yr": 7.0,
+      "composite_score": 7.4,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.1702,
+          "central": 0.2837,
+          "high": 0.3972
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 1.4469,
+          "central": 2.4115,
+          "high": 3.3761
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.77,
+          "central": 1.88,
+          "high": 2.0
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 4,
+        "assumptions": {
+          "fiscal_multiplier": 1.3,
+          "supply_side_gdp_gain_pct": 2.0,
+          "supply_side_phasing_years": 8,
+          "notes": "FLFP elasticity from OECD; multiplier from IMF WP/14/174; Gini from IFS Deaton Review 2026 igp compression.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 10.53,
+          "central": 16.2,
+          "high": 21.87
+        },
+        "change_pp": {
+          "low": -1.17,
+          "central": -1.8,
+          "high": -2.43
+        },
+        "people_lifted_m": {
+          "low": 0.7851,
+          "central": 1.2078,
+          "high": 1.6305
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2219,
+          "central": 0.317,
+          "high": 0.4121
+        },
+        "gini_change": {
+          "low": -0.0084,
+          "central": -0.012,
+          "high": -0.0156
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.53,
+          "central": 7.9,
+          "high": 10.27
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.19,
+          "central": 41.7,
+          "high": 54.21
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "universal_credit_reform",
+      "rank": 2,
+      "name": "Universal Credit Reform \u2014 Taper Rate, Five-Week Wait, Work Allowances",
+      "cluster": "Social Security",
+      "cost_gbp_bn_yr": 4.5,
+      "composite_score": 7.15,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.057,
+          "central": 0.095,
+          "high": 0.133
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.5415,
+          "central": 0.9025,
+          "high": 1.2635
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.66,
+          "central": 1.7,
+          "high": 1.73
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 2,
+        "assumptions": {
+          "fiscal_multiplier": 0.9,
+          "supply_side_gdp_gain_pct": 0.4,
+          "supply_side_phasing_years": 5,
+          "notes": "Resolution Foundation 2024; taper cut from 55 % to 45 % adds labour supply; DWP modelling.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 10.14,
+          "central": 15.6,
+          "high": 21.06
+        },
+        "change_pp": {
+          "low": -1.56,
+          "central": -2.4,
+          "high": -3.24
+        },
+        "people_lifted_m": {
+          "low": 1.0468,
+          "central": 1.6104,
+          "high": 2.174
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2233,
+          "central": 0.319,
+          "high": 0.4147
+        },
+        "gini_change": {
+          "low": -0.007,
+          "central": -0.01,
+          "high": -0.013
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.6,
+          "central": 8.0,
+          "high": 10.4
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.33,
+          "central": 41.9,
+          "high": 54.47
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "land_value_tax",
+      "rank": 3,
+      "name": "Land Value Tax on Investment Properties",
+      "cluster": "Housing",
+      "cost_gbp_bn_yr": -28.0,
+      "composite_score": 7.05,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0429,
+          "central": 0.0714,
+          "high": 0.1
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.3429,
+          "central": 0.5714,
+          "high": 0.8
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.64,
+          "central": 1.67,
+          "high": 1.7
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 5,
+        "assumptions": {
+          "fiscal_multiplier": 0.0,
+          "supply_side_gdp_gain_pct": 0.5,
+          "supply_side_phasing_years": 7,
+          "notes": "OECD Tax Policy Studies No. 20 LVT GDP neutral in static sense but improves allocative efficiency; Mirrlees Review.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.18,
+          "central": 17.2,
+          "high": 23.22
+        },
+        "change_pp": {
+          "low": -0.52,
+          "central": -0.8,
+          "high": -1.08
+        },
+        "people_lifted_m": {
+          "low": 0.3489,
+          "central": 0.5368,
+          "high": 0.7247
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2247,
+          "central": 0.321,
+          "high": 0.4173
+        },
+        "gini_change": {
+          "low": -0.0056,
+          "central": -0.008,
+          "high": -0.0104
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.39,
+          "central": 7.7,
+          "high": 10.01
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 28.98,
+          "central": 41.4,
+          "high": 53.82
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "government_housing_construction",
+      "rank": 4,
+      "name": "Government-Led Mass Housing Construction (300,000/yr)",
+      "cluster": "Housing",
+      "cost_gbp_bn_yr": 20.0,
+      "composite_score": 6.95,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0802,
+          "central": 0.1337,
+          "high": 0.1872
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.6418,
+          "central": 1.0696,
+          "high": 1.4975
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.68,
+          "central": 1.73,
+          "high": 1.79
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 5,
+        "assumptions": {
+          "fiscal_multiplier": 1.4,
+          "supply_side_gdp_gain_pct": 0.3,
+          "supply_side_phasing_years": 10,
+          "notes": "Construction multiplier OBR WP13; 300k/yr homes requires 5-yr ramp; labour mobility elasticity from OECD ECO/WKP(2019)1.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 10.725,
+          "central": 16.5,
+          "high": 22.275
+        },
+        "change_pp": {
+          "low": -0.975,
+          "central": -1.5,
+          "high": -2.025
+        },
+        "people_lifted_m": {
+          "low": 0.6542,
+          "central": 1.0065,
+          "high": 1.3588
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2247,
+          "central": 0.321,
+          "high": 0.4173
+        },
+        "gini_change": {
+          "low": -0.0056,
+          "central": -0.008,
+          "high": -0.0104
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.46,
+          "central": 7.8,
+          "high": 10.14
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.33,
+          "central": 41.9,
+          "high": 54.47
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "social_housing_investment",
+      "rank": 5,
+      "name": "Social Housing Investment at Scale \u2014 90,000 Social Rent Units/Year",
+      "cluster": "Housing",
+      "cost_gbp_bn_yr": 15.0,
+      "composite_score": 6.95,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0553,
+          "central": 0.0922,
+          "high": 0.1291
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.4427,
+          "central": 0.7378,
+          "high": 1.0329
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.66,
+          "central": 1.69,
+          "high": 1.73
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 5,
+        "assumptions": {
+          "fiscal_multiplier": 1.3,
+          "supply_side_gdp_gain_pct": 0.2,
+          "supply_side_phasing_years": 10,
+          "notes": "Shelter/CIH evidence; social rent at 50% market rate directly reduces housing cost ratio for lowest quintile.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 10.075,
+          "central": 15.5,
+          "high": 20.925
+        },
+        "change_pp": {
+          "low": -1.625,
+          "central": -2.5,
+          "high": -3.375
+        },
+        "people_lifted_m": {
+          "low": 1.0904,
+          "central": 1.6775,
+          "high": 2.2646
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2177,
+          "central": 0.311,
+          "high": 0.4043
+        },
+        "gini_change": {
+          "low": -0.0126,
+          "central": -0.018,
+          "high": -0.0234
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.67,
+          "central": 8.1,
+          "high": 10.53
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.26,
+          "central": 41.8,
+          "high": 54.34
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "esep_single_market",
+      "rank": 6,
+      "name": "European Security and Economic Partnership \u2014 Single Market + Customs Union Re-entry",
+      "cluster": "Trade & Europe",
+      "cost_gbp_bn_yr": -10.0,
+      "composite_score": 6.85,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.168,
+          "central": 0.28,
+          "high": 0.392
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 1.26,
+          "central": 2.1,
+          "high": 2.94
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.77,
+          "central": 1.88,
+          "high": 1.99
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 6,
+        "assumptions": {
+          "fiscal_multiplier": 0.0,
+          "supply_side_gdp_gain_pct": 2.8,
+          "supply_side_phasing_years": 10,
+          "notes": "Dhingra et al. (LSE/CEP) 2024; Springford (CER) 2024; trade openness elasticity to GDP 0.3\u20130.5 (OECD).",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.05,
+          "central": 17.0,
+          "high": 22.95
+        },
+        "change_pp": {
+          "low": -0.65,
+          "central": -1.0,
+          "high": -1.35
+        },
+        "people_lifted_m": {
+          "low": 0.4361,
+          "central": 0.671,
+          "high": 0.9058
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2261,
+          "central": 0.323,
+          "high": 0.4199
+        },
+        "gini_change": {
+          "low": -0.0042,
+          "central": -0.006,
+          "high": -0.0078
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.39,
+          "central": 7.7,
+          "high": 10.01
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "two_child_limit_removal",
+      "rank": 7,
+      "name": "Remove Two-Child Benefit Limit",
+      "cluster": "Social Security",
+      "cost_gbp_bn_yr": 2.5,
+      "composite_score": 6.75,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0047,
+          "central": 0.0079,
+          "high": 0.011
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.0472,
+          "central": 0.0787,
+          "high": 0.1102
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.6,
+          "central": 1.61,
+          "high": 1.61
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 1,
+        "assumptions": {
+          "fiscal_multiplier": 0.85,
+          "supply_side_gdp_gain_pct": 0.0,
+          "supply_side_phasing_years": 3,
+          "notes": "JRF/RF 2024: 400k children; immediate implementation possible.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 10.79,
+          "central": 16.6,
+          "high": 22.41
+        },
+        "change_pp": {
+          "low": -0.91,
+          "central": -1.4,
+          "high": -1.89
+        },
+        "people_lifted_m": {
+          "low": 0.6106,
+          "central": 0.9394,
+          "high": 1.2682
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2254,
+          "central": 0.322,
+          "high": 0.4186
+        },
+        "gini_change": {
+          "low": -0.0049,
+          "central": -0.007,
+          "high": -0.0091
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.46,
+          "central": 7.8,
+          "high": 10.14
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "youth_guarantee",
+      "rank": 8,
+      "name": "Youth Guarantee \u2014 Paid Offer for Every 16-24 NEET",
+      "cluster": "Social Security",
+      "cost_gbp_bn_yr": 2.0,
+      "composite_score": 6.65,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0289,
+          "central": 0.0481,
+          "high": 0.0674
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.26,
+          "central": 0.4333,
+          "high": 0.6067
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.63,
+          "central": 1.65,
+          "high": 1.67
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 3,
+        "assumptions": {
+          "fiscal_multiplier": 1.1,
+          "supply_side_gdp_gain_pct": 0.2,
+          "supply_side_phasing_years": 5,
+          "notes": "IPPR/Young Foundation 2024; NEET cost to economy \u00a36.5bn/yr (IPPR).",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.18,
+          "central": 17.2,
+          "high": 23.22
+        },
+        "change_pp": {
+          "low": -0.52,
+          "central": -0.8,
+          "high": -1.08
+        },
+        "people_lifted_m": {
+          "low": 0.3489,
+          "central": 0.5368,
+          "high": 0.7247
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2268,
+          "central": 0.324,
+          "high": 0.4212
+        },
+        "gini_change": {
+          "low": -0.0035,
+          "central": -0.005,
+          "high": -0.0065
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.39,
+          "central": 7.7,
+          "high": 10.01
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "nhs_funding_uplift",
+      "rank": 9,
+      "name": "NHS Funding Uplift \u2014 Workforce Pay, Procurement Reform, Consultancy Reduction",
+      "cluster": "Public Services",
+      "cost_gbp_bn_yr": 14.0,
+      "composite_score": 6.6,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0567,
+          "central": 0.0945,
+          "high": 0.1324
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.4821,
+          "central": 0.8036,
+          "high": 1.125
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.66,
+          "central": 1.69,
+          "high": 1.73
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 4,
+        "assumptions": {
+          "fiscal_multiplier": 1.1,
+          "supply_side_gdp_gain_pct": 0.3,
+          "supply_side_phasing_years": 8,
+          "notes": "OBR health productivity estimates; IMF Fiscal Monitor 2014; NHS waiting list economic cost \u00a315bn (HMT).",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.245,
+          "central": 17.3,
+          "high": 23.355
+        },
+        "change_pp": {
+          "low": -0.455,
+          "central": -0.7,
+          "high": -0.945
+        },
+        "people_lifted_m": {
+          "low": 0.3053,
+          "central": 0.4697,
+          "high": 0.6341
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2254,
+          "central": 0.322,
+          "high": 0.4186
+        },
+        "gini_change": {
+          "low": -0.0049,
+          "central": -0.007,
+          "high": -0.0091
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.39,
+          "central": 7.7,
+          "high": 10.01
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "flexicurity_reform",
+      "rank": 10,
+      "name": "Flexicurity Labour Market Reform \u2014 Danish Model Elements",
+      "cluster": "Labour Market",
+      "cost_gbp_bn_yr": 8.0,
+      "composite_score": 6.55,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0928,
+          "central": 0.1546,
+          "high": 0.2165
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.6958,
+          "central": 1.1597,
+          "high": 1.6236
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.69,
+          "central": 1.75,
+          "high": 1.82
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 6,
+        "assumptions": {
+          "fiscal_multiplier": 1.0,
+          "supply_side_gdp_gain_pct": 1.0,
+          "supply_side_phasing_years": 8,
+          "notes": "Andersen & Svarer (2007); OECD Jobs Strategy 2018; Danish vs UK unemployment/poverty comparison.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 10.725,
+          "central": 16.5,
+          "high": 22.275
+        },
+        "change_pp": {
+          "low": -0.975,
+          "central": -1.5,
+          "high": -2.025
+        },
+        "people_lifted_m": {
+          "low": 0.6542,
+          "central": 1.0065,
+          "high": 1.3588
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2205,
+          "central": 0.315,
+          "high": 0.4095
+        },
+        "gini_change": {
+          "low": -0.0098,
+          "central": -0.014,
+          "high": -0.0182
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.6,
+          "central": 8.0,
+          "high": 10.4
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.26,
+          "central": 41.8,
+          "high": 54.34
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "fe_college_funding",
+      "rank": 11,
+      "name": "FE College Funding Restoration \u2014 \u00a33bn/Year",
+      "cluster": "Education & Skills",
+      "cost_gbp_bn_yr": 3.0,
+      "composite_score": 6.55,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0223,
+          "central": 0.0372,
+          "high": 0.0521
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.201,
+          "central": 0.335,
+          "high": 0.469
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.62,
+          "central": 1.64,
+          "high": 1.65
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 3,
+        "assumptions": {
+          "fiscal_multiplier": 1.1,
+          "supply_side_gdp_gain_pct": 0.2,
+          "supply_side_phasing_years": 8,
+          "notes": "NIESR 2023; AoC 2024; education multiplier OBR-consistent.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.245,
+          "central": 17.3,
+          "high": 23.355
+        },
+        "change_pp": {
+          "low": -0.455,
+          "central": -0.7,
+          "high": -0.945
+        },
+        "people_lifted_m": {
+          "low": 0.3053,
+          "central": 0.4697,
+          "high": 0.6341
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2254,
+          "central": 0.322,
+          "high": 0.4186
+        },
+        "gini_change": {
+          "low": -0.0049,
+          "central": -0.007,
+          "high": -0.0091
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.46,
+          "central": 7.8,
+          "high": 10.14
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.33,
+          "central": 41.9,
+          "high": 54.47
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "rd_spending_increase",
+      "rank": 12,
+      "name": "R&D Spending to 2.4% of GDP \u2014 Tax Credits, Grants and Public R&D",
+      "cluster": "Investment & Productivity",
+      "cost_gbp_bn_yr": 7.0,
+      "composite_score": 6.45,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0424,
+          "central": 0.0707,
+          "high": 0.099
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.3396,
+          "central": 0.5659,
+          "high": 0.7923
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.64,
+          "central": 1.67,
+          "high": 1.7
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 5,
+        "assumptions": {
+          "fiscal_multiplier": 0.8,
+          "supply_side_gdp_gain_pct": 0.5,
+          "supply_side_phasing_years": 10,
+          "notes": "OECD Science Technology Scoreboard; Hall et al. (2010) R&D elasticities; R&D \u2192 productivity with 5yr lag.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.57,
+          "central": 17.8,
+          "high": 24.03
+        },
+        "change_pp": {
+          "low": -0.13,
+          "central": -0.2,
+          "high": -0.27
+        },
+        "people_lifted_m": {
+          "low": 0.0872,
+          "central": 0.1342,
+          "high": 0.1812
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2317,
+          "central": 0.331,
+          "high": 0.4303
+        },
+        "gini_change": {
+          "low": 0.0014,
+          "central": 0.002,
+          "high": 0.0026
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.25,
+          "central": 7.5,
+          "high": 9.75
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.47,
+          "central": 42.1,
+          "high": 54.73
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "electricity_market_decoupling",
+      "rank": 13,
+      "name": "Electricity Market Decoupling from Gas Pricing",
+      "cluster": "Energy",
+      "cost_gbp_bn_yr": 0.0,
+      "composite_score": 6.35,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.045,
+          "central": 0.075,
+          "high": 0.105
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.4275,
+          "central": 0.7125,
+          "high": 0.9975
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.65,
+          "central": 1.68,
+          "high": 1.71
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 2,
+        "assumptions": {
+          "fiscal_multiplier": 0.0,
+          "supply_side_gdp_gain_pct": 0.3,
+          "supply_side_phasing_years": 4,
+          "notes": "DESNZ Electricity Market Reform 2024; gas-electricity price decoupling per Ofgem modelling.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.115,
+          "central": 17.1,
+          "high": 23.085
+        },
+        "change_pp": {
+          "low": -0.585,
+          "central": -0.9,
+          "high": -1.215
+        },
+        "people_lifted_m": {
+          "low": 0.3925,
+          "central": 0.6039,
+          "high": 0.8153
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2268,
+          "central": 0.324,
+          "high": 0.4212
+        },
+        "gini_change": {
+          "low": -0.0035,
+          "central": -0.005,
+          "high": -0.0065
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.39,
+          "central": 7.7,
+          "high": 10.01
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "universal_free_school_meals",
+      "rank": 14,
+      "name": "Universal Free School Meals \u2014 All Primary School Children",
+      "cluster": "Social Security",
+      "cost_gbp_bn_yr": 1.5,
+      "composite_score": 6.35,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0043,
+          "central": 0.0072,
+          "high": 0.0101
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.0433,
+          "central": 0.0722,
+          "high": 0.1011
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.6,
+          "central": 1.61,
+          "high": 1.61
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 1,
+        "assumptions": {
+          "fiscal_multiplier": 0.85,
+          "supply_side_gdp_gain_pct": 0.05,
+          "supply_side_phasing_years": 20,
+          "notes": "IFS 2023; Magic Breakfast research; SACN nutrition evidence.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.245,
+          "central": 17.3,
+          "high": 23.355
+        },
+        "change_pp": {
+          "low": -0.455,
+          "central": -0.7,
+          "high": -0.945
+        },
+        "people_lifted_m": {
+          "low": 0.3053,
+          "central": 0.4697,
+          "high": 0.6341
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2275,
+          "central": 0.325,
+          "high": 0.4225
+        },
+        "gini_change": {
+          "low": -0.0028,
+          "central": -0.004,
+          "high": -0.0052
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.355,
+          "central": 7.65,
+          "high": 9.945
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "apprenticeship_levy_reform",
+      "rank": 15,
+      "name": "Apprenticeship Levy Reform \u2014 Genuine Apprenticeships, 600k Starts/Year",
+      "cluster": "Education & Skills",
+      "cost_gbp_bn_yr": 0.0,
+      "composite_score": 6.3,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.02,
+          "central": 0.0333,
+          "high": 0.0467
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.18,
+          "central": 0.3,
+          "high": 0.42
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.62,
+          "central": 1.63,
+          "high": 1.65
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 3,
+        "assumptions": {
+          "fiscal_multiplier": 0.0,
+          "supply_side_gdp_gain_pct": 0.2,
+          "supply_side_phasing_years": 6,
+          "notes": "IfATE 2024; CIPD apprenticeship quality studies; 600k genuine starts vs current box-ticking levy use.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.375,
+          "central": 17.5,
+          "high": 23.625
+        },
+        "change_pp": {
+          "low": -0.325,
+          "central": -0.5,
+          "high": -0.675
+        },
+        "people_lifted_m": {
+          "low": 0.2181,
+          "central": 0.3355,
+          "high": 0.4529
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2275,
+          "central": 0.325,
+          "high": 0.4225
+        },
+        "gini_change": {
+          "low": -0.0028,
+          "central": -0.004,
+          "high": -0.0052
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.355,
+          "central": 7.65,
+          "high": 9.945
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "vocational_education_overhaul",
+      "rank": 16,
+      "name": "Vocational Education Overhaul \u2014 T-Levels, MBO-Style Pathways",
+      "cluster": "Education & Skills",
+      "cost_gbp_bn_yr": 2.0,
+      "composite_score": 6.25,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.019,
+          "central": 0.0317,
+          "high": 0.0443
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.1615,
+          "central": 0.2692,
+          "high": 0.3768
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.62,
+          "central": 1.63,
+          "high": 1.64
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 4,
+        "assumptions": {
+          "fiscal_multiplier": 0.9,
+          "supply_side_gdp_gain_pct": 0.2,
+          "supply_side_phasing_years": 8,
+          "notes": "Netherlands MBO model; T-levels OFSTED evaluations; OECD VET at a Glance 2023.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.375,
+          "central": 17.5,
+          "high": 23.625
+        },
+        "change_pp": {
+          "low": -0.325,
+          "central": -0.5,
+          "high": -0.675
+        },
+        "people_lifted_m": {
+          "low": 0.2181,
+          "central": 0.3355,
+          "high": 0.4529
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2268,
+          "central": 0.324,
+          "high": 0.4212
+        },
+        "gini_change": {
+          "low": -0.0035,
+          "central": -0.005,
+          "high": -0.0065
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.39,
+          "central": 7.7,
+          "high": 10.01
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "skills_future_adult_training",
+      "rank": 17,
+      "name": "SkillsFuture-Style Adult Training Credit",
+      "cluster": "Education & Skills",
+      "cost_gbp_bn_yr": 2.0,
+      "composite_score": 6.2,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0152,
+          "central": 0.0254,
+          "high": 0.0356
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.1373,
+          "central": 0.2288,
+          "high": 0.3202
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.62,
+          "central": 1.63,
+          "high": 1.64
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 3,
+        "assumptions": {
+          "fiscal_multiplier": 0.9,
+          "supply_side_gdp_gain_pct": 0.15,
+          "supply_side_phasing_years": 8,
+          "notes": "Singapore SkillsFuture evaluation (MOM 2023); adult retraining elasticity to earnings.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.44,
+          "central": 17.6,
+          "high": 23.76
+        },
+        "change_pp": {
+          "low": -0.26,
+          "central": -0.4,
+          "high": -0.54
+        },
+        "people_lifted_m": {
+          "low": 0.1745,
+          "central": 0.2684,
+          "high": 0.3623
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2275,
+          "central": 0.325,
+          "high": 0.4225
+        },
+        "gini_change": {
+          "low": -0.0028,
+          "central": -0.004,
+          "high": -0.0052
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.355,
+          "central": 7.65,
+          "high": 9.945
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "fiscal_devolution",
+      "rank": 18,
+      "name": "Fiscal Devolution to City Regions \u2014 Revenue Retention and Local Tax Powers",
+      "cluster": "Governance",
+      "cost_gbp_bn_yr": 0.0,
+      "composite_score": 6.15,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.018,
+          "central": 0.03,
+          "high": 0.042
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.144,
+          "central": 0.24,
+          "high": 0.336
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.62,
+          "central": 1.63,
+          "high": 1.64
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 5,
+        "assumptions": {
+          "fiscal_multiplier": 0.0,
+          "supply_side_gdp_gain_pct": 0.3,
+          "supply_side_phasing_years": 10,
+          "notes": "Centre for Cities 2024; Manchester devolution evaluation; OECD regional development elasticities.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.44,
+          "central": 17.6,
+          "high": 23.76
+        },
+        "change_pp": {
+          "low": -0.26,
+          "central": -0.4,
+          "high": -0.54
+        },
+        "people_lifted_m": {
+          "low": 0.1745,
+          "central": 0.2684,
+          "high": 0.3623
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2275,
+          "central": 0.325,
+          "high": 0.4225
+        },
+        "gini_change": {
+          "low": -0.0028,
+          "central": -0.004,
+          "high": -0.0052
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.32,
+          "central": 7.6,
+          "high": 9.88
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "social_care_integration",
+      "rank": 19,
+      "name": "Social Care Integration \u2014 \u00a34bn/Year Additional Investment",
+      "cluster": "Public Services",
+      "cost_gbp_bn_yr": 4.0,
+      "composite_score": 6.1,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0248,
+          "central": 0.0413,
+          "high": 0.0578
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.223,
+          "central": 0.3717,
+          "high": 0.5203
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.62,
+          "central": 1.64,
+          "high": 1.66
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 3,
+        "assumptions": {
+          "fiscal_multiplier": 1.1,
+          "supply_side_gdp_gain_pct": 0.15,
+          "supply_side_phasing_years": 6,
+          "notes": "Carers UK 2024: 4.3m carers, economic cost \u00a3132bn; ADASS integration savings; Dilnot review.",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.245,
+          "central": 17.3,
+          "high": 23.355
+        },
+        "change_pp": {
+          "low": -0.455,
+          "central": -0.7,
+          "high": -0.945
+        },
+        "people_lifted_m": {
+          "low": 0.3053,
+          "central": 0.4697,
+          "high": 0.6341
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2261,
+          "central": 0.323,
+          "high": 0.4199
+        },
+        "gini_change": {
+          "low": -0.0042,
+          "central": -0.006,
+          "high": -0.0078
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.39,
+          "central": 7.7,
+          "high": 10.01
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.4,
+          "central": 42.0,
+          "high": 54.6
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    },
+    {
+      "id": "planning_reform",
+      "rank": 20,
+      "name": "Planning Reform \u2014 Zoning-Based System, By-Right Development",
+      "cluster": "Housing",
+      "cost_gbp_bn_yr": 0.5,
+      "composite_score": 5.75,
+      "gdp_impact": {
+        "annual_growth_uplift_pp": {
+          "low": 0.0223,
+          "central": 0.0372,
+          "high": 0.0521
+        },
+        "cumulative_10yr_gdp_level_gain_pct": {
+          "low": 0.1787,
+          "central": 0.2978,
+          "high": 0.4169
+        },
+        "projected_10yr_avg_growth_rate_pct": {
+          "low": 1.62,
+          "central": 1.64,
+          "high": 1.65
+        },
+        "obr_baseline_rate_pct": 1.6,
+        "phasing_years": 5,
+        "assumptions": {
+          "fiscal_multiplier": 1.2,
+          "supply_side_gdp_gain_pct": 0.35,
+          "supply_side_phasing_years": 10,
+          "notes": "OBR Fiscal Risks Report 2023; Hilber & Vermeulen (2016) planning constraints cost 2% GDP; zoning reform evidence (New Zealand).",
+          "source": "OBR Working Paper 13; IMF WP/12/190; OECD Economic Outlook elasticities"
+        }
+      },
+      "poverty_impact": {
+        "baseline_pct": 18.0,
+        "projected_pct": {
+          "low": 11.18,
+          "central": 17.2,
+          "high": 23.22
+        },
+        "change_pp": {
+          "low": -0.52,
+          "central": -0.8,
+          "high": -1.08
+        },
+        "people_lifted_m": {
+          "low": 0.3489,
+          "central": 0.5368,
+          "high": 0.7247
+        },
+        "assumption": "Poverty = % households below 60% median equivalised disposable income (ONS). Effect size from policy-specific evidence; assumes behaviour change occurs within phasing period."
+      },
+      "inequality_impact": {
+        "gini_baseline": 0.329,
+        "gini_projected": {
+          "low": 0.2261,
+          "central": 0.323,
+          "high": 0.4199
+        },
+        "gini_change": {
+          "low": -0.0042,
+          "central": -0.006,
+          "high": -0.0078
+        },
+        "bottom_quintile_share_pct_baseline": 7.5,
+        "bottom_quintile_share_pct_projected": {
+          "low": 5.39,
+          "central": 7.7,
+          "high": 10.01
+        },
+        "top_quintile_share_pct_baseline": 42.0,
+        "top_quintile_share_pct_projected": {
+          "low": 29.33,
+          "central": 41.9,
+          "high": 54.47
+        },
+        "assumption": "Gini delta estimated from comparable international reforms and distributional microsimulation literature.  Quintile shares from ONS ETB; changes proportional to targeted benefit/cost incidence."
+      }
+    }
+  ],
+  "combined_scenario": {
+    "description": "All 20 priority policies implemented together over 10 years (2026\u20132035). A 15% interaction/crowding-out discount applied to GDP; 10% diminishing-returns discount applied to distributional impacts.",
+    "total_net_annual_cost_gbp_bn": 55.0,
+    "gdp": {
+      "annual_growth_uplift_pp_adj": 1.403,
+      "cumulative_10yr_level_gain_pct": 11.61,
+      "projected_avg_growth_rate_pct": {
+        "low": 2.44,
+        "central": 3.0,
+        "high": 3.56
+      },
+      "obr_baseline_pct": 1.6,
+      "interaction_discount_applied": "15%"
+    },
+    "poverty_2035": {
+      "projected_rate_pct": 5.0,
+      "baseline_rate_pct": 18.0,
+      "change_pp": -18.2,
+      "people_lifted_above_poverty_m": 12.2,
+      "diminishing_returns_discount": "10%"
+    },
+    "inequality_2035": {
+      "projected_gini": 0.25,
+      "baseline_gini": 0.329,
+      "gini_change": -0.124,
+      "gini_narrative": "Gini falls from 0.329 to approximately 0.250 (a reduction of 0.124 Gini points), moving UK from current level towards Nordic peer group (Denmark 0.29, Sweden 0.27).",
+      "projected_bottom_quintile_share_pct": 12.0,
+      "projected_top_quintile_share_pct": 40.6,
+      "baseline_bottom_quintile_share_pct": 7.5,
+      "baseline_top_quintile_share_pct": 42.0
+    },
+    "oecd_ranking_2035": {
+      "projected_rank": 15,
+      "baseline_rank": 18,
+      "rank_improvement": 3,
+      "note": "Estimated improvement of 3 places in OECD GDP-per-capita ranking (from ~18 to ~15 out of 38 members). Based on cumulative GDP level gains relative to OECD average growth trajectory. Ranking is illustrative; assumes peer nations do not implement equivalent reforms."
+    },
+    "alerts": [],
+    "assumptions": {
+      "interaction_discount_gdp": "15% \u2014 crowd-out from fiscal constraint and labour market capacity",
+      "interaction_discount_dist": "10% \u2014 diminishing returns when multiple programmes target same households",
+      "oecd_rank_method": "~3pp cumulative GDP level gain \u2248 1 OECD rank place (illustrative)",
+      "floor_poverty_pct": "5% \u2014 structural minimum (no country with market economy below ~4\u20135%)",
+      "floor_gini": "0.25 \u2014 Nordic best practice (Denmark 2024 Gini ~0.29)"
+    }
+  },
+  "alerts": []
+}
