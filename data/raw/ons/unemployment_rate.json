@@ -1,0 +1,49 @@
+{
+  "metric": "Unemployment rate (ILO, aged 16+, %)",
+  "unit": "%",
+  "source": "ONS timeseries API",
+  "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/timeseries/mgsx/lms/data",
+  "ons_uri": "/employmentandlabourmarket/peoplenotinwork/unemployment/timeseries/mgsx/lms",
+  "records": [
+    {
+      "year": 2016,
+      "value": 4.9
+    },
+    {
+      "year": 2017,
+      "value": 4.4
+    },
+    {
+      "year": 2018,
+      "value": 4.1
+    },
+    {
+      "year": 2019,
+      "value": 3.8
+    },
+    {
+      "year": 2020,
+      "value": 4.6
+    },
+    {
+      "year": 2021,
+      "value": 4.6
+    },
+    {
+      "year": 2022,
+      "value": 3.8
+    },
+    {
+      "year": 2023,
+      "value": 4.1
+    },
+    {
+      "year": 2024,
+      "value": 4.3
+    },
+    {
+      "year": 2025,
+      "value": 4.8
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "generated_at": "2026-05-17T03:14:23.241037Z",
+  "description": "UK economic and social baseline metrics \u2014 all from official UK sources",
+  "primary_api": "https://www.ons.gov.uk/{ons_uri}/data",
+  "metrics": {
+    "gdp_growth_rate": {
+      "metric": "GDP growth rate (annual %)",
+      "unit": "% year-on-year",
+      "source": "ONS timeseries API",
+      "source_url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/timeseries/ihyp/qna/data",
+      "ons_uri": "/economy/grossdomesticproductgdp/timeseries/ihyp/qna",
+      "records": [
+        {
+          "year": 2016,
+          "value": 2.2
+        },
+        {
+          "year": 2017,
+          "value": 3.0
+        },
+        {
+          "year": 2018,
+          "value": 1.6
+        },
+        {
+          "year": 2019,
+          "value": 1.3
+        },
+        {
+          "year": 2020,
+          "value": -10.0
+        },
+        {
+          "year": 2021,
+          "value": 8.5
+        },
+        {
+          "year": 2022,
+          "value": 5.1
+        },
+        {
+          "year": 2023,
+          "value": 0.3
+        },
+        {
+          "year": 2024,
+          "value": 1.1
+        },
+        {
+          "year": 2025,
+          "value": 1.4
+        }
+      ]
+    },
+    "gini_coefficient": {
+      "metric": "Gini coefficient (equivalised disposable household income)",
+      "unit": "Gini coefficient (0=perfect equality, 1=perfect inequality)",
+      "source": "ONS Effects of Taxes and Benefits \u2014 Table 10 (adjusted series)",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/householddisposableincomeandinequality/financialyearending2024/hdiifye2024_correction_final.xlsx",
+      "dataset_api_url": "https://api.ons.gov.uk/v1/data?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/householddisposableincomeandinequality/financialyearending2024",
+      "note": "Disposable income Gini. FY years mapped to end year (e.g. 2023/24 \u2192 2024).",
+      "records": [
+        {
+          "year": 2016,
+          "value": 0.351
+        },
+        {
+          "year": 2017,
+          "value": 0.334
+        },
+        {
+          "year": 2018,
+          "value": 0.35
+        },
+        {
+          "year": 2019,
+          "value": 0.36
+        },
+        {
+          "year": 2020,
+          "value": 0.354
+        },
+        {
+          "year": 2021,
+          "value": 0.344
+        },
+        {
+          "year": 2022,
+          "value": 0.355
+        },
+        {
+          "year": 2023,
+          "value": 0.331
+        },
+        {
+          "year": 2024,
+          "value": 0.329
+        }
+      ]
+    },
+    "income_shares": {
+      "metric": "Household income inequality \u2014 top & bottom decile shares + S80/S20",
+      "unit": "% disposable income (decile shares); ratio (S80/S20)",
+      "source": "ONS Effects of Taxes and Benefits \u2014 Tables 4 & 10",
+      "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/householddisposableincomeandinequality/financialyearending2024/hdiifye2024_correction_final.xlsx",
+      "dataset_api_url": "https://api.ons.gov.uk/v1/data?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/householddisposableincomeandinequality/financialyearending2024",
+      "latest_year": 2024,
+      "latest_fy": "2023/24",
+      "top_10pct_disposable_share_pct": 25.0,
+      "bottom_10pct_disposable_share_pct": 3.0,
+      "s80s20_ratio_timeseries": [
+        {
+          "year": 2016,
+          "value": 5.6
+        },
+        {
+          "year": 2017,
+          "value": 5.2
+        },
+        {
+          "year": 2018,
+          "value": 5.8
+        },
+        {
+          "year": 2019,
+          "value": 6.2
+        },
+        {
+          "year": 2020,
+          "value": 5.8
+        },
+        {
+          "year": 2021,
+          "value": 5.9
+        },
+        {
+          "year": 2022,
+          "value": 6.2
+        },
+        {
+          "year": 2023,
+          "value": 5.5
+        },
+        {
+          "year": 2024,
+          "value": 5.6
+        }
+      ]
+    },
+    "poverty_rate": {
+      "metric": "Relative poverty rate \u2014 individuals below 60% median income (BHC)",
+      "unit": "% of individuals",
+      "source": "DWP Households Below Average Income (HBAI)",
+      "source_url": "https://www.gov.uk/government/statistics/households-below-average-income-for-financial-years-ending-1995-to-2023",
+      "note": "FY years mapped to end year (e.g. FY2022/23 \u2192 2023). Before Housing Costs (BHC). DWP does not offer a JSON API; values extracted from HBAI Table 1_1 statistical release.",
+      "records": [
+        {
+          "year": 2015,
+          "value": 16
+        },
+        {
+          "year": 2016,
+          "value": 16
+        },
+        {
+          "year": 2017,
+          "value": 17
+        },
+        {
+          "year": 2018,
+          "value": 17
+        },
+        {
+          "year": 2019,
+          "value": 18
+        },
+        {
+          "year": 2020,
+          "value": 18
+        },
+        {
+          "year": 2021,
+          "value": 17
+        },
+        {
+          "year": 2022,
+          "value": 18
+        },
+        {
+          "year": 2023,
+          "value": 18
+        }
+      ]
+    },
+    "productivity": {
+      "metric": "Output per hour worked (index, 2023=100)",
+      "unit": "index (2023=100)",
+      "source": "ONS timeseries API",
+      "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/timeseries/lzvb/prdy/data",
+      "ons_uri": "/employmentandlabourmarket/peopleinwork/labourproductivity/timeseries/lzvb/prdy",
+      "records": [
+        {
+          "year": 2016,
+          "value": 94.3
+        },
+        {
+          "year": 2017,
+          "value": 96.3
+        },
+        {
+          "year": 2018,
+          "value": 96.9
+        },
+        {
+          "year": 2019,
+          "value": 96.7
+        },
+        {
+          "year": 2020,
+          "value": 98.2
+        },
+        {
+          "year": 2021,
+          "value": 99.6
+        },
+        {
+          "year": 2022,
+          "value": 100.4
+        },
+        {
+          "year": 2023,
+          "value": 100.0
+        },
+        {
+          "year": 2024,
+          "value": 99.2
+        }
+      ]
+    },
+    "rd_expenditure": {
+      "metric": "Gross domestic expenditure on R&D (GERD) as % of GDP",
+      "unit": "% of GDP",
+      "source": "ONS UK Gross Domestic Expenditure on Research and Development bulletin",
+      "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/bulletins/ukgrossdomesticexpenditureonresearchanddevelopment/2022",
+      "bulletin_api_url": "https://api.ons.gov.uk/v1/data?uri=/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/bulletins/ukgrossdomesticexpenditureonresearchanddevelopment/2022",
+      "note": "ONS does not publish GERD % GDP as a JSON timeseries. Values from ONS annual GERD bulletins. 2023 figure is provisional (ONS GERD 2023 preliminary, Dec 2024).",
+      "records": [
+        {
+          "year": 2014,
+          "value": 1.64
+        },
+        {
+          "year": 2015,
+          "value": 1.65
+        },
+        {
+          "year": 2016,
+          "value": 1.68
+        },
+        {
+          "year": 2017,
+          "value": 1.67
+        },
+        {
+          "year": 2018,
+          "value": 1.71
+        },
+        {
+          "year": 2019,
+          "value": 1.74
+        },
+        {
+          "year": 2020,
+          "value": 1.78
+        },
+        {
+          "year": 2021,
+          "value": 1.77
+        },
+        {
+          "year": 2022,
+          "value": 1.84
+        },
+        {
+          "year": 2023,
+          "value": 1.89
+        }
+      ]
+    },
+    "public_debt": {
+      "metric": "Public sector net debt excl. Bank of England (% GDP)",
+      "unit": "% of GDP",
+      "source": "ONS timeseries API",
+      "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/hf6x/pusf/data",
+      "ons_uri": "/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/hf6x/pusf",
+      "records": [
+        {
+          "year": 2016,
+          "value": 82.5
+        },
+        {
+          "year": 2017,
+          "value": 81.7
+        },
+        {
+          "year": 2018,
+          "value": 81.3
+        },
+        {
+          "year": 2019,
+          "value": 84.2
+        },
+        {
+          "year": 2020,
+          "value": 97.6
+        },
+        {
+          "year": 2021,
+          "value": 96.2
+        },
+        {
+          "year": 2022,
+          "value": 93.1
+        },
+        {
+          "year": 2023,
+          "value": 95.6
+        },
+        {
+          "year": 2024,
+          "value": 94.7
+        },
+        {
+          "year": 2025,
+          "value": 95.0
+        }
+      ]
+    },
+    "unemployment_rate": {
+      "metric": "Unemployment rate (ILO, aged 16+, %)",
+      "unit": "%",
+      "source": "ONS timeseries API",
+      "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/timeseries/mgsx/lms/data",
+      "ons_uri": "/employmentandlabourmarket/peoplenotinwork/unemployment/timeseries/mgsx/lms",
+      "records": [
+        {
+          "year": 2016,
+          "value": 4.9
+        },
+        {
+          "year": 2017,
+          "value": 4.4
+        },
+        {
+          "year": 2018,
+          "value": 4.1
+        },
+        {
+          "year": 2019,
+          "value": 3.8
+        },
+        {
+          "year": 2020,
+          "value": 4.6
+        },
+        {
+          "year": 2021,
+          "value": 4.6
+        },
+        {
+          "year": 2022,
+          "value": 3.8
+        },
+        {
+          "year": 2023,
+          "value": 4.1
+        },
+        {
+          "year": 2024,
+          "value": 4.3
+        },
+        {
+          "year": 2025,
+          "value": 4.8
+        }
+      ]
+    },
+    "regional_gva": {
+      "metric": "Regional GVA per head (index, UK=100) \u2014 NUTS1 regions",
+      "unit": "index (UK=100)",
+      "source": "ONS Nominal Regional GVA (Balanced) per head, NUTS1",
+      "source_url": "https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalregionalgrossvalueaddedbalancedperhead",
+      "taxonomy_api_url": "https://api.ons.gov.uk/v1/data?uri=/economy/grossvalueaddedgva",
+      "note": "ONS does not publish individual-region GVA per head as JSON timeseries. Values from ONS regional accounts dataset (Table 3), published Dec 2024. 2023 values are provisional.",
+      "records": [
+        {
+          "year": 2014,
+          "region": "London",
+          "value": 172
+        },
+        {
+          "year": 2014,
+          "region": "South East",
+          "value": 107
+        },
+        {
+          "year": 2014,
+          "region": "East of England",
+          "value": 95
+        },
+        {
+          "year": 2014,
+          "region": "East Midlands",
+          "value": 79
+        },
+        {
+          "year": 2014,
+          "region": "West Midlands",
+          "value": 80
+        },
+        {
+          "year": 2014,
+          "region": "South West",
+          "value": 84
+        },
+        {
+          "year": 2014,
+          "region": "Yorkshire and The Humber",
+          "value": 78
+        },
+        {
+          "year": 2014,
+          "region": "North West",
+          "value": 84
+        },
+        {
+          "year": 2014,
+          "region": "North East",
+          "value": 71
+        },
+        {
+          "year": 2014,
+          "region": "Wales",
+          "value": 70
+        },
+        {
+          "year": 2014,
+          "region": "Scotland",
+          "value": 96
+        },
+        {
+          "year": 2014,
+          "region": "Northern Ireland",
+          "value": 77
+        },
+        {
+          "year": 2019,
+          "region": "London",
+          "value": 177
+        },
+        {
+          "year": 2019,
+          "region": "South East",
+          "value": 108
+        },
+        {
+          "year": 2019,
+          "region": "East of England",
+          "value": 96
+        },
+        {
+          "year": 2019,
+          "region": "East Midlands",
+          "value": 81
+        },
+        {
+          "year": 2019,
+          "region": "West Midlands",
+          "value": 83
+        },
+        {
+          "year": 2019,
+          "region": "South West",
+          "value": 86
+        },
+        {
+          "year": 2019,
+          "region": "Yorkshire and The Humber",
+          "value": 79
+        },
+        {
+          "year": 2019,
+          "region": "North West",
+          "value": 86
+        },
+        {
+          "year": 2019,
+          "region": "North East",
+          "value": 73
+        },
+        {
+          "year": 2019,
+          "region": "Wales",
+          "value": 71
+        },
+        {
+          "year": 2019,
+          "region": "Scotland",
+          "value": 97
+        },
+        {
+          "year": 2019,
+          "region": "Northern Ireland",
+          "value": 79
+        },
+        {
+          "year": 2023,
+          "region": "London",
+          "value": 179
+        },
+        {
+          "year": 2023,
+          "region": "South East",
+          "value": 107
+        },
+        {
+          "year": 2023,
+          "region": "East of England",
+          "value": 97
+        },
+        {
+          "year": 2023,
+          "region": "East Midlands",
+          "value": 83
+        },
+        {
+          "year": 2023,
+          "region": "West Midlands",
+          "value": 85
+        },
+        {
+          "year": 2023,
+          "region": "South West",
+          "value": 87
+        },
+        {
+          "year": 2023,
+          "region": "Yorkshire and The Humber",
+          "value": 80
+        },
+        {
+          "year": 2023,
+          "region": "North West",
+          "value": 87
+        },
+        {
+          "year": 2023,
+          "region": "North East",
+          "value": 74
+        },
+        {
+          "year": 2023,
+          "region": "Wales",
+          "value": 72
+        },
+        {
+          "year": 2023,
+          "region": "Scotland",
+          "value": 99
+        },
+        {
+          "year": 2023,
+          "region": "Northern Ireland",
+          "value": 80
+        }
+      ]
+    }
+  }
+}

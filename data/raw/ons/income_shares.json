@@ -1,0 +1,49 @@
+{
+  "metric": "Household income inequality \u2014 top & bottom decile shares + S80/S20",
+  "unit": "% disposable income (decile shares); ratio (S80/S20)",
+  "source": "ONS Effects of Taxes and Benefits \u2014 Tables 4 & 10",
+  "source_url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/householddisposableincomeandinequality/financialyearending2024/hdiifye2024_correction_final.xlsx",
+  "dataset_api_url": "https://api.ons.gov.uk/v1/data?uri=/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/datasets/householddisposableincomeandinequality/financialyearending2024",
+  "latest_year": 2024,
+  "latest_fy": "2023/24",
+  "top_10pct_disposable_share_pct": 25.0,
+  "bottom_10pct_disposable_share_pct": 3.0,
+  "s80s20_ratio_timeseries": [
+    {
+      "year": 2016,
+      "value": 5.6
+    },
+    {
+      "year": 2017,
+      "value": 5.2
+    },
+    {
+      "year": 2018,
+      "value": 5.8
+    },
+    {
+      "year": 2019,
+      "value": 6.2
+    },
+    {
+      "year": 2020,
+      "value": 5.8
+    },
+    {
+      "year": 2021,
+      "value": 5.9
+    },
+    {
+      "year": 2022,
+      "value": 6.2
+    },
+    {
+      "year": 2023,
+      "value": 5.5
+    },
+    {
+      "year": 2024,
+      "value": 5.6
+    }
+  ]
+}

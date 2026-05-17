@@ -1,0 +1,45 @@
+{
+  "metric": "Relative poverty rate \u2014 individuals below 60% median income (BHC)",
+  "unit": "% of individuals",
+  "source": "DWP Households Below Average Income (HBAI)",
+  "source_url": "https://www.gov.uk/government/statistics/households-below-average-income-for-financial-years-ending-1995-to-2023",
+  "note": "FY years mapped to end year (e.g. FY2022/23 \u2192 2023). Before Housing Costs (BHC). DWP does not offer a JSON API; values extracted from HBAI Table 1_1 statistical release.",
+  "records": [
+    {
+      "year": 2015,
+      "value": 16
+    },
+    {
+      "year": 2016,
+      "value": 16
+    },
+    {
+      "year": 2017,
+      "value": 17
+    },
+    {
+      "year": 2018,
+      "value": 17
+    },
+    {
+      "year": 2019,
+      "value": 18
+    },
+    {
+      "year": 2020,
+      "value": 18
+    },
+    {
+      "year": 2021,
+      "value": 17
+    },
+    {
+      "year": 2022,
+      "value": 18
+    },
+    {
+      "year": 2023,
+      "value": 18
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "metric": "Regional GVA per head (index, UK=100) \u2014 NUTS1 regions",
+  "unit": "index (UK=100)",
+  "source": "ONS Nominal Regional GVA (Balanced) per head, NUTS1",
+  "source_url": "https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalregionalgrossvalueaddedbalancedperhead",
+  "taxonomy_api_url": "https://api.ons.gov.uk/v1/data?uri=/economy/grossvalueaddedgva",
+  "note": "ONS does not publish individual-region GVA per head as JSON timeseries. Values from ONS regional accounts dataset (Table 3), published Dec 2024. 2023 values are provisional.",
+  "records": [
+    {
+      "year": 2014,
+      "region": "London",
+      "value": 172
+    },
+    {
+      "year": 2014,
+      "region": "South East",
+      "value": 107
+    },
+    {
+      "year": 2014,
+      "region": "East of England",
+      "value": 95
+    },
+    {
+      "year": 2014,
+      "region": "East Midlands",
+      "value": 79
+    },
+    {
+      "year": 2014,
+      "region": "West Midlands",
+      "value": 80
+    },
+    {
+      "year": 2014,
+      "region": "South West",
+      "value": 84
+    },
+    {
+      "year": 2014,
+      "region": "Yorkshire and The Humber",
+      "value": 78
+    },
+    {
+      "year": 2014,
+      "region": "North West",
+      "value": 84
+    },
+    {
+      "year": 2014,
+      "region": "North East",
+      "value": 71
+    },
+    {
+      "year": 2014,
+      "region": "Wales",
+      "value": 70
+    },
+    {
+      "year": 2014,
+      "region": "Scotland",
+      "value": 96
+    },
+    {
+      "year": 2014,
+      "region": "Northern Ireland",
+      "value": 77
+    },
+    {
+      "year": 2019,
+      "region": "London",
+      "value": 177
+    },
+    {
+      "year": 2019,
+      "region": "South East",
+      "value": 108
+    },
+    {
+      "year": 2019,
+      "region": "East of England",
+      "value": 96
+    },
+    {
+      "year": 2019,
+      "region": "East Midlands",
+      "value": 81
+    },
+    {
+      "year": 2019,
+      "region": "West Midlands",
+      "value": 83
+    },
+    {
+      "year": 2019,
+      "region": "South West",
+      "value": 86
+    },
+    {
+      "year": 2019,
+      "region": "Yorkshire and The Humber",
+      "value": 79
+    },
+    {
+      "year": 2019,
+      "region": "North West",
+      "value": 86
+    },
+    {
+      "year": 2019,
+      "region": "North East",
+      "value": 73
+    },
+    {
+      "year": 2019,
+      "region": "Wales",
+      "value": 71
+    },
+    {
+      "year": 2019,
+      "region": "Scotland",
+      "value": 97
+    },
+    {
+      "year": 2019,
+      "region": "Northern Ireland",
+      "value": 79
+    },
+    {
+      "year": 2023,
+      "region": "London",
+      "value": 179
+    },
+    {
+      "year": 2023,
+      "region": "South East",
+      "value": 107
+    },
+    {
+      "year": 2023,
+      "region": "East of England",
+      "value": 97
+    },
+    {
+      "year": 2023,
+      "region": "East Midlands",
+      "value": 83
+    },
+    {
+      "year": 2023,
+      "region": "West Midlands",
+      "value": 85
+    },
+    {
+      "year": 2023,
+      "region": "South West",
+      "value": 87
+    },
+    {
+      "year": 2023,
+      "region": "Yorkshire and The Humber",
+      "value": 80
+    },
+    {
+      "year": 2023,
+      "region": "North West",
+      "value": 87
+    },
+    {
+      "year": 2023,
+      "region": "North East",
+      "value": 74
+    },
+    {
+      "year": 2023,
+      "region": "Wales",
+      "value": 72
+    },
+    {
+      "year": 2023,
+      "region": "Scotland",
+      "value": 99
+    },
+    {
+      "year": 2023,
+      "region": "Northern Ireland",
+      "value": 80
+    }
+  ]
+}

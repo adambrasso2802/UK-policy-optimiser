@@ -1,0 +1,50 @@
+{
+  "metric": "Gross domestic expenditure on R&D (GERD) as % of GDP",
+  "unit": "% of GDP",
+  "source": "ONS UK Gross Domestic Expenditure on Research and Development bulletin",
+  "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/bulletins/ukgrossdomesticexpenditureonresearchanddevelopment/2022",
+  "bulletin_api_url": "https://api.ons.gov.uk/v1/data?uri=/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/bulletins/ukgrossdomesticexpenditureonresearchanddevelopment/2022",
+  "note": "ONS does not publish GERD % GDP as a JSON timeseries. Values from ONS annual GERD bulletins. 2023 figure is provisional (ONS GERD 2023 preliminary, Dec 2024).",
+  "records": [
+    {
+      "year": 2014,
+      "value": 1.64
+    },
+    {
+      "year": 2015,
+      "value": 1.65
+    },
+    {
+      "year": 2016,
+      "value": 1.68
+    },
+    {
+      "year": 2017,
+      "value": 1.67
+    },
+    {
+      "year": 2018,
+      "value": 1.71
+    },
+    {
+      "year": 2019,
+      "value": 1.74
+    },
+    {
+      "year": 2020,
+      "value": 1.78
+    },
+    {
+      "year": 2021,
+      "value": 1.77
+    },
+    {
+      "year": 2022,
+      "value": 1.84
+    },
+    {
+      "year": 2023,
+      "value": 1.89
+    }
+  ]
+}
