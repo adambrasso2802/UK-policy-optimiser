@@ -1,0 +1,26 @@
+{
+  "country": "South Korea",
+  "iso3": "KOR",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "Post-AFC corporate & financial sector restructuring (1998\u20132003)",
+      "description": "IMF-supported restructuring of chaebols; bank recapitalisation; NPL resolution; corporate governance reform (boards, minority shareholder rights).",
+      "outcome": "Korea recovered in two years \u2014 fastest post-AFC recovery; fiscal consolidation with surplus by 2000; chaebol leverage reduced.",
+      "source": "OECD Economic Survey of Korea 2000, 2004"
+    },
+    {
+      "reform": "National pension system and social insurance expansion (1999\u20132008)",
+      "description": "Extension of National Pension Scheme to all workers; expansion of employment insurance and industrial accident insurance.",
+      "outcome": "Social safety net coverage expanded; elderly poverty still high but trending down; pension fund became global sovereign investor.",
+      "source": "OECD Economic Survey of Korea 2006, 2012"
+    },
+    {
+      "reform": "Broadband & digital infrastructure investment (1999\u20132010)",
+      "description": "Government-funded national broadband rollout; 'Informatisation' strategy; IT-cluster development in Pangyo.",
+      "outcome": "Korea became world leader in broadband penetration; ICT sector ~10% of GDP; Samsung/SK Hynix global semiconductor champions.",
+      "source": "OECD Economic Survey of Korea 2008, 2016"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.345757Z"
+}

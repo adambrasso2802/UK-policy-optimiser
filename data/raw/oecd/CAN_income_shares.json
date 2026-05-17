@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "iso3": "CAN",
+  "metric": "Income share of top 10% and bottom 10% (disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "top10_pct": 26.4,
+  "bottom10_pct": 2.7,
+  "top10_to_bottom10_ratio": 9.8,
+  "fetched_at": "2026-05-17T10:44:08.560878Z"
+}

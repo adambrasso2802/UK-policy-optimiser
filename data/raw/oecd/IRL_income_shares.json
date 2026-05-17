@@ -1,0 +1,11 @@
+{
+  "country": "Ireland",
+  "iso3": "IRL",
+  "metric": "Income share of top 10% and bottom 10% (disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "top10_pct": 25.9,
+  "bottom10_pct": 3.2,
+  "top10_to_bottom10_ratio": 8.1,
+  "fetched_at": "2026-05-17T10:44:08.560702Z"
+}

@@ -1,0 +1,13 @@
+{
+  "country": "Ireland",
+  "iso3": "IRL",
+  "metric": "Tax revenue and mix (OECD Revenue Statistics)",
+  "source": "OECD Revenue Statistics 2023",
+  "year": 2022,
+  "total_pct_gdp": 22.6,
+  "income_tax_pct_gdp": 9.3,
+  "corporate_tax_pct_gdp": 4.9,
+  "vat_pct_gdp": 5.3,
+  "social_contributions_pct_gdp": 3.7,
+  "fetched_at": "2026-05-17T10:44:09.343214Z"
+}

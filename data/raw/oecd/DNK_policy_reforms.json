@@ -1,0 +1,26 @@
+{
+  "country": "Denmark",
+  "iso3": "DNK",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "Flexicurity labour market model deepening (2006\u20132015)",
+      "description": "Extension of flexicurity \u2014 easy hiring/firing combined with generous unemployment benefits and active labour market policies (ALMPs).",
+      "outcome": "Unemployment stayed below 6% even through the Global Financial Crisis; one of the highest employment rates in the OECD.",
+      "source": "OECD Economic Survey of Denmark 2012, 2019"
+    },
+    {
+      "reform": "Pension reform \u2014 transition from defined-benefit to DC + mandatory labour market pensions (1987\u20132010)",
+      "description": "Gradual shift to funded ATP / occupational pensions; increased private savings rate substantially.",
+      "outcome": "Pension assets ~200% of GDP; sustainable public finances; reduced pressure on PAYG state pension.",
+      "source": "OECD Economic Survey of Denmark 2016"
+    },
+    {
+      "reform": "2011 tax reform \u2014 shift from income to consumption taxes",
+      "description": "Reduced marginal income tax rates; offset by higher environmental and property taxes; revenue-neutral.",
+      "outcome": "Improved labour supply incentives; Denmark remained highest-taxing OECD country with strong growth.",
+      "source": "OECD Economic Survey of Denmark 2012"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.345157Z"
+}

@@ -1,0 +1,13 @@
+{
+  "country": "Canada",
+  "iso3": "CAN",
+  "metric": "Tax revenue and mix (OECD Revenue Statistics)",
+  "source": "OECD Revenue Statistics 2023",
+  "year": 2022,
+  "total_pct_gdp": 34.1,
+  "income_tax_pct_gdp": 15.2,
+  "corporate_tax_pct_gdp": 4.2,
+  "vat_pct_gdp": 3.0,
+  "social_contributions_pct_gdp": 5.5,
+  "fetched_at": "2026-05-17T10:44:09.343259Z"
+}

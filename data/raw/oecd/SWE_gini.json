@@ -1,0 +1,9 @@
+{
+  "country": "Sweden",
+  "iso3": "SWE",
+  "metric": "Gini coefficient (equivalised disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "value": 0.27,
+  "fetched_at": "2026-05-17T10:44:08.555565Z"
+}

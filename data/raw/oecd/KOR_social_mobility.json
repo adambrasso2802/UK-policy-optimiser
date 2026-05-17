@@ -1,0 +1,11 @@
+{
+  "country": "South Korea",
+  "iso3": "KOR",
+  "metric": "Social mobility \u2014 intergenerational earnings elasticity (IGE; lower = more mobile)",
+  "source": "OECD Social Mobility for Inclusive Growth 2023",
+  "year": 2023,
+  "ige": 0.25,
+  "mobility_rank_within_set": 4,
+  "note": "Declining mobility; education arms race (hagwons) limits equalisation",
+  "fetched_at": "2026-05-17T10:44:09.343842Z"
+}

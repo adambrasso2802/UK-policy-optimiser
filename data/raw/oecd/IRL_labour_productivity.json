@@ -1,0 +1,10 @@
+{
+  "country": "Ireland",
+  "iso3": "IRL",
+  "metric": "GDP per hour worked (USD PPP, current prices)",
+  "source": "OECD PDB_LV (MNC-distorted)",
+  "year": 2023,
+  "value": 112.6,
+  "note": "",
+  "fetched_at": "2026-05-17T10:44:08.557815Z"
+}

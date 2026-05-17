@@ -1,0 +1,11 @@
+{
+  "country": "Sweden",
+  "iso3": "SWE",
+  "metric": "Income share of top 10% and bottom 10% (disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "top10_pct": 22.4,
+  "bottom10_pct": 3.5,
+  "top10_to_bottom10_ratio": 6.4,
+  "fetched_at": "2026-05-17T10:44:08.561012Z"
+}

@@ -1,0 +1,9 @@
+{
+  "country": "UK",
+  "iso3": "GBR",
+  "metric": "Gross domestic R&D expenditure (GERD) as % of GDP",
+  "source": "ONS GERD 2023",
+  "year": 2023,
+  "value": 1.89,
+  "fetched_at": "2026-05-17T10:44:08.556484Z"
+}

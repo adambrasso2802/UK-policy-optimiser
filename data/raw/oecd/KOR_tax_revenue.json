@@ -1,0 +1,13 @@
+{
+  "country": "South Korea",
+  "iso3": "KOR",
+  "metric": "Tax revenue and mix (OECD Revenue Statistics)",
+  "source": "OECD Revenue Statistics 2023",
+  "year": 2022,
+  "total_pct_gdp": 29.9,
+  "income_tax_pct_gdp": 7.6,
+  "corporate_tax_pct_gdp": 5.3,
+  "vat_pct_gdp": 5.9,
+  "social_contributions_pct_gdp": 7.9,
+  "fetched_at": "2026-05-17T10:44:09.343165Z"
+}

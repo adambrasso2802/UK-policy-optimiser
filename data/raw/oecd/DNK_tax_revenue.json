@@ -1,0 +1,13 @@
+{
+  "country": "Denmark",
+  "iso3": "DNK",
+  "metric": "Tax revenue and mix (OECD Revenue Statistics)",
+  "source": "OECD Revenue Statistics 2023",
+  "year": 2022,
+  "total_pct_gdp": 46.5,
+  "income_tax_pct_gdp": 24.8,
+  "corporate_tax_pct_gdp": 3.4,
+  "vat_pct_gdp": 8.9,
+  "social_contributions_pct_gdp": 0.4,
+  "fetched_at": "2026-05-17T10:44:09.342683Z"
+}

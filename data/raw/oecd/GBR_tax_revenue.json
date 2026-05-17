@@ -1,0 +1,13 @@
+{
+  "country": "UK",
+  "iso3": "GBR",
+  "metric": "Tax revenue and mix (OECD Revenue Statistics)",
+  "source": "OECD Revenue Statistics 2023",
+  "year": 2022,
+  "total_pct_gdp": 35.3,
+  "income_tax_pct_gdp": 11.6,
+  "corporate_tax_pct_gdp": 3.4,
+  "vat_pct_gdp": 6.8,
+  "social_contributions_pct_gdp": 6.9,
+  "fetched_at": "2026-05-17T10:44:09.342483Z"
+}

@@ -1,0 +1,1246 @@
+{
+  "generated_at": "2026-05-17T10:44:09.346257Z",
+  "description": "Cross-country benchmark metrics \u2014 10 OECD peer countries",
+  "countries": {
+    "GBR": {
+      "name": "UK",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 1.9
+          },
+          {
+            "year": 2017,
+            "value": 2.5
+          },
+          {
+            "year": 2018,
+            "value": 1.7
+          },
+          {
+            "year": 2019,
+            "value": 1.6
+          },
+          {
+            "year": 2020,
+            "value": -10.4
+          },
+          {
+            "year": 2021,
+            "value": 7.4
+          },
+          {
+            "year": 2022,
+            "value": 4.3
+          },
+          {
+            "year": 2023,
+            "value": 0.1
+          },
+          {
+            "year": 2024,
+            "value": 1.1
+          }
+        ],
+        "avg_5yr_2019_2024": 0.68,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.351,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 11.7,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 1.89,
+        "year": 2023,
+        "source": "ONS GERD 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 55.3,
+        "year": 2023,
+        "source": "OECD Productivity Statistics PDB_LV"
+      },
+      "public_debt_pct_gdp": {
+        "value": 99.0,
+        "year": 2024,
+        "source": "ONS / OECD EO"
+      },
+      "unemployment_rate_pct": {
+        "value": 4.3,
+        "year": 2024,
+        "source": "ONS LFS"
+      },
+      "income_shares": {
+        "top10_pct": 27.5,
+        "bottom10_pct": 2.9,
+        "ratio": 9.5,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.39,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 35.3,
+        "income_tax_pct": 11.6,
+        "corporate_tax_pct": 3.4,
+        "vat_pct": 6.8,
+        "social_contributions_pct": 6.9,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.43,
+        "mobility_rank": 7,
+        "note": "High earnings persistence; inter-generational mobility below OECD avg",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "Universal Credit rollout (2013\u2013present)",
+          "description": "Merged six legacy benefits into one; improved work-incentives by smoothing taper rate; reduced welfare trap for low-income earners.",
+          "outcome": "Employment rate rose to record highs pre-pandemic; marginal effective tax rate on benefits reduced.",
+          "source": "OECD Economic Survey of the UK 2023; DWP evaluation"
+        },
+        {
+          "reform": "Bank of England independence & post-GFC macro-prudential framework (2008\u20132014)",
+          "description": "Creation of Financial Policy Committee; stress-testing regime; higher capital buffers prevented second banking collapse.",
+          "outcome": "Financial sector stabilised after 2008; UK avoided full bank nationalisation beyond RBS/HBOS.",
+          "source": "OECD Economic Survey of the UK 2010; Bank of England Financial Stability Reports"
+        },
+        {
+          "reform": "North Sea oil fiscal regime reform & Hinkley / energy diversification (2012\u20132024)",
+          "description": "Reform of petroleum revenue tax; commitment to renewable energy targets under CfD auctions; offshore wind scale-up.",
+          "outcome": "UK became global leader in offshore wind; energy security improved; green industrial strategy emerged.",
+          "source": "OECD Economic Survey of the UK 2022"
+        }
+      ]
+    },
+    "DNK": {
+      "name": "Denmark",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 3.2
+          },
+          {
+            "year": 2017,
+            "value": 3.4
+          },
+          {
+            "year": 2018,
+            "value": 2.0
+          },
+          {
+            "year": 2019,
+            "value": 2.6
+          },
+          {
+            "year": 2020,
+            "value": -2.0
+          },
+          {
+            "year": 2021,
+            "value": 5.1
+          },
+          {
+            "year": 2022,
+            "value": 1.8
+          },
+          {
+            "year": 2023,
+            "value": 1.8
+          },
+          {
+            "year": 2024,
+            "value": 2.1
+          }
+        ],
+        "avg_5yr_2019_2024": 1.9,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.282,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 6.6,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 2.85,
+        "year": 2022,
+        "source": "OECD MSTI 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 72.1,
+        "year": 2023,
+        "source": "OECD Productivity Statistics PDB_LV"
+      },
+      "public_debt_pct_gdp": {
+        "value": 30.0,
+        "year": 2024,
+        "source": "OECD EO 114"
+      },
+      "unemployment_rate_pct": {
+        "value": 5.0,
+        "year": 2024,
+        "source": "OECD KEI"
+      },
+      "income_shares": {
+        "top10_pct": 23.1,
+        "bottom10_pct": 3.8,
+        "ratio": 6.1,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.91,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 46.5,
+        "income_tax_pct": 24.8,
+        "corporate_tax_pct": 3.4,
+        "vat_pct": 8.9,
+        "social_contributions_pct": 0.4,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.15,
+        "mobility_rank": 1,
+        "note": "Highest social mobility in OECD; strong education & welfare system",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "Flexicurity labour market model deepening (2006\u20132015)",
+          "description": "Extension of flexicurity \u2014 easy hiring/firing combined with generous unemployment benefits and active labour market policies (ALMPs).",
+          "outcome": "Unemployment stayed below 6% even through the Global Financial Crisis; one of the highest employment rates in the OECD.",
+          "source": "OECD Economic Survey of Denmark 2012, 2019"
+        },
+        {
+          "reform": "Pension reform \u2014 transition from defined-benefit to DC + mandatory labour market pensions (1987\u20132010)",
+          "description": "Gradual shift to funded ATP / occupational pensions; increased private savings rate substantially.",
+          "outcome": "Pension assets ~200% of GDP; sustainable public finances; reduced pressure on PAYG state pension.",
+          "source": "OECD Economic Survey of Denmark 2016"
+        },
+        {
+          "reform": "2011 tax reform \u2014 shift from income to consumption taxes",
+          "description": "Reduced marginal income tax rates; offset by higher environmental and property taxes; revenue-neutral.",
+          "outcome": "Improved labour supply incentives; Denmark remained highest-taxing OECD country with strong growth.",
+          "source": "OECD Economic Survey of Denmark 2012"
+        }
+      ]
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 2.2
+          },
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 2.4
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          },
+          {
+            "year": 2020,
+            "value": -3.8
+          },
+          {
+            "year": 2021,
+            "value": 4.9
+          },
+          {
+            "year": 2022,
+            "value": 4.3
+          },
+          {
+            "year": 2023,
+            "value": 0.1
+          },
+          {
+            "year": 2024,
+            "value": 0.9
+          }
+        ],
+        "avg_5yr_2019_2024": 1.4,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.284,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 7.5,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 2.28,
+        "year": 2022,
+        "source": "OECD MSTI 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 75.4,
+        "year": 2023,
+        "source": "OECD Productivity Statistics PDB_LV"
+      },
+      "public_debt_pct_gdp": {
+        "value": 46.6,
+        "year": 2024,
+        "source": "OECD EO 114"
+      },
+      "unemployment_rate_pct": {
+        "value": 3.7,
+        "year": 2024,
+        "source": "OECD KEI"
+      },
+      "income_shares": {
+        "top10_pct": 25.1,
+        "bottom10_pct": 3.6,
+        "ratio": 6.9,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.82,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 38.8,
+        "income_tax_pct": 9.5,
+        "corporate_tax_pct": 4.2,
+        "vat_pct": 6.6,
+        "social_contributions_pct": 14.0,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.17,
+        "mobility_rank": 2,
+        "note": "Second highest mobility; strong vocational education (MBO/HBO)",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "Wassenaar Agreement legacy & wage moderation framework (2010s)",
+          "description": "Building on 1982 Wassenaar, tripartite wage restraint agreements kept unit labour costs competitive; reinforced during sovereign debt crisis.",
+          "outcome": "Netherlands avoided severe competitiveness losses; maintained current account surplus; export growth.",
+          "source": "OECD Economic Survey of Netherlands 2014, 2021"
+        },
+        {
+          "reform": "Healthcare system reform \u2014 regulated competition (2006)",
+          "description": "Replaced state insurance monopoly with regulated private competition; mandatory universal basic insurance; risk-equalisation fund.",
+          "outcome": "Universal coverage achieved; cost-efficiency improved; widely cited as model for market-based universal healthcare.",
+          "source": "OECD Economic Survey of Netherlands 2008, 2023"
+        },
+        {
+          "reform": "Housing & pension system reforms (2012\u20132020)",
+          "description": "Tightening of mortgage interest deduction; introduction of social housing means-testing; gradual pension age increase to 67.",
+          "outcome": "Housing market stabilised after bubble; pension sustainability improved; fiscal consolidation achieved.",
+          "source": "OECD Economic Survey of Netherlands 2014, 2021"
+        }
+      ]
+    },
+    "DEU": {
+      "name": "Germany",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 2.2
+          },
+          {
+            "year": 2017,
+            "value": 2.7
+          },
+          {
+            "year": 2018,
+            "value": 1.0
+          },
+          {
+            "year": 2019,
+            "value": 1.1
+          },
+          {
+            "year": 2020,
+            "value": -3.7
+          },
+          {
+            "year": 2021,
+            "value": 3.1
+          },
+          {
+            "year": 2022,
+            "value": 1.8
+          },
+          {
+            "year": 2023,
+            "value": -0.3
+          },
+          {
+            "year": 2024,
+            "value": -0.2
+          }
+        ],
+        "avg_5yr_2019_2024": 0.3,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.313,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 9.8,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 3.13,
+        "year": 2022,
+        "source": "OECD MSTI 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 67.3,
+        "year": 2023,
+        "source": "OECD Productivity Statistics PDB_LV"
+      },
+      "public_debt_pct_gdp": {
+        "value": 62.4,
+        "year": 2024,
+        "source": "OECD EO 114"
+      },
+      "unemployment_rate_pct": {
+        "value": 3.4,
+        "year": 2024,
+        "source": "OECD KEI"
+      },
+      "income_shares": {
+        "top10_pct": 26.6,
+        "bottom10_pct": 3.4,
+        "ratio": 7.8,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.55,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 38.5,
+        "income_tax_pct": 11.4,
+        "corporate_tax_pct": 2.4,
+        "vat_pct": 7.0,
+        "social_contributions_pct": 14.9,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.32,
+        "mobility_rank": 5,
+        "note": "Moderate mobility; dual apprenticeship system aids transitions",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "Hartz labour market reforms (2002\u20132005)",
+          "description": "Four-stage reform: tightened job-search conditionality, merged unemployment assistance and social aid (Hartz IV), expanded temporary work agencies, created mini-job categories.",
+          "outcome": "Unemployment fell from ~11% (2005) to ~3% (2019); 'German jobs miracle'; real wage growth initially suppressed but recovered.",
+          "source": "OECD Economic Survey of Germany 2008, 2012, 2021"
+        },
+        {
+          "reform": "Energiewende \u2014 energy transition (2000\u2013present)",
+          "description": "Renewable Energy Act (EEG) 2000 set feed-in tariffs; subsequent reforms moved to auction-based CfDs; phase-out of nuclear (completed 2023).",
+          "outcome": "Renewable share of electricity ~55% by 2023; created global export industries in solar, wind technology; energy costs initially raised.",
+          "source": "OECD Economic Survey of Germany 2021, 2023"
+        },
+        {
+          "reform": "German reunification integration & fiscal consolidation (1990\u20132007)",
+          "description": "Solidarity surcharge financed eastern reconstruction; Schuldenbremse (debt brake) constitutionalised from 2009; structural surplus achieved by 2014.",
+          "outcome": "Eastern productivity convergence (still incomplete); constitutional fiscal discipline; debt fell from ~80% to ~60% GDP pre-pandemic.",
+          "source": "OECD Economic Survey of Germany 2006, 2010"
+        }
+      ]
+    },
+    "SGP": {
+      "name": "Singapore",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 3.3
+          },
+          {
+            "year": 2017,
+            "value": 4.5
+          },
+          {
+            "year": 2018,
+            "value": 3.7
+          },
+          {
+            "year": 2019,
+            "value": 1.1
+          },
+          {
+            "year": 2020,
+            "value": -3.9
+          },
+          {
+            "year": 2021,
+            "value": 8.9
+          },
+          {
+            "year": 2022,
+            "value": 3.6
+          },
+          {
+            "year": 2023,
+            "value": 1.1
+          },
+          {
+            "year": 2024,
+            "value": 4.4
+          }
+        ],
+        "avg_5yr_2019_2024": 2.53,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.375,
+        "year": 2022,
+        "source": "Singstat / World Bank"
+      },
+      "poverty_rate_pct": {
+        "value": 9.0,
+        "year": 2022,
+        "source": "MAS / World Bank estimate"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 1.97,
+        "year": 2022,
+        "source": "A*STAR Singapore"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 74.5,
+        "year": 2023,
+        "source": "MOM Singapore / World Bank"
+      },
+      "public_debt_pct_gdp": {
+        "value": 168.3,
+        "year": 2024,
+        "source": "Singapore MOF (Govt securities, largely offset by assets)"
+      },
+      "unemployment_rate_pct": {
+        "value": 1.9,
+        "year": 2024,
+        "source": "MOM Singapore"
+      },
+      "income_shares": {
+        "top10_pct": 32.9,
+        "bottom10_pct": 2.0,
+        "ratio": 16.4,
+        "year": 2022,
+        "source": "Singstat"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 2.28,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 14.1,
+        "income_tax_pct": 4.0,
+        "corporate_tax_pct": 3.8,
+        "vat_pct": 2.1,
+        "social_contributions_pct": 0.0,
+        "year": 2022,
+        "source": "Singapore IRAS / OECD comparable"
+      },
+      "social_mobility_ige": {
+        "ige": 0.25,
+        "mobility_rank": 3,
+        "note": "Strong mobility via meritocratic education; Gini limits bottom decile",
+        "year": 2022,
+        "source": "Lee Kuan Yew School of Public Policy / World Bank estimate"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "SkillsFuture national programme (2015\u2013present)",
+          "description": "Government-funded S$500 credit per adult for training; sectoral workforce transformation programmes; Earn & Learn pathways.",
+          "outcome": "Adult participation in training rose to among highest in Asia; productivity growth accelerated; economy pivoted toward high-value services.",
+          "source": "OECD Economic Survey of Singapore 2018, 2022"
+        },
+        {
+          "reform": "Economic restructuring from manufacturing to services hub (1997\u20132010)",
+          "description": "Deliberate shift from labour-intensive manufacturing toward finance, biomedical, ICT; attracted MNC regional HQs via tax incentives and IP regime.",
+          "outcome": "GDP per capita overtook most G7 nations; Singapore became top global financial centre alongside London/New York.",
+          "source": "OECD Economic Survey of Singapore 2016"
+        },
+        {
+          "reform": "Medisave / MediShield Life healthcare financing reform (2015)",
+          "description": "Expanded mandatory health savings (Medisave) and universal catastrophic insurance (MediShield Life); added Pioneer Generation subsidies.",
+          "outcome": "Universal health coverage achieved at low cost; out-of-pocket spending remains high but financial risk protection improved.",
+          "source": "OECD Health Policy Studies \u2014 Singapore 2023"
+        }
+      ]
+    },
+    "KOR": {
+      "name": "South Korea",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 2.9
+          },
+          {
+            "year": 2017,
+            "value": 3.2
+          },
+          {
+            "year": 2018,
+            "value": 2.9
+          },
+          {
+            "year": 2019,
+            "value": 2.2
+          },
+          {
+            "year": 2020,
+            "value": -0.7
+          },
+          {
+            "year": 2021,
+            "value": 4.1
+          },
+          {
+            "year": 2022,
+            "value": 2.6
+          },
+          {
+            "year": 2023,
+            "value": 1.4
+          },
+          {
+            "year": 2024,
+            "value": 2.0
+          }
+        ],
+        "avg_5yr_2019_2024": 1.93,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.314,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 14.4,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 4.93,
+        "year": 2022,
+        "source": "OECD MSTI 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 44.8,
+        "year": 2023,
+        "source": "OECD Productivity Statistics PDB_LV"
+      },
+      "public_debt_pct_gdp": {
+        "value": 47.6,
+        "year": 2024,
+        "source": "OECD EO 114"
+      },
+      "unemployment_rate_pct": {
+        "value": 2.8,
+        "year": 2024,
+        "source": "OECD KEI"
+      },
+      "income_shares": {
+        "top10_pct": 27.2,
+        "bottom10_pct": 2.8,
+        "ratio": 9.7,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.28,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 29.9,
+        "income_tax_pct": 7.6,
+        "corporate_tax_pct": 5.3,
+        "vat_pct": 5.9,
+        "social_contributions_pct": 7.9,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.25,
+        "mobility_rank": 4,
+        "note": "Declining mobility; education arms race (hagwons) limits equalisation",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "Post-AFC corporate & financial sector restructuring (1998\u20132003)",
+          "description": "IMF-supported restructuring of chaebols; bank recapitalisation; NPL resolution; corporate governance reform (boards, minority shareholder rights).",
+          "outcome": "Korea recovered in two years \u2014 fastest post-AFC recovery; fiscal consolidation with surplus by 2000; chaebol leverage reduced.",
+          "source": "OECD Economic Survey of Korea 2000, 2004"
+        },
+        {
+          "reform": "National pension system and social insurance expansion (1999\u20132008)",
+          "description": "Extension of National Pension Scheme to all workers; expansion of employment insurance and industrial accident insurance.",
+          "outcome": "Social safety net coverage expanded; elderly poverty still high but trending down; pension fund became global sovereign investor.",
+          "source": "OECD Economic Survey of Korea 2006, 2012"
+        },
+        {
+          "reform": "Broadband & digital infrastructure investment (1999\u20132010)",
+          "description": "Government-funded national broadband rollout; 'Informatisation' strategy; IT-cluster development in Pangyo.",
+          "outcome": "Korea became world leader in broadband penetration; ICT sector ~10% of GDP; Samsung/SK Hynix global semiconductor champions.",
+          "source": "OECD Economic Survey of Korea 2008, 2016"
+        }
+      ]
+    },
+    "IRL": {
+      "name": "Ireland",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 2.0
+          },
+          {
+            "year": 2017,
+            "value": 9.6
+          },
+          {
+            "year": 2018,
+            "value": 8.3
+          },
+          {
+            "year": 2019,
+            "value": 4.9
+          },
+          {
+            "year": 2020,
+            "value": 6.4
+          },
+          {
+            "year": 2021,
+            "value": 15.1
+          },
+          {
+            "year": 2022,
+            "value": 9.4
+          },
+          {
+            "year": 2023,
+            "value": -3.2
+          },
+          {
+            "year": 2024,
+            "value": 5.1
+          }
+        ],
+        "avg_5yr_2019_2024": 6.28,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.298,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 9.9,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 1.21,
+        "year": 2022,
+        "source": "OECD MSTI 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 112.6,
+        "year": 2023,
+        "source": "OECD PDB_LV (MNC-distorted)"
+      },
+      "public_debt_pct_gdp": {
+        "value": 43.1,
+        "year": 2024,
+        "source": "OECD EO 114"
+      },
+      "unemployment_rate_pct": {
+        "value": 4.3,
+        "year": 2024,
+        "source": "OECD KEI"
+      },
+      "income_shares": {
+        "top10_pct": 25.9,
+        "bottom10_pct": 3.2,
+        "ratio": 8.1,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.57,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 22.6,
+        "income_tax_pct": 9.3,
+        "corporate_tax_pct": 4.9,
+        "vat_pct": 5.3,
+        "social_contributions_pct": 3.7,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.34,
+        "mobility_rank": 6,
+        "note": "Moderate mobility; strong tertiary attainment aids upward mobility",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "Low corporate tax & FDI strategy (1987\u2013present)",
+          "description": "12.5% corporate tax rate; IDA Ireland targeted MNC investment; IP-friendly Knowledge Development Box; skilled English-speaking labour.",
+          "outcome": "Ireland hosts EU HQs of Google, Apple, Meta, Pfizer, Medtronic; corporate tax receipts >\u20ac24bn (2023); GDP/GNI distortion acknowledged.",
+          "source": "OECD Economic Survey of Ireland 2015, 2022"
+        },
+        {
+          "reform": "Post-GFC fiscal consolidation & banking sector restructuring (2010\u20132015)",
+          "description": "\u20ac67bn IMF/EU bailout; NAMA bad bank created; five bank recapitalisations; \u20ac30bn fiscal consolidation over 6 years; water charges controversy.",
+          "outcome": "Ireland exited programme 2013 \u2014 fastest euro area recovery; primary surplus by 2014; 10yr bond yields normalised by 2015.",
+          "source": "OECD Economic Survey of Ireland 2013, 2016"
+        },
+        {
+          "reform": "Housing action plan & childcare investment (2021\u2013present)",
+          "description": "Housing For All plan (2021): 33,000 homes/year target; First Home shared equity; NDP capital investment; National Childcare Scheme expansion.",
+          "outcome": "Housing supply increased (though still insufficient); childcare affordability improved significantly; female labour force participation rising.",
+          "source": "OECD Economic Survey of Ireland 2023"
+        }
+      ]
+    },
+    "CAN": {
+      "name": "Canada",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 1.0
+          },
+          {
+            "year": 2017,
+            "value": 3.0
+          },
+          {
+            "year": 2018,
+            "value": 2.8
+          },
+          {
+            "year": 2019,
+            "value": 1.9
+          },
+          {
+            "year": 2020,
+            "value": -5.1
+          },
+          {
+            "year": 2021,
+            "value": 5.0
+          },
+          {
+            "year": 2022,
+            "value": 3.4
+          },
+          {
+            "year": 2023,
+            "value": 1.2
+          },
+          {
+            "year": 2024,
+            "value": 1.5
+          }
+        ],
+        "avg_5yr_2019_2024": 1.32,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.31,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 11.5,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 1.71,
+        "year": 2022,
+        "source": "OECD MSTI 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 59.6,
+        "year": 2023,
+        "source": "OECD Productivity Statistics PDB_LV"
+      },
+      "public_debt_pct_gdp": {
+        "value": 107.6,
+        "year": 2024,
+        "source": "OECD EO 114 (federal + provincial)"
+      },
+      "unemployment_rate_pct": {
+        "value": 6.3,
+        "year": 2024,
+        "source": "Statistics Canada"
+      },
+      "income_shares": {
+        "top10_pct": 26.4,
+        "bottom10_pct": 2.7,
+        "ratio": 9.8,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.62,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 34.1,
+        "income_tax_pct": 15.2,
+        "corporate_tax_pct": 4.2,
+        "vat_pct": 3.0,
+        "social_contributions_pct": 5.5,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.19,
+        "mobility_rank": 2,
+        "note": "High mobility; skills-based immigration raises average earnings",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "Inflation targeting & Bank of Canada framework (1991\u2013present)",
+          "description": "Canada was first major economy to adopt explicit 2% inflation target; 5-year renewable agreement between Finance and BoC; flexible exchange rate.",
+          "outcome": "Inflation remained in 1-3% band for three decades; monetary credibility enabled aggressive stimulus in 2020; fiscal-monetary coordination during COVID.",
+          "source": "OECD Economic Survey of Canada 2006, 2019"
+        },
+        {
+          "reform": "Points-based immigration system modernisation (2002\u20132015)",
+          "description": "Federal Skilled Worker Programme reform; Express Entry system (2015) \u2014 online pool with rank-based draws; provincial nominee programmes.",
+          "outcome": "Canada admitted highest per-capita skilled immigrants in OECD; productivity spillovers from immigrant entrepreneurs; population ageing partially offset.",
+          "source": "OECD Economic Survey of Canada 2018, 2023"
+        },
+        {
+          "reform": "Fiscal consolidation & debt reduction (1994\u20132000)",
+          "description": "Finance Minister Martin's 1994 budget: 20% programme spending cuts; federal transfers to provinces reduced; balanced-budget legislation enacted.",
+          "outcome": "Federal deficit eliminated by 1997; debt fell from 67% to 28% of GDP by 2008; 'Canadian fiscal miracle' widely cited internationally.",
+          "source": "OECD Economic Survey of Canada 1997, 2000"
+        }
+      ]
+    },
+    "AUS": {
+      "name": "Australia",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 2.8
+          },
+          {
+            "year": 2017,
+            "value": 2.4
+          },
+          {
+            "year": 2018,
+            "value": 2.7
+          },
+          {
+            "year": 2019,
+            "value": 1.9
+          },
+          {
+            "year": 2020,
+            "value": -2.1
+          },
+          {
+            "year": 2021,
+            "value": 5.3
+          },
+          {
+            "year": 2022,
+            "value": 3.8
+          },
+          {
+            "year": 2023,
+            "value": 2.0
+          },
+          {
+            "year": 2024,
+            "value": 1.5
+          }
+        ],
+        "avg_5yr_2019_2024": 2.07,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.326,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 12.4,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 1.68,
+        "year": 2022,
+        "source": "OECD MSTI 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 62.1,
+        "year": 2023,
+        "source": "OECD Productivity Statistics PDB_LV"
+      },
+      "public_debt_pct_gdp": {
+        "value": 53.7,
+        "year": 2024,
+        "source": "OECD EO 114"
+      },
+      "unemployment_rate_pct": {
+        "value": 3.9,
+        "year": 2024,
+        "source": "ABS"
+      },
+      "income_shares": {
+        "top10_pct": 26.9,
+        "bottom10_pct": 2.8,
+        "ratio": 9.6,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.68,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 29.0,
+        "income_tax_pct": 13.0,
+        "corporate_tax_pct": 5.8,
+        "vat_pct": 3.8,
+        "social_contributions_pct": 0.0,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.26,
+        "mobility_rank": 4,
+        "note": "Above-average mobility; strong VET system and universal healthcare",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "Hawke-Keating microeconomic reform package (1983\u20131996)",
+          "description": "Floating AUD; financial deregulation; tariff reduction; enterprise bargaining; privatisation of Qantas, Commonwealth Bank, Telstra; compulsory superannuation (1992).",
+          "outcome": "Record 27-year recession-free growth (1991\u20132020); productivity growth accelerated through 1990s; superannuation assets now >AUD 3.5tn.",
+          "source": "OECD Economic Survey of Australia 2004, 2012"
+        },
+        {
+          "reform": "Mining boom revenue management & sovereign wealth fund (2004\u20132013)",
+          "description": "Future Fund established 2006; resource super profits tax debate; stimulus package (2008) credited with avoiding recession; infrastructure investment.",
+          "outcome": "Australia was only OECD economy to avoid GFC recession; Future Fund assets >AUD 200bn; fiscal surpluses during boom years.",
+          "source": "OECD Economic Survey of Australia 2010, 2014"
+        },
+        {
+          "reform": "NDIS \u2014 National Disability Insurance Scheme (2013\u2013present)",
+          "description": "Universal insurance model replacing fragmented state services for disability; individualised funding packages; choice and control for participants.",
+          "outcome": "600,000+ Australians receiving support by 2024; labour market participation for people with disability increased; significant fiscal cost (~AUD 44bn/yr).",
+          "source": "OECD Disability Policy Review Australia 2023"
+        }
+      ]
+    },
+    "SWE": {
+      "name": "Sweden",
+      "gdp_growth_rate": {
+        "records_last_10yr": [
+          {
+            "year": 2016,
+            "value": 2.1
+          },
+          {
+            "year": 2017,
+            "value": 2.6
+          },
+          {
+            "year": 2018,
+            "value": 2.0
+          },
+          {
+            "year": 2019,
+            "value": 2.0
+          },
+          {
+            "year": 2020,
+            "value": -2.2
+          },
+          {
+            "year": 2021,
+            "value": 5.9
+          },
+          {
+            "year": 2022,
+            "value": 2.6
+          },
+          {
+            "year": 2023,
+            "value": -0.1
+          },
+          {
+            "year": 2024,
+            "value": 0.6
+          }
+        ],
+        "avg_5yr_2019_2024": 1.47,
+        "unit": "% annual",
+        "source": "OECD National Accounts"
+      },
+      "gini_coefficient": {
+        "value": 0.27,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "poverty_rate_pct": {
+        "value": 8.1,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "rd_expenditure_pct_gdp": {
+        "value": 3.4,
+        "year": 2022,
+        "source": "OECD MSTI 2023"
+      },
+      "labour_productivity_usd_ppp": {
+        "value": 68.4,
+        "year": 2023,
+        "source": "OECD Productivity Statistics PDB_LV"
+      },
+      "public_debt_pct_gdp": {
+        "value": 34.0,
+        "year": 2024,
+        "source": "OECD EO 114"
+      },
+      "unemployment_rate_pct": {
+        "value": 8.4,
+        "year": 2024,
+        "source": "OECD KEI"
+      },
+      "income_shares": {
+        "top10_pct": 22.4,
+        "bottom10_pct": 3.5,
+        "ratio": 6.4,
+        "year": 2022,
+        "source": "OECD IDD"
+      },
+      "govt_effectiveness_wgi": {
+        "value": 1.93,
+        "year": 2023,
+        "source": "World Bank WGI GE.EST"
+      },
+      "tax_revenue": {
+        "total_pct_gdp": 42.6,
+        "income_tax_pct": 14.3,
+        "corporate_tax_pct": 2.8,
+        "vat_pct": 9.0,
+        "social_contributions_pct": 11.7,
+        "year": 2022,
+        "source": "OECD Revenue Statistics 2023"
+      },
+      "social_mobility_ige": {
+        "ige": 0.27,
+        "mobility_rank": 3,
+        "note": "High mobility; comprehensive welfare + free university education",
+        "year": 2023,
+        "source": "OECD Social Mobility for Inclusive Growth 2023"
+      },
+      "top_policy_reforms": [
+        {
+          "reform": "1990s banking & fiscal crisis reforms (1992\u20131997)",
+          "description": "Bank nationalisation and good-bank/bad-bank resolution; fiscal consolidation of 11% GDP; inflation targeting adopted; pension reform initiated.",
+          "outcome": "Sweden's 'model' crisis resolution \u2014 banks sold back to market within years; fiscal surplus by 1997; widely cited as template for Ireland 2010.",
+          "source": "OECD Economic Survey of Sweden 1996, 2002"
+        },
+        {
+          "reform": "Notional defined-contribution (NDC) pension reform (1998)",
+          "description": "Replaced PAYG DB pension with income-linked notional accounts + funded premium pension; automatic balancing mechanism links benefits to longevity/growth.",
+          "outcome": "Pension system among most fiscally sustainable in OECD; incentivises longer working lives; model adopted by Norway, Poland, Italy.",
+          "source": "OECD Economic Survey of Sweden 2004, 2012"
+        },
+        {
+          "reform": "School voucher system & free school reform (1992\u2013present)",
+          "description": "Universal school choice introduced; public funding follows student to private/municipal schools; significant expansion of independent ('friskola') sector.",
+          "outcome": "Increased parental choice; mixed PISA outcomes (initial gains, later stagnation); ongoing debate on segregation; vocational tracks remain strong.",
+          "source": "OECD Economic Survey of Sweden 2015, 2021"
+        }
+      ]
+    }
+  }
+}

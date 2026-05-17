@@ -1,0 +1,26 @@
+{
+  "country": "Ireland",
+  "iso3": "IRL",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "Low corporate tax & FDI strategy (1987\u2013present)",
+      "description": "12.5% corporate tax rate; IDA Ireland targeted MNC investment; IP-friendly Knowledge Development Box; skilled English-speaking labour.",
+      "outcome": "Ireland hosts EU HQs of Google, Apple, Meta, Pfizer, Medtronic; corporate tax receipts >\u20ac24bn (2023); GDP/GNI distortion acknowledged.",
+      "source": "OECD Economic Survey of Ireland 2015, 2022"
+    },
+    {
+      "reform": "Post-GFC fiscal consolidation & banking sector restructuring (2010\u20132015)",
+      "description": "\u20ac67bn IMF/EU bailout; NAMA bad bank created; five bank recapitalisations; \u20ac30bn fiscal consolidation over 6 years; water charges controversy.",
+      "outcome": "Ireland exited programme 2013 \u2014 fastest euro area recovery; primary surplus by 2014; 10yr bond yields normalised by 2015.",
+      "source": "OECD Economic Survey of Ireland 2013, 2016"
+    },
+    {
+      "reform": "Housing action plan & childcare investment (2021\u2013present)",
+      "description": "Housing For All plan (2021): 33,000 homes/year target; First Home shared equity; NDP capital investment; National Childcare Scheme expansion.",
+      "outcome": "Housing supply increased (though still insufficient); childcare affordability improved significantly; female labour force participation rising.",
+      "source": "OECD Economic Survey of Ireland 2023"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.345834Z"
+}

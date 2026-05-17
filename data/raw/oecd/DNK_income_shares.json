@@ -1,0 +1,11 @@
+{
+  "country": "Denmark",
+  "iso3": "DNK",
+  "metric": "Income share of top 10% and bottom 10% (disposable income)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "top10_pct": 23.1,
+  "bottom10_pct": 3.8,
+  "top10_to_bottom10_ratio": 6.1,
+  "fetched_at": "2026-05-17T10:44:08.560019Z"
+}

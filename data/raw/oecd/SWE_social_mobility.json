@@ -1,0 +1,11 @@
+{
+  "country": "Sweden",
+  "iso3": "SWE",
+  "metric": "Social mobility \u2014 intergenerational earnings elasticity (IGE; lower = more mobile)",
+  "source": "OECD Social Mobility for Inclusive Growth 2023",
+  "year": 2023,
+  "ige": 0.27,
+  "mobility_rank_within_set": 3,
+  "note": "High mobility; comprehensive welfare + free university education",
+  "fetched_at": "2026-05-17T10:44:09.344611Z"
+}

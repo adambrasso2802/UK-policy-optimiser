@@ -1,0 +1,11 @@
+{
+  "country": "Germany",
+  "iso3": "DEU",
+  "metric": "Social mobility \u2014 intergenerational earnings elasticity (IGE; lower = more mobile)",
+  "source": "OECD Social Mobility for Inclusive Growth 2023",
+  "year": 2023,
+  "ige": 0.32,
+  "mobility_rank_within_set": 5,
+  "note": "Moderate mobility; dual apprenticeship system aids transitions",
+  "fetched_at": "2026-05-17T10:44:09.343740Z"
+}

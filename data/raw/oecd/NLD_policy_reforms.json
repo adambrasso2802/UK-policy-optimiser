@@ -1,0 +1,26 @@
+{
+  "country": "Netherlands",
+  "iso3": "NLD",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "Wassenaar Agreement legacy & wage moderation framework (2010s)",
+      "description": "Building on 1982 Wassenaar, tripartite wage restraint agreements kept unit labour costs competitive; reinforced during sovereign debt crisis.",
+      "outcome": "Netherlands avoided severe competitiveness losses; maintained current account surplus; export growth.",
+      "source": "OECD Economic Survey of Netherlands 2014, 2021"
+    },
+    {
+      "reform": "Healthcare system reform \u2014 regulated competition (2006)",
+      "description": "Replaced state insurance monopoly with regulated private competition; mandatory universal basic insurance; risk-equalisation fund.",
+      "outcome": "Universal coverage achieved; cost-efficiency improved; widely cited as model for market-based universal healthcare.",
+      "source": "OECD Economic Survey of Netherlands 2008, 2023"
+    },
+    {
+      "reform": "Housing & pension system reforms (2012\u20132020)",
+      "description": "Tightening of mortgage interest deduction; introduction of social housing means-testing; gradual pension age increase to 67.",
+      "outcome": "Housing market stabilised after bubble; pension sustainability improved; fiscal consolidation achieved.",
+      "source": "OECD Economic Survey of Netherlands 2014, 2021"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.345529Z"
+}

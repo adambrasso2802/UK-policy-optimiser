@@ -1,0 +1,13 @@
+{
+  "country": "Singapore",
+  "iso3": "SGP",
+  "metric": "Tax revenue and mix (OECD Revenue Statistics)",
+  "source": "Singapore IRAS / OECD comparable",
+  "year": 2022,
+  "total_pct_gdp": 14.1,
+  "income_tax_pct_gdp": 4.0,
+  "corporate_tax_pct_gdp": 3.8,
+  "vat_pct_gdp": 2.1,
+  "social_contributions_pct_gdp": 0.0,
+  "fetched_at": "2026-05-17T10:44:09.343099Z"
+}

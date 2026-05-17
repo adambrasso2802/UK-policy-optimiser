@@ -1,0 +1,9 @@
+{
+  "country": "Ireland",
+  "iso3": "IRL",
+  "metric": "Government Effectiveness (World Bank WGI, scale -2.5 to +2.5)",
+  "source": "World Bank WGI GE.EST",
+  "year": 2023,
+  "value": 1.57,
+  "fetched_at": "2026-05-17T10:44:09.341299Z"
+}

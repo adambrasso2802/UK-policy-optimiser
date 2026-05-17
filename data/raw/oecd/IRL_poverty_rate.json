@@ -1,0 +1,9 @@
+{
+  "country": "Ireland",
+  "iso3": "IRL",
+  "metric": "Relative poverty rate (% below 50% median income, OECD definition)",
+  "source": "OECD IDD",
+  "year": 2022,
+  "value": 9.9,
+  "fetched_at": "2026-05-17T10:44:08.556309Z"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "UK",
+  "iso3": "GBR",
+  "metric": "Social mobility \u2014 intergenerational earnings elasticity (IGE; lower = more mobile)",
+  "source": "OECD Social Mobility for Inclusive Growth 2023",
+  "year": 2023,
+  "ige": 0.43,
+  "mobility_rank_within_set": 7,
+  "note": "High earnings persistence; inter-generational mobility below OECD avg",
+  "fetched_at": "2026-05-17T10:44:09.343536Z"
+}

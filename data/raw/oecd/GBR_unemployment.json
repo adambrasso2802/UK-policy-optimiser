@@ -1,0 +1,9 @@
+{
+  "country": "UK",
+  "iso3": "GBR",
+  "metric": "Unemployment rate, ILO definition (%)",
+  "source": "ONS LFS",
+  "year": 2024,
+  "value": 4.3,
+  "fetched_at": "2026-05-17T10:44:08.559268Z"
+}

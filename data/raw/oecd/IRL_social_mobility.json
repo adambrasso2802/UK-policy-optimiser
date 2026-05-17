@@ -1,0 +1,11 @@
+{
+  "country": "Ireland",
+  "iso3": "IRL",
+  "metric": "Social mobility \u2014 intergenerational earnings elasticity (IGE; lower = more mobile)",
+  "source": "OECD Social Mobility for Inclusive Growth 2023",
+  "year": 2023,
+  "ige": 0.34,
+  "mobility_rank_within_set": 6,
+  "note": "Moderate mobility; strong tertiary attainment aids upward mobility",
+  "fetched_at": "2026-05-17T10:44:09.344044Z"
+}

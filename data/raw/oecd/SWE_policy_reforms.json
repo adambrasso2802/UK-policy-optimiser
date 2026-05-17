@@ -1,0 +1,26 @@
+{
+  "country": "Sweden",
+  "iso3": "SWE",
+  "source": "OECD Economic Surveys (last 20 years)",
+  "top_reforms": [
+    {
+      "reform": "1990s banking & fiscal crisis reforms (1992\u20131997)",
+      "description": "Bank nationalisation and good-bank/bad-bank resolution; fiscal consolidation of 11% GDP; inflation targeting adopted; pension reform initiated.",
+      "outcome": "Sweden's 'model' crisis resolution \u2014 banks sold back to market within years; fiscal surplus by 1997; widely cited as template for Ireland 2010.",
+      "source": "OECD Economic Survey of Sweden 1996, 2002"
+    },
+    {
+      "reform": "Notional defined-contribution (NDC) pension reform (1998)",
+      "description": "Replaced PAYG DB pension with income-linked notional accounts + funded premium pension; automatic balancing mechanism links benefits to longevity/growth.",
+      "outcome": "Pension system among most fiscally sustainable in OECD; incentivises longer working lives; model adopted by Norway, Poland, Italy.",
+      "source": "OECD Economic Survey of Sweden 2004, 2012"
+    },
+    {
+      "reform": "School voucher system & free school reform (1992\u2013present)",
+      "description": "Universal school choice introduced; public funding follows student to private/municipal schools; significant expansion of independent ('friskola') sector.",
+      "outcome": "Increased parental choice; mixed PISA outcomes (initial gains, later stagnation); ongoing debate on segregation; vocational tracks remain strong.",
+      "source": "OECD Economic Survey of Sweden 2015, 2021"
+    }
+  ],
+  "fetched_at": "2026-05-17T10:44:09.346049Z"
+}
