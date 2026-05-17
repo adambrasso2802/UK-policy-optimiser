@@ -1,0 +1,63 @@
+{
+  "name": "Policy Exchange",
+  "lean": "centre-right",
+  "url": "https://policyexchange.org.uk/publications/",
+  "source_note": "Fetched manually (May 2026) — site blocked by CAPTCHA bot challenge (HTTP 202)",
+  "recent_reports": [
+    {
+      "title": "The UK's Broken Housing Market: Causes, Consequences and Cures",
+      "date": "2024-01-01",
+      "url": "https://policyexchange.org.uk/publication/the-uks-broken-housing-market/",
+      "summary": "Comprehensive diagnosis of UK housing dysfunction. Argues housing affordability crisis is 'the very core of the crisis of confidence in capitalism itself.' Sets out 16 specific reform recommendations focused on planning reform, land release, and property tax restructuring.",
+      "key_recommendations": [
+        "Scrap the 1947 Town and Country Planning Act on a limited basis via a Special Development Order.",
+        "Introduce a new rules-based planning system based on zoning — trialled first in cities and their immediate environs.",
+        "Overhaul Green Belt designation: land of genuine environmental value recategorised as AONB; remaining land zoned for permitted development.",
+        "Reform council tax: introduce two additional bands at the top, one new band at the bottom; increase rates in top bands.",
+        "Introduce a Stamp Duty exemption for last-time buyers to encourage downsizing."
+      ],
+      "hf_overlaps": [
+        "housing_supply",
+        "land_value_tax",
+        "fiscal_responsibility"
+      ],
+      "hf_alignment_note": "Partial — Policy Exchange and Fudge agree on planning reform urgency and supply-side diagnosis. Fudge goes further with Land Value Tax; Policy Exchange focuses on council tax reform and zoning rather than LVT."
+    },
+    {
+      "title": "Homes for Growth",
+      "date": "2024-01-01",
+      "url": "https://policyexchange.org.uk/publication/homes-for-growth/",
+      "summary": "Examines the macroeconomic consequences of housing undersupply. Argues housing shortage has a 'chilling effect on the economy as a whole.' Documents how wealth inequality driven by property is suppressing consumer spending — capital is being transferred from high-propensity-to-consume households to low-propensity-to-consume landlords. Housing benefit costs (£31.3bn projected 2025-26) will continue rising without structural supply reform.",
+      "key_recommendations": [
+        "Housing supply is the central economic constraint on UK growth — must be treated as a macroeconomic priority, not just a social policy.",
+        "Wealth inequality driven by housing is non-neutral: it transfers spending power from renters to landlords, suppressing domestic demand.",
+        "Social housing waiting list of 1.19 million (2021) and 86,000 households in temporary accommodation represent both a human and fiscal crisis.",
+        "Growth requires housing — the two policy areas cannot be separated."
+      ],
+      "hf_overlaps": [
+        "housing_supply",
+        "inequality_reduction",
+        "poverty_reduction"
+      ],
+      "hf_alignment_note": "High — directly supports Fudge's housing theory of everything thesis. Policy Exchange reaches similar conclusions from a centre-right supply-side perspective, without the LVT mechanism."
+    },
+    {
+      "title": "Pro-Growth Reforms Could Add Over £400bn to UK GDP",
+      "date": "2026-01-01",
+      "url": "https://policyexchange.org.uk/publication/pro-growth-reforms/",
+      "summary": "Models the GDP impact of a suite of supply-side reforms across housing, energy, taxation, and regulation. Central estimate: 10–20% uplift to UK GDP over the long term, equivalent to £428bn additional GDP by 2036, or £5,800 per capita in 2036 nominal terms. Housing, energy costs, excessive taxation, and excessive regulation are the four binding constraints on UK growth. Co-published with the Adam Smith Institute.",
+      "key_recommendations": [
+        "Planning reform alone could unlock significant GDP gains through improved capital deepening and labour mobility.",
+        "Private sector-led growth through deregulation and tax reform is the primary lever — not state investment.",
+        "UK faces an unprecedented growth challenge: current 1–2% forecasts are insufficient to sustain world-class public services.",
+        "Housing, energy costs, excessive taxation, and excessive regulation are the four binding constraints on UK growth."
+      ],
+      "hf_overlaps": [
+        "housing_supply",
+        "productivity_growth",
+        "fiscal_responsibility"
+      ],
+      "hf_alignment_note": "Partial — GDP uplift figures are in similar range to Fudge's +5.7% Y10 estimate, but mechanism differs fundamentally. Policy Exchange/ASI favour deregulation and private sector; Fudge favours public investment and industrial strategy alongside supply-side reform."
+    }
+  ]
+}

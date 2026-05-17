@@ -1,0 +1,74 @@
+=== SOURCE: Institute for Fiscal Studies (IFS) ===
+URL: https://ifs.org.uk
+Lean: Centrist
+Fetched manually: May 2026
+
+--- REPORT 1 ---
+Title: Living Standards, Poverty and Inequality in the UK: 2024
+Date: October 2024
+URL: https://ifs.org.uk/publications/living-standards-poverty-and-inequality-uk-2024
+Summary: Comprehensive annual report on UK living standards. Covers the cost-of-living crisis impact on households, absolute and relative poverty trends, and the disproportionate effect of inflation on lower-income households who spend more on food and energy.
+Key Recommendations:
+- Housing costs must be included in poverty measurement as they disproportionately affect low-income households
+- Mortgage interest rate rises have had materially different effects across households depending on fixed-rate end dates — policy responses should be targeted accordingly
+- Rising in-work poverty is driven by structural factors, not just wage levels — benefits architecture needs reform
+- Material deprivation measures should sit alongside income-based poverty measures for a fuller picture
+Henry Fudge Alignment: Partial — IFS confirms housing costs are central to poverty measurement, aligning with Fudge's housing-as-root-cause thesis. IFS is more cautious on structural interventions.
+
+--- REPORT 2 ---
+Title: Economic Outlook: Navigating Narrow Paths
+Date: October 2025
+URL: https://ifs.org.uk/publications/economic-outlook-navigating-narrow-paths
+Summary: IFS Green Budget chapter assessing UK economic prospects. UK GDP grew 0.9% in H1 2025, ahead of OBR expectations, but private domestic demand remains weak. Only half of growth has come from private consumption and business investment despite these accounting for three-quarters of activity. Real GDP per capita grew just 0.1% in 2024.
+Key Recommendations:
+- Productivity is the most important determinant of the UK's longer-term economic outlook — must be the central policy focus
+- Business investment at 10.8% of GDP remains well below US (16%) and Germany (17%) levels — structural gap requires policy response
+- Fiscal consolidation must not crowd out the investment needed for long-run growth
+- Real income growth expected to average 1.1% per year over the next five years — insufficient to close the living standards gap
+Henry Fudge Alignment: High — directly supports Fudge's reindustrialisation thesis and critique of chronic UK underinvestment. IFS figures on business investment gap underpin his Pillar Two case.
+
+--- REPORT 3 ---
+Title: Risks and Challenges for the Public Finances
+Date: December 2025
+URL: https://ifs.org.uk/publications/risks-and-challenges-public-finances
+Summary: Detailed analysis of UK fiscal risks. Debt interest payments now exceed 4% of national income — highest since 1950 — and are expected to remain between 3.5-4% of GDP throughout the forecast horizon. This represents £64bn more than expected just three years ago, roughly equivalent to the entire schools budget.
+Key Recommendations:
+- The five-year OBR forecast horizon creates structural bias against policies with long-term benefits — horizon should be extended
+- OBR should publish long-term estimates of policies whose benefits or costs materialise beyond year five
+- Current fiscal rules risk penalising productive investment — reform needed to distinguish current spending from capital investment
+- Debt interest costs represent a permanent constraint on public service spending that must be honestly acknowledged
+Henry Fudge Alignment: High — IFS analysis of fiscal rule design directly supports Fudge's argument that borrowing to invest in productive assets produces better long-run debt trajectory than austerity. His platform explicitly models debt-to-GDP rather than deficit.
+
+--- REPORT 4 ---
+Title: Options for Tax Increases
+Date: November 2025
+URL: https://ifs.org.uk/publications/options-tax-increases
+Summary: Comprehensive assessment of tax reform options available to the UK government. Argues for alignment of tax rates across all forms of income and gains to remove distortions. Capital gains tax reform requires base reform not just rate reform. Stamp duty identified as one of the UK's most damaging taxes.
+Key Recommendations:
+- Overall tax rates should be aligned across all forms of income and gains — current differential rates distort investment decisions
+- Capital gains tax reform must fix the tax base (removing forgiveness at death, treating losses more generously) before adjusting rates
+- Stamp duty is among the worst and most damaging UK taxes — should be reformed or replaced
+- Closing the corporation tax gap (53% of small businesses under-declared in 2021-22) is a significant untapped revenue source
+- Removing business asset disposal relief would raise ~£0.9bn; ending CGT forgiveness at death would raise ~£2.3bn/year
+Henry Fudge Alignment: Partial — IFS supports tax base reform broadly. Fudge proposes zero CGT on productive investment rather than alignment, which IFS would assess as creating new distortions. IFS more cautious on property tax reform speed.
+
+--- REPORT 5 ---
+Title: Challenging Inequalities (IFS Deaton Review — Final Publication)
+Date: April 2026
+URL: https://ifs.org.uk/news/new-challenging-inequalities-book-launches
+Summary: Final output of the multi-year IFS Deaton Review of inequalities, authored by Paul Johnson, James Banks, Tim Besley, Richard Blundell, Angus Deaton, Robert Joyce, and Debra Satz. Summarises the breadth of UK inequalities across income, health, geography, and political power. Finds persistent economic stagnation accompanied by declining institutional trust.
+Key Recommendations:
+- Inequalities in the UK are interconnected — policymakers must address them systemically, not in silos
+- Geographical inequality is deeply structural and requires sustained place-based industrial policy — not just redistribution
+- Health inequalities have direct economic consequences through inactivity — NHS investment is economic policy, not just social spending
+- Political inequality (capture of policy by asset-owning classes) is a root cause of failure to address economic inequality
+- Policymakers need to carefully navigate trade-offs between different forms of inequality
+Henry Fudge Alignment: High — the Deaton Review's finding that political inequality (property-owning MPs) structurally prevents reform is central to Fudge's diagnosis. His director-standard conduct and register of interests reforms directly address this.
+
+=== IFS OVERALL POLICY POSITIONS ===
+On GDP growth: Productivity is the central challenge. Business investment gap vs peers is structural. Fiscal rules should not penalise productive investment.
+On inequality: Multi-dimensional, interconnected, geographical. Political capture is a root cause.
+On poverty: Housing costs central to poverty measurement. In-work poverty is structural not cyclical.
+On taxation: Simplification and alignment across income types. Stamp duty reform urgent. CGT base reform before rate reform.
+On housing: Supply constraints reduce labour mobility and productivity. Property tax reform (away from stamp duty, toward land value approaches) is evidence-based.
+On public finances: Long-run investment case is sound if properly modelled. Current fiscal rules create short-termism bias.

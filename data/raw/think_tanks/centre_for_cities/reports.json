@@ -1,0 +1,124 @@
+{
+  "name": "Centre for Cities",
+  "lean": "centrist",
+  "url": "https://centreforcities.org/research/",
+  "recent_reports": [
+    {
+      "title": "The minimum wage is biting harder in Britain’s lower-wage cities",
+      "date": "2026-05-14",
+      "url": "https://www.centreforcities.org/blog/the-minimum-wage-is-biting-harder-in-britains-lower-wage-cities/",
+      "summary": "How the National Living Wage affects British cities and why local labour markets need closer attention.",
+      "key_recommendations": [
+        "The recent rise to £12.71 puts the UK’s wage floor among the highest in the OECD, sparking debate about where the minimum wage should go next.",
+        "As two-thirds of all jobs are in cities, cities should occupy an important position in assessments of the impact of the minimum wage.",
+        "It has also featured the fastest minimum wage increase of the past 20 years of any country in the G7.",
+        "Figure 1: Most UK cities exceed the government’s target ratio At the extremes, the same minimum wage of £12.71 is 53 per cent of the median in Reading and 82 per cent of the median in Doncaster."
+      ],
+      "hf_overlaps": [
+        "poverty_reduction"
+      ]
+    },
+    {
+      "title": "‘Medium’ sites should be exempt from on-site affordable housing",
+      "date": "2026-04-22",
+      "url": "https://www.centreforcities.org/blog/medium-sites-should-be-exempt-from-on-site-affordable-housing/",
+      "summary": "‘Medium’ sites should be exempt from on-site affordable housing | Centre for Cities One of the Government’s big planning reforms is a shake-up of affordable housing in England. The new National Planning Policy Framework has proposed that more new affordable housing should be funded through payments to councils rather than ‘on-site’.",
+      "key_recommendations": [
+        "‘Medium’ sites should be exempt from on-site affordable housing | Centre for Cities One of the Government’s big planning reforms is a shake-up of affordable housing in England.",
+        "The new National Planning Policy Framework has proposed that more new affordable housing should be funded through payments to councils rather than ‘on-site’.",
+        "This has prompted a backlash in some quarters, including from housing associations and the Local Government Association , with calls for medium sites to continue to deliver on-site affordable housing.",
+        "On-site affordable housing can cause problems for development Councils have the power to introduce conditions on planning permissions known as Section 106 (s106) agreements as a form of tax on development."
+      ],
+      "hf_overlaps": [
+        "housing_supply"
+      ]
+    },
+    {
+      "title": "Britain’s large cities are not dense",
+      "date": "2026-04-16",
+      "url": "https://www.centreforcities.org/blog/british-large-cities-are-not-dense/",
+      "summary": "Why Britain’s big cities need denser urban cores to boost productivity, transport and local economic growth.",
+      "key_recommendations": [
+        "The government’s Northern Growth Strategy identifies that “increasing the density of northern cities is essential to unlocking agglomeration benefits and driving productivity growth”.",
+        "More workers within a reasonable commute makes it easier to secure commercial property investment and create more jobs.",
+        "Britain’s large cities are not dense | Centre for Cities The government thinks Britain’s big cities are not dense enough.",
+        "Do we not need to bother trying to densify them?"
+      ],
+      "hf_overlaps": [
+        "productivity_growth",
+        "infrastructure_investment"
+      ]
+    },
+    {
+      "title": "Tradeable jobs and city centre regeneration: lessons from Wakefield",
+      "date": "2026-04-15",
+      "url": "https://www.centreforcities.org/blog/tradeable-jobs-and-city-centre-regeneration-lessons-from-wakefield/",
+      "summary": "Tradeable jobs and city centre regeneration: lessons from Wakefield | Centre for Cities Recently, Centre for Cities visited Wakefield. Alongside discovering the pivotal role the city plays in the Rhubarb Triangle , we learned about how the council is planning to develop the city centre into a place for more people to live and work.",
+      "key_recommendations": [
+        "It was an increase in employment, not an increase in pay, that drove disposable income growth in Wakefield.",
+        "To raise wages and support the city centre, Wakefield is trying to attract in residents and businesses To support higher wages, the council is working to support more jobs in higher-paying, advanced manufacturing businesses.",
+        "By increasing the number of higher-qualified workers and providing new office space via developments like Tileyard North , the council is also hoping to attract knowledge-intensive businesses into the city centre to raise wages and provide even more daytime footfall.",
+        "With anchor retailers like Primark and M&S moving out , the council is going to use £17.9 million from the Ministry of Housing, Communities and Local Government to acquire the Ridings Shopping Centre, demolish it, and build 1,000 new homes in its place."
+      ],
+      "hf_overlaps": [
+        "infrastructure_investment"
+      ]
+    },
+    {
+      "title": "A shift towards cities in the Government’s economic strategy",
+      "date": "2026-04-08",
+      "url": "https://www.centreforcities.org/blog/a-shift-towards-cities-in-the-governments-economic-strategy/",
+      "summary": "How recent Government announcements place cities and mayors at the centre of the UK’s economic growth strategy.",
+      "key_recommendations": [
+        "A shift towards cities in the Government’s economic strategy | Centre for Cities A series of announcements over the past few weeks emphasise how the Government’s economic strategy is more explicitly putting cities, particularly large city regions, at the centre of its growth agenda, with mayors given a central role in delivery.",
+        "City Investment Funds As highlighted in our Mais Lecture reflections blog , the Government has announced a £2.3 billion City Investment Fund, combining grant, loan and patient capital.",
+        "The Government is consulting on the plans over the summer, with particular themes of interest covering: Connectivity: Improving intra- and inter-city links, with Northern Powerhouse Rail as central.",
+        "New Towns Following Strategic Environmental Assessments, the Government has named seven locations it is now looking at in detail for its new towns programme, each expected to deliver a minimum of 10,000 homes, with many expected to exceed this threshold."
+      ],
+      "hf_overlaps": [
+        "productivity_growth",
+        "infrastructure_investment"
+      ]
+    },
+    {
+      "title": "The Budget 2024 should commit to fiscal devolution",
+      "date": "2024-03-04",
+      "url": "https://www.centreforcities.org/blog/the-budget-2024-should-commit-to-fiscal-devolution/",
+      "summary": "Three promises the Chancellor can make to boost growth and fix local finances without using any fiscal headroom.",
+      "key_recommendations": [
+        "The Budget 2024 should commit to fiscal devolution | Centre for Cities Ahead of Budget 2024, the public debate on tax and growth is heating up, and the hunt for rabbits is on.",
+        "While “how much”, “from who” and “what taxes” are important parts of this debate, the question of “which part of the state” is not getting nearly the attention it should.",
+        "Only five per cent of taxation in the UK in 2021 was collected by local government; below the 11 per cent average for non-federal OECD countries, and lower than other large non-federal states, such as 12 per cent in Poland; 14 per cent in France; 18 per cent in South Korea; and 23 per cent in Japan.",
+        "Before 1988, the UK’s share of taxation collected by local government was no different from the OECD non-federal average."
+      ],
+      "hf_overlaps": [
+        "productivity_growth",
+        "inequality_reduction",
+        "infrastructure_investment"
+      ]
+    },
+    {
+      "title": "How charitable activity responds to local inequality",
+      "date": "2024-02-20",
+      "url": "https://www.centreforcities.org/blog/how-charitable-activity-responds-to-local-inequality/",
+      "summary": "The concentration of charities focused on local need in UK cities is limited both by the level and distribution of local incomes.",
+      "key_recommendations": [
+        "But it is not just low income levels that reduce the number of these charities in UK cities.",
+        "First, an increase in the level of local income deprivation is associated with a decrease in the density of local needs-focused charities even when accounting for how it is distributed.",
+        "Third, an increase in the clustering of income deprivation is associated with a decrease in the charity density measure.",
+        "So to sustain voluntary organisations dedicated to meeting local economic need in the long term, national government must get the economies of left-behind cities firing again – Cities Outlook 2024 sets out the national steps to achieve local economic growth over the next decade."
+      ],
+      "hf_overlaps": [
+        "inequality_reduction"
+      ]
+    },
+    {
+      "title": "Wales needs to go further on council tax reform – and so does England",
+      "date": "2024-02-13",
+      "url": "https://www.centreforcities.org/blog/wales-needs-to-go-further-on-council-tax-reform-and-so-does-england/",
+      "summary": "Fiscal devolution is the only way out of the local funding crisis – revaluation alone won’t be enough",
+      "key_recommendations": [],
+      "hf_overlaps": []
+    }
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "fetched_at": "2026-05-17T11:14:30.223489+00:00",
+  "think_tanks": [
+    {
+      "name": "Institute for Fiscal Studies",
+      "lean": "centrist",
+      "url": "https://ifs.org.uk/publications",
+      "source_note": "Fetched manually (May 2026) — site blocked by Cloudflare bot protection",
+      "recent_reports": [
+        {
+          "title": "Living Standards, Poverty and Inequality in the UK: 2024",
+          "date": "2024-10-01",
+          "url": "https://ifs.org.uk/publications/living-standards-poverty-and-inequality-uk-2024",
+          "summary": "Comprehensive annual report on UK living standards. Covers the cost-of-living crisis impact on households, absolute and relative poverty trends, and the disproportionate effect of inflation on lower-income households who spend more on food and energy.",
+          "key_recommendations": [
+            "Housing costs must be included in poverty measurement as they disproportionately affect low-income households.",
+            "Mortgage interest rate rises have had materially different effects across households — policy responses should be targeted accordingly.",
+            "Rising in-work poverty is driven by structural factors, not just wage levels — benefits architecture needs reform.",
+            "Material deprivation measures should sit alongside income-based poverty measures for a fuller picture."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "poverty_reduction",
+            "inequality_reduction"
+          ],
+          "hf_alignment_note": "Partial — IFS confirms housing costs are central to poverty measurement, aligning with Fudge's housing-as-root-cause thesis. IFS is more cautious on structural interventions."
+        },
+        {
+          "title": "Economic Outlook: Navigating Narrow Paths",
+          "date": "2025-10-01",
+          "url": "https://ifs.org.uk/publications/economic-outlook-navigating-narrow-paths",
+          "summary": "IFS Green Budget chapter assessing UK economic prospects. UK GDP grew 0.9% in H1 2025, ahead of OBR expectations, but private domestic demand remains weak. Real GDP per capita grew just 0.1% in 2024. Business investment at 10.8% of GDP is well below US (16%) and Germany (17%) levels.",
+          "key_recommendations": [
+            "Productivity is the most important determinant of the UK's longer-term economic outlook — must be the central policy focus.",
+            "Business investment at 10.8% of GDP remains well below US (16%) and Germany (17%) levels — structural gap requires policy response.",
+            "Fiscal consolidation must not crowd out the investment needed for long-run growth.",
+            "Real income growth expected to average 1.1% per year over the next five years — insufficient to close the living standards gap."
+          ],
+          "hf_overlaps": [
+            "productivity_growth",
+            "anti_austerity",
+            "infrastructure_investment",
+            "fiscal_responsibility"
+          ],
+          "hf_alignment_note": "High — directly supports Fudge's reindustrialisation thesis and critique of chronic UK underinvestment. IFS figures on business investment gap underpin his Pillar Two case."
+        },
+        {
+          "title": "Risks and Challenges for the Public Finances",
+          "date": "2025-12-01",
+          "url": "https://ifs.org.uk/publications/risks-and-challenges-public-finances",
+          "summary": "Detailed analysis of UK fiscal risks. Debt interest payments now exceed 4% of national income — highest since 1950 — and are expected to remain between 3.5–4% of GDP throughout the forecast horizon. This represents £64bn more than expected just three years ago, roughly equivalent to the entire schools budget.",
+          "key_recommendations": [
+            "The five-year OBR forecast horizon creates structural bias against policies with long-term benefits — horizon should be extended.",
+            "OBR should publish long-term estimates of policies whose benefits or costs materialise beyond year five.",
+            "Current fiscal rules risk penalising productive investment — reform needed to distinguish current spending from capital investment.",
+            "Debt interest costs represent a permanent constraint on public service spending that must be honestly acknowledged."
+          ],
+          "hf_overlaps": [
+            "fiscal_responsibility",
+            "anti_austerity",
+            "infrastructure_investment"
+          ],
+          "hf_alignment_note": "High — IFS analysis of fiscal rule design directly supports Fudge's argument that borrowing to invest in productive assets produces better long-run debt trajectory than austerity."
+        },
+        {
+          "title": "Options for Tax Increases",
+          "date": "2025-11-01",
+          "url": "https://ifs.org.uk/publications/options-tax-increases",
+          "summary": "Comprehensive assessment of tax reform options available to the UK government. Argues for alignment of tax rates across all forms of income and gains to remove distortions. Stamp duty identified as one of the UK's most damaging taxes. Closing the corporation tax gap is a significant untapped revenue source.",
+          "key_recommendations": [
+            "Overall tax rates should be aligned across all forms of income and gains — current differential rates distort investment decisions.",
+            "Capital gains tax reform must fix the tax base (removing forgiveness at death, treating losses more generously) before adjusting rates.",
+            "Stamp duty is among the worst and most damaging UK taxes — should be reformed or replaced.",
+            "Closing the corporation tax gap (53% of small businesses under-declared 2021-22) is a significant untapped revenue source."
+          ],
+          "hf_overlaps": [
+            "fiscal_responsibility",
+            "land_value_tax"
+          ],
+          "hf_alignment_note": "Partial — IFS supports tax base reform broadly. Fudge proposes zero CGT on productive investment, which IFS would assess as creating new distortions. IFS more cautious on property tax reform speed."
+        },
+        {
+          "title": "Challenging Inequalities (IFS Deaton Review — Final Publication)",
+          "date": "2026-04-01",
+          "url": "https://ifs.org.uk/news/new-challenging-inequalities-book-launches",
+          "summary": "Final output of the multi-year IFS Deaton Review of inequalities. Summarises the breadth of UK inequalities across income, health, geography, and political power. Finds persistent economic stagnation accompanied by declining institutional trust. Political capture of policy by asset-owning classes identified as a root cause of failure to address economic inequality.",
+          "key_recommendations": [
+            "Inequalities in the UK are interconnected — policymakers must address them systemically, not in silos.",
+            "Geographical inequality is deeply structural and requires sustained place-based industrial policy — not just redistribution.",
+            "Health inequalities have direct economic consequences through inactivity — NHS investment is economic policy, not just social spending.",
+            "Political inequality (capture of policy by asset-owning classes) is a root cause of failure to address economic inequality."
+          ],
+          "hf_overlaps": [
+            "inequality_reduction",
+            "poverty_reduction",
+            "infrastructure_investment",
+            "anti_austerity"
+          ],
+          "hf_alignment_note": "High — the Deaton Review's finding that political inequality (property-owning MPs) structurally prevents reform is central to Fudge's diagnosis. His conduct and register of interests reforms directly address this."
+        }
+      ]
+    },
+    {
+      "name": "Resolution Foundation",
+      "lean": "centre-left",
+      "url": "https://www.resolutionfoundation.org/publications/",
+      "recent_reports": [
+        {
+          "title": "Labour Market Outlook Q1 2026",
+          "date": "2026-04-07",
+          "url": "https://www.resolutionfoundation.org/publications/labour-market-outlook-q1-2026/",
+          "summary": "The Employment Rights Act marks the biggest overhaul of workers’ rights in a generation. But even the most ambitious employment rights will benefit workers only if they are enforced effectively. And compliance with existing labour market rights is already patchy: an estimated 445,000 jobs were paid below the minimum wage in 2025, 1.4 million workers … Continued",
+          "key_recommendations": [],
+          "hf_overlaps": [
+            "poverty_reduction"
+          ]
+        },
+        {
+          "title": "Happy new tax year 2026",
+          "date": "2026-04-02",
+          "url": "https://www.resolutionfoundation.org/publications/happy-new-tax-year-2026/",
+          "summary": "The start of April marks the beginning of the new tax year, meaning households will face a wide range of tax, benefit and utility bill changes. Benefit changes in April will boost incomes for the poorest families, particularly the removal of the two-child limit, which will give back £4,560 this year to the affected families.",
+          "key_recommendations": [],
+          "hf_overlaps": []
+        },
+        {
+          "title": "Growth Mais-day",
+          "date": "2026-03-18",
+          "url": "https://www.resolutionfoundation.org/publications/growth-mais-day/",
+          "summary": "The Chancellor’s reaffirmation of her commitment to focusing on the UK’s miserable growth rate is welcome and reflects the scale of the UK’s challenge: a decade of exceptionally weak growth and a fragile outlook shaped by global risks. The Chancellor evolved her approach slightly and set out three new priorities: regional growth, innovation and closer … Continued",
+          "key_recommendations": [],
+          "hf_overlaps": []
+        },
+        {
+          "title": "Fiscal events and how to avoid them",
+          "date": "2026-02-19",
+          "url": "https://www.resolutionfoundation.org/publications/fiscal-events-and-how-to-avoid-them/",
+          "summary": "19 February 2026 by Elliott Christensen and Charlie McCurdy and James Smith",
+          "key_recommendations": [],
+          "hf_overlaps": []
+        },
+        {
+          "title": "Living Standards Outlook 2026",
+          "date": "2026-02-10",
+          "url": "https://www.resolutionfoundation.org/publications/living-standards-outlook-2026/",
+          "summary": "10 February 2026 by Alex Clegg and Louise Murphy and James Smith",
+          "key_recommendations": [],
+          "hf_overlaps": []
+        }
+      ]
+    },
+    {
+      "name": "IPPR",
+      "lean": "centre-left",
+      "url": "https://ippr.org/research/",
+      "recent_reports": [
+        {
+          "title": "Turning energy support into investment leverage",
+          "date": "",
+          "url": "https://www.ippr.org/articles/turning-energy-support-into-investment-leverage",
+          "summary": "If electricity costs are proving a constant headache for British industry, then the next few months might induce a migraine. High energy prices have been the norm since Russia's invasion of Ukraine, but volatile fossil fuel prices are once again on their way up as conflict in the Middle East sends energy markets haywire.",
+          "key_recommendations": [
+            "There are roughly 32,000 businesses in this group and not all can benefit – there is only enough fiscal room to support around 7,000 of these companies according to the government's own press release .",
+            "The industrial strategy revolves around investment Underinvestment is widely understood to be a core driver of Britain's economic stagnation - the government even named its industrial strategy green paper 'Invest 2035' to highlight the point.",
+            "BICS needs to be designed around investment too Unfortunately, the policy as outlined in the consultation does not attempt to solve for investment.",
+            "It does not help government identify where lower energy costs are most likely to unlock new investment."
+          ],
+          "hf_overlaps": [
+            "productivity_growth",
+            "anti_austerity",
+            "infrastructure_investment"
+          ]
+        },
+        {
+          "title": "What would it take to eradicate child poverty in Scotland?",
+          "date": "",
+          "url": "https://www.ippr.org/articles/what-would-it-take-to-eradicate-child-poverty-in-scotland",
+          "summary": "What would it take to eradicate child poverty in Scotland? The Scottish government is set to publish a new set of child poverty statistics for 2024-25. While we expect some movement in the figures due to improvements in the DWP’s analysis, we can be pretty confident the figure will not suggest Scotland is on track to reach the Scottish government’s 2030 child poverty target.",
+          "key_recommendations": [
+            "The Scottish government is set to publish a new set of child poverty statistics for 2024-25.",
+            "While we expect some movement in the figures due to improvements in the DWP’s analysis, we can be pretty confident the figure will not suggest Scotland is on track to reach the Scottish government’s 2030 child poverty target.",
+            "Why are we finding it so hard to cut the child poverty rate?",
+            "What it lacks is a credible programme to implement these at a scale that matches the statutory commitment to a 10 per cent child poverty rate or the rhetorical commitment to eliminating child poverty."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "productivity_growth",
+            "inequality_reduction",
+            "poverty_reduction"
+          ]
+        },
+        {
+          "title": "Henry Parkes discussing child poverty at Parliamentary Work and Pensions Committee",
+          "date": "",
+          "url": "https://www.ippr.org/articles/henry-parkes-discussing-child-poverty-at-parliamentary-work-and-pensions-committee",
+          "summary": "",
+          "key_recommendations": [],
+          "hf_overlaps": [
+            "poverty_reduction"
+          ]
+        },
+        {
+          "title": "Will planning reform make housing more affordable?",
+          "date": "2026-05-11",
+          "url": "https://www.ippr.org/articles/will-planning-reform-make-housing-more-affordable",
+          "summary": "Will planning reform make housing more affordable? Far too many people lack an affordable, safe, secure, decent place to call home. Far too many homes are disconnected from the spaces and services that make the economy tick and allow communities to thrive: public transport, working doctors' surgeries, parks and playgrounds, shops and pubs.",
+          "key_recommendations": [
+            "Housing costs push over one million children into poverty All this points to a deep perversity in housing policy: increasing market supply is supposed to improve affordability, but that could only happen now by bringing down prices, which would hurt the 7.5 million households who have already taken out a mortgage.",
+            "In the dash to deliver as many units as possible, policy-makers risk forgetting what they were trying to do in the first place: make sure people have good quality, affordable, secure homes in places where they want to live.",
+            "Instead, the government has proposed reducing or delaying requirements to provide social and affordable homes through the planning system.",
+            "The Iran war energy shock will impose significant costs on the UK economy, even if the government does not offer a universal support package."
+          ],
+          "hf_overlaps": [
+            "land_value_tax",
+            "housing_supply",
+            "infrastructure_investment",
+            "poverty_reduction"
+          ]
+        },
+        {
+          "title": "The full-speed economy: Does running a hotter economy benefit workers?",
+          "date": "2026-05-11",
+          "url": "https://www.ippr.org/articles/the-full-speed-economy",
+          "summary": "The full-speed economy: Does running a hotter economy benefit workers? Managing the macroeconomy to achieve strong growth and low inflation is a careful balancing act. Overly restrictive macroeconomic policy – such as too-high central bank interest rates – stifles growth, but policy that is too loose risks ‘overheating’ the economy and triggering high inflation.",
+          "key_recommendations": [
+            "Overly restrictive macroeconomic policy – such as too-high central bank interest rates – stifles growth, but policy that is too loose risks ‘overheating’ the economy and triggering high inflation.",
+            "The Iran war energy shock will impose significant costs on the UK economy, even if the government does not offer a universal support package.",
+            "It's time for the government to act to limit rent increases."
+          ],
+          "hf_overlaps": []
+        },
+        {
+          "title": "Transport and growth: Reforming transport investment for place-based growth",
+          "date": "2026-04-22",
+          "url": "https://www.ippr.org/articles/transport-and-growth",
+          "summary": "It is constrained by the way decisions are taken at the national level. Treasury processes, fiscal rules and appraisal frameworks – designed to control risk and manage spending – have too often become blockers to delivery rather than enablers of growth. Where these constraints have been addressed, the results are clear.",
+          "key_recommendations": [
+            "The next phase of transport investment must move beyond centralised approval for individual projects and towards a place-based, delivery-focussed model.",
+            "22 April 2026 Turning energy support into investment leverage The UK’s energy support risks missing growth by backing high-cost industries instead of those most likely to invest.",
+            "The challenge now is to create the institutional and financial conditions that allow mayors and cities to build on that success – at scale, and at pace.",
+            "Related items Flex factor: How government can keep network costs on bills down Government must strike a better balance between bringing down energy bills now and building a system fit for the future."
+          ],
+          "hf_overlaps": [
+            "infrastructure_investment"
+          ]
+        },
+        {
+          "title": "Rethinking public sector productivity",
+          "date": "",
+          "url": "https://www.ippr.org/articles/rethinking-public-sector-productivity",
+          "summary": "This project is funded by the Robertson Trust. The Spending Review published alongside the 2026-27 Budget commits the Scottish government to a programme of reform ‘designed to protect frontline services while reducing corporate costs and improving productivity’. Presumably reflecting its centrality to the programme, productivity is mentioned 39 times in the document.",
+          "key_recommendations": [
+            "The Spending Review published alongside the 2026-27 Budget commits the Scottish government to a programme of reform ‘designed to protect frontline services while reducing corporate costs and improving productivity’.",
+            "Indeed, political discourse often seems to imply that easy and significant productivity gains in the delivery of Scotland’s public services are just waiting to be grasped if only the government could summon the requisite political will and managerial competence.",
+            "Baumol’s ‘cost disease’: why do the costs of delivering services such as health and education tend to increase at a rate above the whole economy rate of inflation?",
+            "Famously, Baumol uses examples from the performing arts to help illustrate the intrinsic difficulty of reducing labour inputs, and hence raising productivity, in the delivery of personal services: A half hour horn quintet calls for the expenditure of two and a half man hours in its performance, and any attempt to increase productivity here is likely to be viewed with concern by critics and audience alike."
+          ],
+          "hf_overlaps": [
+            "productivity_growth",
+            "anti_austerity"
+          ]
+        },
+        {
+          "title": "The role of The Great North in delivering pan-northern investment",
+          "date": "2026-05-06",
+          "url": "https://www.ippr.org/articles/role-of-great-north-pan-northern-investment",
+          "summary": "The UK’s economic success relies on northern growth. The Great North represents an economy of 16 million people and an economy larger than many European countries. Closing half of its productivity gap between the North with the rest of the UK could boost national output by around £30 billion per year.",
+          "key_recommendations": [
+            "The Great North is a new mayoral-led partnership that brings together combined authorities, local councils, business, universities and government (partners).",
+            "Related items The political trust crisis: Why local democracy must start listening again A troubling reality hangs over May’s local elections: trust in politics has collapsed.",
+            "6 May 2026 Making the most of it: Unitarisation, hyperlocal democratic renewal and community empowerment Local government reorganisation need not result in a weakening of democracy at the local level.",
+            "19 February 2026 The evolution of devolution: How the English devolution and community empowerment bill can go further The government’s early commitment to broadening and deepening devolution in England is very welcome, but the bill must be bold enough to make change that people can see and feel."
+          ],
+          "hf_overlaps": [
+            "productivity_growth"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Centre for Cities",
+      "lean": "centrist",
+      "url": "https://centreforcities.org/research/",
+      "recent_reports": [
+        {
+          "title": "The minimum wage is biting harder in Britain’s lower-wage cities",
+          "date": "2026-05-14",
+          "url": "https://www.centreforcities.org/blog/the-minimum-wage-is-biting-harder-in-britains-lower-wage-cities/",
+          "summary": "How the National Living Wage affects British cities and why local labour markets need closer attention.",
+          "key_recommendations": [
+            "The recent rise to £12.71 puts the UK’s wage floor among the highest in the OECD, sparking debate about where the minimum wage should go next.",
+            "As two-thirds of all jobs are in cities, cities should occupy an important position in assessments of the impact of the minimum wage.",
+            "It has also featured the fastest minimum wage increase of the past 20 years of any country in the G7.",
+            "Figure 1: Most UK cities exceed the government’s target ratio At the extremes, the same minimum wage of £12.71 is 53 per cent of the median in Reading and 82 per cent of the median in Doncaster."
+          ],
+          "hf_overlaps": [
+            "poverty_reduction"
+          ]
+        },
+        {
+          "title": "‘Medium’ sites should be exempt from on-site affordable housing",
+          "date": "2026-04-22",
+          "url": "https://www.centreforcities.org/blog/medium-sites-should-be-exempt-from-on-site-affordable-housing/",
+          "summary": "‘Medium’ sites should be exempt from on-site affordable housing | Centre for Cities One of the Government’s big planning reforms is a shake-up of affordable housing in England. The new National Planning Policy Framework has proposed that more new affordable housing should be funded through payments to councils rather than ‘on-site’.",
+          "key_recommendations": [
+            "‘Medium’ sites should be exempt from on-site affordable housing | Centre for Cities One of the Government’s big planning reforms is a shake-up of affordable housing in England.",
+            "The new National Planning Policy Framework has proposed that more new affordable housing should be funded through payments to councils rather than ‘on-site’.",
+            "This has prompted a backlash in some quarters, including from housing associations and the Local Government Association , with calls for medium sites to continue to deliver on-site affordable housing.",
+            "On-site affordable housing can cause problems for development Councils have the power to introduce conditions on planning permissions known as Section 106 (s106) agreements as a form of tax on development."
+          ],
+          "hf_overlaps": [
+            "housing_supply"
+          ]
+        },
+        {
+          "title": "Britain’s large cities are not dense",
+          "date": "2026-04-16",
+          "url": "https://www.centreforcities.org/blog/british-large-cities-are-not-dense/",
+          "summary": "Why Britain’s big cities need denser urban cores to boost productivity, transport and local economic growth.",
+          "key_recommendations": [
+            "The government’s Northern Growth Strategy identifies that “increasing the density of northern cities is essential to unlocking agglomeration benefits and driving productivity growth”.",
+            "More workers within a reasonable commute makes it easier to secure commercial property investment and create more jobs.",
+            "Britain’s large cities are not dense | Centre for Cities The government thinks Britain’s big cities are not dense enough.",
+            "Do we not need to bother trying to densify them?"
+          ],
+          "hf_overlaps": [
+            "productivity_growth",
+            "infrastructure_investment"
+          ]
+        },
+        {
+          "title": "Tradeable jobs and city centre regeneration: lessons from Wakefield",
+          "date": "2026-04-15",
+          "url": "https://www.centreforcities.org/blog/tradeable-jobs-and-city-centre-regeneration-lessons-from-wakefield/",
+          "summary": "Tradeable jobs and city centre regeneration: lessons from Wakefield | Centre for Cities Recently, Centre for Cities visited Wakefield. Alongside discovering the pivotal role the city plays in the Rhubarb Triangle , we learned about how the council is planning to develop the city centre into a place for more people to live and work.",
+          "key_recommendations": [
+            "It was an increase in employment, not an increase in pay, that drove disposable income growth in Wakefield.",
+            "To raise wages and support the city centre, Wakefield is trying to attract in residents and businesses To support higher wages, the council is working to support more jobs in higher-paying, advanced manufacturing businesses.",
+            "By increasing the number of higher-qualified workers and providing new office space via developments like Tileyard North , the council is also hoping to attract knowledge-intensive businesses into the city centre to raise wages and provide even more daytime footfall.",
+            "With anchor retailers like Primark and M&S moving out , the council is going to use £17.9 million from the Ministry of Housing, Communities and Local Government to acquire the Ridings Shopping Centre, demolish it, and build 1,000 new homes in its place."
+          ],
+          "hf_overlaps": [
+            "infrastructure_investment"
+          ]
+        },
+        {
+          "title": "A shift towards cities in the Government’s economic strategy",
+          "date": "2026-04-08",
+          "url": "https://www.centreforcities.org/blog/a-shift-towards-cities-in-the-governments-economic-strategy/",
+          "summary": "How recent Government announcements place cities and mayors at the centre of the UK’s economic growth strategy.",
+          "key_recommendations": [
+            "A shift towards cities in the Government’s economic strategy | Centre for Cities A series of announcements over the past few weeks emphasise how the Government’s economic strategy is more explicitly putting cities, particularly large city regions, at the centre of its growth agenda, with mayors given a central role in delivery.",
+            "City Investment Funds As highlighted in our Mais Lecture reflections blog , the Government has announced a £2.3 billion City Investment Fund, combining grant, loan and patient capital.",
+            "The Government is consulting on the plans over the summer, with particular themes of interest covering: Connectivity: Improving intra- and inter-city links, with Northern Powerhouse Rail as central.",
+            "New Towns Following Strategic Environmental Assessments, the Government has named seven locations it is now looking at in detail for its new towns programme, each expected to deliver a minimum of 10,000 homes, with many expected to exceed this threshold."
+          ],
+          "hf_overlaps": [
+            "productivity_growth",
+            "infrastructure_investment"
+          ]
+        },
+        {
+          "title": "The Budget 2024 should commit to fiscal devolution",
+          "date": "2024-03-04",
+          "url": "https://www.centreforcities.org/blog/the-budget-2024-should-commit-to-fiscal-devolution/",
+          "summary": "Three promises the Chancellor can make to boost growth and fix local finances without using any fiscal headroom.",
+          "key_recommendations": [
+            "The Budget 2024 should commit to fiscal devolution | Centre for Cities Ahead of Budget 2024, the public debate on tax and growth is heating up, and the hunt for rabbits is on.",
+            "While “how much”, “from who” and “what taxes” are important parts of this debate, the question of “which part of the state” is not getting nearly the attention it should.",
+            "Only five per cent of taxation in the UK in 2021 was collected by local government; below the 11 per cent average for non-federal OECD countries, and lower than other large non-federal states, such as 12 per cent in Poland; 14 per cent in France; 18 per cent in South Korea; and 23 per cent in Japan.",
+            "Before 1988, the UK’s share of taxation collected by local government was no different from the OECD non-federal average."
+          ],
+          "hf_overlaps": [
+            "productivity_growth",
+            "inequality_reduction",
+            "infrastructure_investment"
+          ]
+        },
+        {
+          "title": "How charitable activity responds to local inequality",
+          "date": "2024-02-20",
+          "url": "https://www.centreforcities.org/blog/how-charitable-activity-responds-to-local-inequality/",
+          "summary": "The concentration of charities focused on local need in UK cities is limited both by the level and distribution of local incomes.",
+          "key_recommendations": [
+            "But it is not just low income levels that reduce the number of these charities in UK cities.",
+            "First, an increase in the level of local income deprivation is associated with a decrease in the density of local needs-focused charities even when accounting for how it is distributed.",
+            "Third, an increase in the clustering of income deprivation is associated with a decrease in the charity density measure.",
+            "So to sustain voluntary organisations dedicated to meeting local economic need in the long term, national government must get the economies of left-behind cities firing again – Cities Outlook 2024 sets out the national steps to achieve local economic growth over the next decade."
+          ],
+          "hf_overlaps": [
+            "inequality_reduction"
+          ]
+        },
+        {
+          "title": "Wales needs to go further on council tax reform – and so does England",
+          "date": "2024-02-13",
+          "url": "https://www.centreforcities.org/blog/wales-needs-to-go-further-on-council-tax-reform-and-so-does-england/",
+          "summary": "Fiscal devolution is the only way out of the local funding crisis – revaluation alone won’t be enough",
+          "key_recommendations": [],
+          "hf_overlaps": []
+        }
+      ]
+    },
+    {
+      "name": "Tony Blair Institute",
+      "lean": "centrist",
+      "url": "https://institute.global/insights",
+      "recent_reports": [
+        {
+          "title": "The Lifespan Fund: Reforming the State Pension for a More Affordable, Flexible and Fair FuturePaper | 1st May 2026A modern safety net should provide more support during working life while offering more flexibility over how and when support is drawn in later life.",
+          "date": "",
+          "url": "https://institute.global/insights/economic-prosperity/the-lifespan-fund-reforming-the-state-pension-for-a-more-affordable-flexible-and-fair-future",
+          "summary": "We propose replacing the state pension with the Lifespan Fund. Individuals would build credit through work and other recognised activities, draw on it during working life for defined purposes, rebuild it once back in employment, and convert it into a guaranteed pension at retirement.",
+          "key_recommendations": [
+            "On current projections, spending on the state pension will rise from around 5 per cent of GDP today to 7.8 per cent by 2070 [_] â an increase of more than Â£85 billion a year in todayâs terms, which is more than the annual defence budget."
+          ],
+          "hf_overlaps": [
+            "poverty_reduction"
+          ]
+        },
+        {
+          "title": "An Emergency Handbrake for UK Welfare: Stabilising Spending, Supporting PeoplePaper | 28th April 2026The UKâs welfare system needs urgent reform to curb costs, slow the rise in claimants and provide meaningful support to those who need it most.",
+          "date": "",
+          "url": "https://institute.global/insights/public-services/an-emergency-handbrake-for-uk-welfare-stabilising-spending-supporting-people",
+          "summary": "The government has rightly commissioned reviews to fundamentally reshape a welfare system that looks set to eclipse defence spending by the end of this decade. Meanwhile, on a daily basis, nearly 1,000 people in Britain sign on to benefits.",
+          "key_recommendations": [
+            "The government has rightly commissioned reviews to fundamentally reshape a welfare system that looks set to eclipse defence spending by the end of this decade.",
+            "[_] As part of the governmentâs effort to restore trust in the welfare system, we believe it could and should pull an emergency handbrake now that will slow the rise of claimants.",
+            "The handbrake is based on a simple idea: there are certain conditions that in the vast majority of cases do not limit an individualâs ability to work, and the default presumption should be that these ânon-work-limitingâ conditions no longer attract cash benefits.",
+            "It is a handbrake that can be pulled now, using secondary legislation ahead of more significant reform later in this parliament."
+          ],
+          "hf_overlaps": []
+        },
+        {
+          "title": "Public ServicesâWhere Do I Start?â: How Governments Can Prioritise AI Solutions for HealthCommentary | 27th April 2026With limited time and budgets, governments will benefit from TBIâs framework, which identifies AI solutions that can deliver real impact across health systems.",
+          "date": "",
+          "url": "https://institute.global/insights/public-services/where-do-i-start-how-governments-can-prioritise-ai-solutions-for-health",
+          "summary": "Diagnostics Tools that assist health-care professionals (HCPs) in analysing imaging, lab and other diagnostic test outputs. 1.1 Medical Imaging Assistance in the interpretation of X-rays, MRIs, CT scans and other imaging outputs when providing patient diagnoses.",
+          "key_recommendations": [
+            "Example use cases: Tools to assist community-health workers, providing information on potential diagnoses, tests and treatment decisions Triage decision support to help reduce waiting lists for appointments AI-guided medication-dosing recommendations 2.2 Inpatient Monitoring AI-powered monitoring systems to track patientsâ conditions over time while in hospital.",
+            "(Note: This is an emerging tool, as current regulation and policy prevent AI from being the sole provider of care in most settings.) Example use case: Mental-health chatbot for clinically validated therapy support 3.4 Wellness Personalised coaching for sleep, weight loss and disease prevention; often based on data from wearable devices."
+          ],
+          "hf_overlaps": [
+            "anti_austerity"
+          ]
+        },
+        {
+          "title": "Tech & DigitalisationTechnological Chokepoints: How to Balance Resilience and Leverage in a Weaponised EconomyPaper | 22nd April 2026Middle powers need a strategy to navigate technological interdependence: build resilience where it counts and use leverage wisely to stay competitive.",
+          "date": "",
+          "url": "https://institute.global/insights/tech-and-digitalisation/technological-chokepoints-how-to-balance-resilience-and-leverage",
+          "summary": "It is not possible for leaders to opt out of the technological revolution. Innovation, scientific advancements and the development and diffusion of frontier technologies are the fundamental building blocks of prosperity and power. Yet, as well as a source of growth, technology is also an arena for competition and conflict.",
+          "key_recommendations": [
+            "There is therefore a paradox: being part of this interdependent technological economy is necessary for competitiveness, security and building state capacity but, for precisely that reason, it is also an unequivocal source of vulnerability that must be grappled with.",
+            "To do this, leaders will be required to balance three competing priorities: Resilience: Individual countries must ensure that their economy, government and security are resilient in the face of potential disruption when trying to access key frontier technologies, regardless of the cause."
+          ],
+          "hf_overlaps": []
+        },
+        {
+          "title": "AI Transformation TrackerInteractive Explorer | 25th March 2026Explore data on the financing, diffusion and labour-market impacts of artificial intelligence.",
+          "date": "",
+          "url": "https://institute.global/insights/economic-prosperity/ai-transformation-tracker",
+          "summary": "",
+          "key_recommendations": [],
+          "hf_overlaps": []
+        },
+        {
+          "title": "Better Statistics, Better Government: Building a Future-Ready Evidence Base in the UKPaper | 25th March 2026To govern effectively in an AI-driven world, the UK must modernise its statistical system, ensuring timely, reliable data for informed decision-making.",
+          "date": "",
+          "url": "https://institute.global/insights/economic-prosperity/building-a-future-ready-evidence-base-in-the-uk",
+          "summary": "Good statistics are the foundation of good government â and of a well-functioning economy. Policymakers rely on them to make decisions and allocate scarce public resources while businesses and investors rely on them to plan, price risk and allocate capital.",
+          "key_recommendations": [
+            "Good statistics are the foundation of good government â and of a well-functioning economy.",
+            "When official statistics are slow or unreliable, the consequences cascade: policy is miscalibrated, investment is distorted, and the country loses a trusted baseline for judging what is working and what is not.",
+            "The governmentâs plan to introduce a digital ID offers a practical route to upgrade the UKâs core demographic evidence base â it should be used to underpin the census, starting in 2031, and to bolster migration and poverty statistics.",
+            "Alongside this, it should introduce a Real-Time Industry Classification â a dynamic, frequently updated picture of the economyâs sector structure â which would allow industrial strategy, skills policy and regional growth interventions to be guided by what is genuinely scaling in the economy."
+          ],
+          "hf_overlaps": [
+            "anti_austerity",
+            "infrastructure_investment",
+            "poverty_reduction"
+          ]
+        },
+        {
+          "title": "Who Controls Access to NHS Care in the Age of Big Tech?Commentary | 12th March 2026As patients increasingly turn to consumer AI assistants for health advice, outdated NHS navigation systems risk being bypassed entirely.",
+          "date": "",
+          "url": "https://institute.global/insights/public-services/who-controls-access-to-nhs-care-in-the-age-of-big-tech",
+          "summary": "Most of us have had the same experience in a car. You try the inbuilt sat-nav: expensive, impressive and fully integrated into the dashboard. But within minutes you realise that the maps are outdated, the traffic data is wrong and the routing is clunky â so you ignore it and open Google Maps on your phone.",
+          "key_recommendations": [
+            "It would be a large procurement, take years to implement and inevitably cost a great deal of money, but if it didnât fundamentally improve the consumer experience, it would be profoundly useless.",
+            "Theyâre asking, âShould I see a doctor?â âIs this urgent?â âWhat does this blood test mean?â And theyâre getting answers that are fast, personalised and â crucially â good enough (or, at least, that are perceived to be).",
+            "Because what looks like a convenient consumer tool today could become the greatest threat to the founding principles of the NHS, should the system fail to engage."
+          ],
+          "hf_overlaps": []
+        },
+        {
+          "title": "From Ambition to Delivery: How the Next Scottish Government Can Transform HealthPaper | 1st March 2026Scotland can modernise its NHS with a national patient app and faster rollout of proven technology, shifting care toward a preventative model.",
+          "date": "",
+          "url": "https://institute.global/insights/public-services/from-ambition-to-delivery-how-the-next-scottish-government-can-transform-health",
+          "summary": "The party that wins the Scottish parliamentary election in May will gain both a transformative opportunity and a critical responsibility: to reimagine the Scottish health system as one that is data-driven, preventative and better aligned to citizensâ needs. Scotland has structural advantages that make it well-placed to test and adopt new technologies at pace.",
+          "key_recommendations": [
+            "By taking advantage of technological advances and innovation, the next government must grasp the opportunity to move to a more sustainable, citizen-centred model of care, that improves access, enhances quality and supports people to stay healthier for longer.",
+            "[_] The next government must now convert long-standing ambition into delivery.",
+            "Ahead of the election, this paper sets out practical recommendations for the next government."
+          ],
+          "hf_overlaps": [
+            "productivity_growth",
+            "infrastructure_investment"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adam Smith Institute",
+      "lean": "right",
+      "url": "https://adamsmith.org/research/",
+      "recent_reports": [
+        {
+          "title": "Affordable Abundance: Alternatives to Section 106 of the Town and Country Planning Act 1990",
+          "date": "2026-04-15",
+          "url": "https://adamsmith.org/research/affordable-abundance",
+          "summary": "Affordable Abundance: Alternatives to Section 106 of the Town and Country Planning Act 1990 Abundance Hodgkinson & Viggo Terling This paper argues that Section 106 (S106) obligations are constraining housing supply rather than supporting it.",
+          "key_recommendations": [
+            "Appetite exists from private capital to expand into the affordable housing sector, although structural constraints and policy uncertainties dissuade them from doing so.",
+            "These measures would create an environment more conducive to the continued provision of affordable housing by removing the distortionary effects of taxation on property development.",
+            "1 The proposals in this paper offer a clear way forward to assist developers to increase the pace of delivery, whilst still protecting the important role that social and affordable housing plays in a plural housing economy and, importantly, operating within existing regulatory structures to facilitate quick implementation.",
+            "The government does not wish to structurally reform affordable housing provision through the abolition of S106, and therefore will continue the imposition of an effective levy of £1.3 billion on housebuilding."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "fiscal_responsibility",
+            "productivity_growth",
+            "infrastructure_investment"
+          ]
+        },
+        {
+          "title": "The Growth Agenda",
+          "date": "2026-01-25",
+          "url": "https://adamsmith.org/research/growth-agenda",
+          "summary": "The Growth Agenda Ostle & Mitchell Palmer By Jasper Ostle and Mitchell Palmer We have ranked 14 different policy barriers to private sector growth by their possible contribution to GDP. We also propose concrete policy changes to reduce these barriers.",
+          "key_recommendations": [
+            "The Growth Agenda Ostle & Mitchell Palmer By Jasper Ostle and Mitchell Palmer We have ranked 14 different policy barriers to private sector growth by their possible contribution to GDP.",
+            "We estimate that, if this suite of policy reforms were implemented in full, the government could add 10-20% to UK’s GDP (both in aggregate and per capita) over the long-term.",
+            "Summary for policy makers (PDF) Full report (HTML) Full report (PDF) Summary for Policy Makers The UK’s economic growth since the 2008 Global Financial Crisis has severely lagged its pre-crisis trend and that of our peers.",
+            "High housing costs cause lower productivity and create human misery."
+          ],
+          "hf_overlaps": [
+            "land_value_tax",
+            "housing_supply",
+            "productivity_growth",
+            "infrastructure_investment",
+            "poverty_reduction"
+          ]
+        },
+        {
+          "title": "Foreboding Fiscals: The Sobering Results of a New 50-Year Model of the UK’s Government Books",
+          "date": "2026-01-07",
+          "url": "https://adamsmith.org/research/foreboding-fiscals",
+          "summary": "Foreboding Fiscals: The Sobering Results of a New 50-Year Model of the UK’s Government Books Responsibility Palmer The Adam Smith Institute’s new UK Fiscal Sustainability Model is a simple Excel model, resembling that used by the New Zealand Treasury to produce its four-yearly Statements on the Long-term Fiscal Position .",
+          "key_recommendations": [
+            "Foreboding Fiscals: The Sobering Results of a New 50-Year Model of the UK’s Government Books Responsibility Palmer The Adam Smith Institute’s new UK Fiscal Sustainability Model is a simple Excel model, resembling that used by the New Zealand Treasury to produce its four-yearly Statements on the Long-term Fiscal Position .",
+            "Without structural reform, we face a structural debt spiral in less than a decade, with debt reaching 330% of GDP by 2075 This is driven by rapid growth in health and pension spending, relatively slow economic growth, and high pre-existing debt.",
+            "Ceteris paribus, permanent spending cuts equal to 4% of GDP (or 9% of government spending) from 2026/27 could ensure that public debt remained below 120% until 2075.",
+            "In the near future, we recommend bold supply-side reforms that deliver growth at a minimal cost to the Exchequer."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "fiscal_responsibility",
+            "productivity_growth",
+            "anti_austerity"
+          ]
+        },
+        {
+          "title": "Britain’s Tax System is Blocking Builders",
+          "date": "2026-10-20",
+          "url": "https://adamsmith.org/research/britains-tax-system-is-blocking-builders",
+          "summary": "Britain’s Tax System is Blocking Builders Abundance Responsibility Palmer This index reveals the UK’s comparatively poor competitiveness as an international tax regime. To make the UK more economically competitive we propose the following policy changes. Abolish Stamp Duty Land Tax.",
+          "key_recommendations": [
+            "A split-rate or land-value-only approach to property taxation would reduce or remove this distortion.",
+            "● This would encourage landowners to make the best possible use of their property and increase overall investment.",
+            "To make the UK more economically competitive we propose the following policy changes.",
+            "● VAT exemptions are costly to administer, distort consumers’ spending decisions, and substantially reduce revenue."
+          ],
+          "hf_overlaps": [
+            "land_value_tax"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fabian Society",
+      "lean": "left",
+      "url": "https://fabians.org.uk/publications/",
+      "recent_reports": [
+        {
+          "title": "Building skills",
+          "date": "2026-05-05",
+          "url": "https://fabians.org.uk/publication/building-skills/",
+          "summary": "The construction and built environment sector – which brings together the design, construction, management and maintenance of homes, buildings and infrastructure – is crucial to the UK economy. It provides millions of jobs, and plays a critical role as an enabler for the wider economy by delivering and maintaining the homes, buildings and infrastructure we need.",
+          "key_recommendations": [
+            "It sets out key policy recommendations to address the crisis and outlines how to develop the skilled workforce needed to deliver the homes and infrastructure we need.",
+            "It sets out key policy recommendations to address the crisis and outlines ..."
+          ],
+          "hf_overlaps": [
+            "infrastructure_investment"
+          ]
+        },
+        {
+          "title": "No time to lose",
+          "date": "2025-11-28",
+          "url": "https://fabians.org.uk/publication/no-time-to-lose/",
+          "summary": "The Fabian Women’s Network mentoring programme has been running for 14 years. Cohort 13 was the first group to witness Labour in government. In this collection, six members of Cohort 13 set out policy ideas in areas in need of more gender equality. The ideas were originally presented during a workshop in parliament.",
+          "key_recommendations": [
+            "Cohort 13 was the first group to witness Labour in government.",
+            "In this collection, six members of Cohort 13 set out policy ideas in areas in need of more gender equality."
+          ],
+          "hf_overlaps": [
+            "inequality_reduction"
+          ]
+        },
+        {
+          "title": "Taxing Questions",
+          "date": "2025-10-25",
+          "url": "https://fabians.org.uk/publication/taxing-questions/",
+          "summary": "The chancellor will have to make some difficult decisions ahead of the upcoming autumn budget. In particular, she faces a fiscal gap of over £20bn if she wants to stick within her fiscal rules. With public services on their knees, cutting spending looks neither practically deliverable nor politically possible. Changing the fiscal rules, on the other hand, risks increasing debt costs.",
+          "key_recommendations": [
+            "It brings together leading MPs, economists and policy experts to set out options for tax increases that would be progressive, that would avoid undermining the growth potential of the economy, and that would be in keeping with Labour’s manifesto.",
+            "This edited collection sets out how the chancellor can raise the revenue we need to invest in public services."
+          ],
+          "hf_overlaps": [
+            "anti_austerity"
+          ]
+        },
+        {
+          "title": "Levying up",
+          "date": "2025-08-12",
+          "url": "https://fabians.org.uk/publication/levying-up/",
+          "summary": "An effective skills system is more important now than ever. In the coming decades, we are likely to see a transformation in the labour market, driven by advances in technology including artificial intelligence. Estimates suggest that between 10 per cent and 30 per cent of UK jobs have the potential to be automated in the coming years, with many more being transformed by technology.",
+          "key_recommendations": [
+            "The levy is also failing to deliver on two of the government’s central missions: driving growth and unlocking opportunity.",
+            "The Labour government has committed to reforming the levy into a ‘growth and skills levy’, giving employers more flexibility.",
+            "In this report, general secretary Joe Dromey and senior researcher Sasjkia Otto set out a series of recommendations for the reform of the levy designed to both unleash growth and to unlock opportunity.",
+            "A decade ago, the Conservative government announced the introduction of the apprenticeship levy."
+          ],
+          "hf_overlaps": []
+        }
+      ]
+    },
+    {
+      "name": "Policy Exchange",
+      "lean": "centre-right",
+      "url": "https://policyexchange.org.uk/publications/",
+      "source_note": "Fetched manually (May 2026) — site blocked by CAPTCHA bot challenge (HTTP 202)",
+      "recent_reports": [
+        {
+          "title": "The UK's Broken Housing Market: Causes, Consequences and Cures",
+          "date": "2024-01-01",
+          "url": "https://policyexchange.org.uk/publication/the-uks-broken-housing-market/",
+          "summary": "Comprehensive diagnosis of UK housing dysfunction. Argues housing affordability crisis is 'the very core of the crisis of confidence in capitalism itself.' Sets out 16 specific reform recommendations focused on planning reform, land release, and property tax restructuring.",
+          "key_recommendations": [
+            "Scrap the 1947 Town and Country Planning Act on a limited basis via a Special Development Order.",
+            "Introduce a new rules-based planning system based on zoning — trialled first in cities and their immediate environs.",
+            "Overhaul Green Belt designation: land of genuine environmental value recategorised as AONB; remaining land zoned for permitted development.",
+            "Reform council tax: introduce two additional bands at the top, one new band at the bottom; increase rates in top bands.",
+            "Introduce a Stamp Duty exemption for last-time buyers to encourage downsizing."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "land_value_tax",
+            "fiscal_responsibility"
+          ],
+          "hf_alignment_note": "Partial — Policy Exchange and Fudge agree on planning reform urgency and supply-side diagnosis. Fudge goes further with Land Value Tax; Policy Exchange focuses on council tax reform and zoning rather than LVT."
+        },
+        {
+          "title": "Homes for Growth",
+          "date": "2024-01-01",
+          "url": "https://policyexchange.org.uk/publication/homes-for-growth/",
+          "summary": "Examines the macroeconomic consequences of housing undersupply. Argues housing shortage has a 'chilling effect on the economy as a whole.' Documents how wealth inequality driven by property is suppressing consumer spending — capital is being transferred from high-propensity-to-consume households to low-propensity-to-consume landlords. Housing benefit costs (£31.3bn projected 2025-26) will continue rising without structural supply reform.",
+          "key_recommendations": [
+            "Housing supply is the central economic constraint on UK growth — must be treated as a macroeconomic priority, not just a social policy.",
+            "Wealth inequality driven by housing is non-neutral: it transfers spending power from renters to landlords, suppressing domestic demand.",
+            "Social housing waiting list of 1.19 million (2021) and 86,000 households in temporary accommodation represent both a human and fiscal crisis.",
+            "Growth requires housing — the two policy areas cannot be separated."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "inequality_reduction",
+            "poverty_reduction"
+          ],
+          "hf_alignment_note": "High — directly supports Fudge's housing theory of everything thesis. Policy Exchange reaches similar conclusions from a centre-right supply-side perspective, without the LVT mechanism."
+        },
+        {
+          "title": "Pro-Growth Reforms Could Add Over £400bn to UK GDP",
+          "date": "2026-01-01",
+          "url": "https://policyexchange.org.uk/publication/pro-growth-reforms/",
+          "summary": "Models the GDP impact of a suite of supply-side reforms across housing, energy, taxation, and regulation. Central estimate: 10–20% uplift to UK GDP over the long term, equivalent to £428bn additional GDP by 2036, or £5,800 per capita in 2036 nominal terms. Housing, energy costs, excessive taxation, and excessive regulation are the four binding constraints on UK growth. Co-published with the Adam Smith Institute.",
+          "key_recommendations": [
+            "Planning reform alone could unlock significant GDP gains through improved capital deepening and labour mobility.",
+            "Private sector-led growth through deregulation and tax reform is the primary lever — not state investment.",
+            "UK faces an unprecedented growth challenge: current 1–2% forecasts are insufficient to sustain world-class public services.",
+            "Housing, energy costs, excessive taxation, and excessive regulation are the four binding constraints on UK growth."
+          ],
+          "hf_overlaps": [
+            "housing_supply",
+            "productivity_growth",
+            "fiscal_responsibility"
+          ],
+          "hf_alignment_note": "Partial — GDP uplift figures are in similar range to Fudge's +5.7% Y10 estimate, but mechanism differs fundamentally. Policy Exchange/ASI favour deregulation and private sector; Fudge favours public investment and industrial strategy alongside supply-side reform."
+        }
+      ]
+    }
+  ],
+  "manual_sources_merged_at": "2026-05-17T11:24:46.255824+00:00"
+}

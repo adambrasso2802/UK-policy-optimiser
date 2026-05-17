@@ -1,0 +1,77 @@
+{
+  "name": "Adam Smith Institute",
+  "lean": "right",
+  "url": "https://adamsmith.org/research/",
+  "recent_reports": [
+    {
+      "title": "Affordable Abundance: Alternatives to Section 106 of the Town and Country Planning Act 1990",
+      "date": "2026-04-15",
+      "url": "https://adamsmith.org/research/affordable-abundance",
+      "summary": "Affordable Abundance: Alternatives to Section 106 of the Town and Country Planning Act 1990 Abundance Hodgkinson & Viggo Terling This paper argues that Section 106 (S106) obligations are constraining housing supply rather than supporting it.",
+      "key_recommendations": [
+        "Appetite exists from private capital to expand into the affordable housing sector, although structural constraints and policy uncertainties dissuade them from doing so.",
+        "These measures would create an environment more conducive to the continued provision of affordable housing by removing the distortionary effects of taxation on property development.",
+        "1 The proposals in this paper offer a clear way forward to assist developers to increase the pace of delivery, whilst still protecting the important role that social and affordable housing plays in a plural housing economy and, importantly, operating within existing regulatory structures to facilitate quick implementation.",
+        "The government does not wish to structurally reform affordable housing provision through the abolition of S106, and therefore will continue the imposition of an effective levy of £1.3 billion on housebuilding."
+      ],
+      "hf_overlaps": [
+        "housing_supply",
+        "fiscal_responsibility",
+        "productivity_growth",
+        "infrastructure_investment"
+      ]
+    },
+    {
+      "title": "The Growth Agenda",
+      "date": "2026-01-25",
+      "url": "https://adamsmith.org/research/growth-agenda",
+      "summary": "The Growth Agenda Ostle & Mitchell Palmer By Jasper Ostle and Mitchell Palmer We have ranked 14 different policy barriers to private sector growth by their possible contribution to GDP. We also propose concrete policy changes to reduce these barriers.",
+      "key_recommendations": [
+        "The Growth Agenda Ostle & Mitchell Palmer By Jasper Ostle and Mitchell Palmer We have ranked 14 different policy barriers to private sector growth by their possible contribution to GDP.",
+        "We estimate that, if this suite of policy reforms were implemented in full, the government could add 10-20% to UK’s GDP (both in aggregate and per capita) over the long-term.",
+        "Summary for policy makers (PDF) Full report (HTML) Full report (PDF) Summary for Policy Makers The UK’s economic growth since the 2008 Global Financial Crisis has severely lagged its pre-crisis trend and that of our peers.",
+        "High housing costs cause lower productivity and create human misery."
+      ],
+      "hf_overlaps": [
+        "land_value_tax",
+        "housing_supply",
+        "productivity_growth",
+        "infrastructure_investment",
+        "poverty_reduction"
+      ]
+    },
+    {
+      "title": "Foreboding Fiscals: The Sobering Results of a New 50-Year Model of the UK’s Government Books",
+      "date": "2026-01-07",
+      "url": "https://adamsmith.org/research/foreboding-fiscals",
+      "summary": "Foreboding Fiscals: The Sobering Results of a New 50-Year Model of the UK’s Government Books Responsibility Palmer The Adam Smith Institute’s new UK Fiscal Sustainability Model is a simple Excel model, resembling that used by the New Zealand Treasury to produce its four-yearly Statements on the Long-term Fiscal Position .",
+      "key_recommendations": [
+        "Foreboding Fiscals: The Sobering Results of a New 50-Year Model of the UK’s Government Books Responsibility Palmer The Adam Smith Institute’s new UK Fiscal Sustainability Model is a simple Excel model, resembling that used by the New Zealand Treasury to produce its four-yearly Statements on the Long-term Fiscal Position .",
+        "Without structural reform, we face a structural debt spiral in less than a decade, with debt reaching 330% of GDP by 2075 This is driven by rapid growth in health and pension spending, relatively slow economic growth, and high pre-existing debt.",
+        "Ceteris paribus, permanent spending cuts equal to 4% of GDP (or 9% of government spending) from 2026/27 could ensure that public debt remained below 120% until 2075.",
+        "In the near future, we recommend bold supply-side reforms that deliver growth at a minimal cost to the Exchequer."
+      ],
+      "hf_overlaps": [
+        "housing_supply",
+        "fiscal_responsibility",
+        "productivity_growth",
+        "anti_austerity"
+      ]
+    },
+    {
+      "title": "Britain’s Tax System is Blocking Builders",
+      "date": "2026-10-20",
+      "url": "https://adamsmith.org/research/britains-tax-system-is-blocking-builders",
+      "summary": "Britain’s Tax System is Blocking Builders Abundance Responsibility Palmer This index reveals the UK’s comparatively poor competitiveness as an international tax regime. To make the UK more economically competitive we propose the following policy changes. Abolish Stamp Duty Land Tax.",
+      "key_recommendations": [
+        "A split-rate or land-value-only approach to property taxation would reduce or remove this distortion.",
+        "● This would encourage landowners to make the best possible use of their property and increase overall investment.",
+        "To make the UK more economically competitive we propose the following policy changes.",
+        "● VAT exemptions are costly to administer, distort consumers’ spending decisions, and substantially reduce revenue."
+      ],
+      "hf_overlaps": [
+        "land_value_tax"
+      ]
+    }
+  ]
+}

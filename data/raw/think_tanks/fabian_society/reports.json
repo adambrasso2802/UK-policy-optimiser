@@ -1,0 +1,59 @@
+{
+  "name": "Fabian Society",
+  "lean": "left",
+  "url": "https://fabians.org.uk/publications/",
+  "recent_reports": [
+    {
+      "title": "Building skills",
+      "date": "2026-05-05",
+      "url": "https://fabians.org.uk/publication/building-skills/",
+      "summary": "The construction and built environment sector – which brings together the design, construction, management and maintenance of homes, buildings and infrastructure – is crucial to the UK economy. It provides millions of jobs, and plays a critical role as an enabler for the wider economy by delivering and maintaining the homes, buildings and infrastructure we need.",
+      "key_recommendations": [
+        "It sets out key policy recommendations to address the crisis and outlines how to develop the skilled workforce needed to deliver the homes and infrastructure we need.",
+        "It sets out key policy recommendations to address the crisis and outlines ..."
+      ],
+      "hf_overlaps": [
+        "infrastructure_investment"
+      ]
+    },
+    {
+      "title": "No time to lose",
+      "date": "2025-11-28",
+      "url": "https://fabians.org.uk/publication/no-time-to-lose/",
+      "summary": "The Fabian Women’s Network mentoring programme has been running for 14 years. Cohort 13 was the first group to witness Labour in government. In this collection, six members of Cohort 13 set out policy ideas in areas in need of more gender equality. The ideas were originally presented during a workshop in parliament.",
+      "key_recommendations": [
+        "Cohort 13 was the first group to witness Labour in government.",
+        "In this collection, six members of Cohort 13 set out policy ideas in areas in need of more gender equality."
+      ],
+      "hf_overlaps": [
+        "inequality_reduction"
+      ]
+    },
+    {
+      "title": "Taxing Questions",
+      "date": "2025-10-25",
+      "url": "https://fabians.org.uk/publication/taxing-questions/",
+      "summary": "The chancellor will have to make some difficult decisions ahead of the upcoming autumn budget. In particular, she faces a fiscal gap of over £20bn if she wants to stick within her fiscal rules. With public services on their knees, cutting spending looks neither practically deliverable nor politically possible. Changing the fiscal rules, on the other hand, risks increasing debt costs.",
+      "key_recommendations": [
+        "It brings together leading MPs, economists and policy experts to set out options for tax increases that would be progressive, that would avoid undermining the growth potential of the economy, and that would be in keeping with Labour’s manifesto.",
+        "This edited collection sets out how the chancellor can raise the revenue we need to invest in public services."
+      ],
+      "hf_overlaps": [
+        "anti_austerity"
+      ]
+    },
+    {
+      "title": "Levying up",
+      "date": "2025-08-12",
+      "url": "https://fabians.org.uk/publication/levying-up/",
+      "summary": "An effective skills system is more important now than ever. In the coming decades, we are likely to see a transformation in the labour market, driven by advances in technology including artificial intelligence. Estimates suggest that between 10 per cent and 30 per cent of UK jobs have the potential to be automated in the coming years, with many more being transformed by technology.",
+      "key_recommendations": [
+        "The levy is also failing to deliver on two of the government’s central missions: driving growth and unlocking opportunity.",
+        "The Labour government has committed to reforming the levy into a ‘growth and skills levy’, giving employers more flexibility.",
+        "In this report, general secretary Joe Dromey and senior researcher Sasjkia Otto set out a series of recommendations for the reform of the levy designed to both unleash growth and to unlock opportunity.",
+        "A decade ago, the Conservative government announced the introduction of the apprenticeship levy."
+      ],
+      "hf_overlaps": []
+    }
+  ]
+}
