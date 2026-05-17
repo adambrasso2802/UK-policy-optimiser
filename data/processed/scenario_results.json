@@ -1,0 +1,165 @@
+{
+  "scenarios": [
+    {
+      "name": "Monetary Tightening",
+      "description": "BoE raises rates aggressively to crush inflation.",
+      "score": 6.8,
+      "params": {
+        "bank_rate_pct": 7.0,
+        "income_tax_basic_pct": 20.0,
+        "income_tax_higher_pct": 40.0,
+        "corporation_tax_pct": 25.0,
+        "govt_spend_gdp_pct": 44.0,
+        "vat_standard_pct": 20.0
+      },
+      "outcomes": {
+        "inflation_pct": 1.975,
+        "gdp_growth_pct": 0.6499999999999999,
+        "unemployment_pct": 4.375,
+        "psnb_gdp_pct": 4.675,
+        "psnd_gdp_pct": 99.925,
+        "productivity_pct": 0.5,
+        "current_account_pct": -3.175,
+        "real_wage_growth_pct": 0.5249999999999999
+      }
+    },
+    {
+      "name": "Baseline (Current Policy)",
+      "description": "Approximate current UK policy settings as of 2024-25.",
+      "score": 6.7,
+      "params": {
+        "bank_rate_pct": 5.25,
+        "income_tax_basic_pct": 20.0,
+        "income_tax_higher_pct": 40.0,
+        "corporation_tax_pct": 25.0,
+        "govt_spend_gdp_pct": 44.0,
+        "vat_standard_pct": 20.0
+      },
+      "outcomes": {
+        "inflation_pct": 2.5,
+        "gdp_growth_pct": 1.0,
+        "unemployment_pct": 4.2,
+        "psnb_gdp_pct": 4.5,
+        "psnd_gdp_pct": 98.0,
+        "productivity_pct": 0.5,
+        "current_account_pct": -3.0,
+        "real_wage_growth_pct": 0.0
+      }
+    },
+    {
+      "name": "Growth-Oriented (Supply-Side)",
+      "description": "Lower corp tax & income tax to stimulate investment; tighter spending.",
+      "score": 6.7,
+      "params": {
+        "bank_rate_pct": 5.25,
+        "income_tax_basic_pct": 18.0,
+        "income_tax_higher_pct": 38.0,
+        "corporation_tax_pct": 19.0,
+        "govt_spend_gdp_pct": 42.0,
+        "vat_standard_pct": 20.0
+      },
+      "outcomes": {
+        "inflation_pct": 2.3,
+        "gdp_growth_pct": 0.7000000000000001,
+        "unemployment_pct": 4.3500000000000005,
+        "psnb_gdp_pct": 4.050000000000001,
+        "psnd_gdp_pct": 98.55,
+        "productivity_pct": 0.74,
+        "current_account_pct": -2.8,
+        "real_wage_growth_pct": 0.44000000000000017
+      }
+    },
+    {
+      "name": "High Spend / High Tax",
+      "description": "Expanded public services financed by higher taxes (Scandinavian model).",
+      "score": 6.7,
+      "params": {
+        "bank_rate_pct": 5.25,
+        "income_tax_basic_pct": 23.0,
+        "income_tax_higher_pct": 45.0,
+        "corporation_tax_pct": 28.0,
+        "govt_spend_gdp_pct": 50.0,
+        "vat_standard_pct": 22.0
+      },
+      "outcomes": {
+        "inflation_pct": 3.1,
+        "gdp_growth_pct": 3.5500000000000003,
+        "unemployment_pct": 2.925,
+        "psnb_gdp_pct": 7.124999999999998,
+        "psnd_gdp_pct": 94.325,
+        "productivity_pct": 0.53,
+        "current_account_pct": -3.6,
+        "real_wage_growth_pct": -0.5700000000000001
+      }
+    },
+    {
+      "name": "Balanced Consolidation",
+      "description": "Moderate spending cuts + tax rises + gradual rate normalisation.",
+      "score": 6.500000000000001,
+      "params": {
+        "bank_rate_pct": 4.0,
+        "income_tax_basic_pct": 21.0,
+        "income_tax_higher_pct": 40.0,
+        "corporation_tax_pct": 25.0,
+        "govt_spend_gdp_pct": 41.5,
+        "vat_standard_pct": 20.5
+      },
+      "outcomes": {
+        "inflation_pct": 2.625,
+        "gdp_growth_pct": -0.05,
+        "unemployment_pct": 4.7250000000000005,
+        "psnb_gdp_pct": 2.4,
+        "psnd_gdp_pct": 97.75,
+        "productivity_pct": 0.425,
+        "current_account_pct": -2.625,
+        "real_wage_growth_pct": -0.2
+      }
+    },
+    {
+      "name": "Monetary Easing",
+      "description": "BoE cuts rates to stimulate growth.",
+      "score": 6.1,
+      "params": {
+        "bank_rate_pct": 3.0,
+        "income_tax_basic_pct": 20.0,
+        "income_tax_higher_pct": 40.0,
+        "corporation_tax_pct": 25.0,
+        "govt_spend_gdp_pct": 44.0,
+        "vat_standard_pct": 20.0
+      },
+      "outcomes": {
+        "inflation_pct": 3.175,
+        "gdp_growth_pct": 1.45,
+        "unemployment_pct": 3.975,
+        "psnb_gdp_pct": 4.275,
+        "psnd_gdp_pct": 95.525,
+        "productivity_pct": 0.5,
+        "current_account_pct": -2.775,
+        "real_wage_growth_pct": -0.6749999999999998
+      }
+    },
+    {
+      "name": "Fiscal Austerity",
+      "description": "Spending cuts (-5pp GDP), higher taxes to close deficit.",
+      "score": 6.0,
+      "params": {
+        "bank_rate_pct": 5.25,
+        "income_tax_basic_pct": 22.0,
+        "income_tax_higher_pct": 40.0,
+        "corporation_tax_pct": 26.0,
+        "govt_spend_gdp_pct": 39.0,
+        "vat_standard_pct": 20.0
+      },
+      "outcomes": {
+        "inflation_pct": 2.0,
+        "gdp_growth_pct": -1.7000000000000002,
+        "unemployment_pct": 5.550000000000001,
+        "psnb_gdp_pct": 0.6500000000000001,
+        "psnd_gdp_pct": 100.55000000000001,
+        "productivity_pct": 0.30000000000000004,
+        "current_account_pct": -2.5,
+        "real_wage_growth_pct": 0.30000000000000004
+      }
+    }
+  ]
+}

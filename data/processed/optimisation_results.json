@@ -1,0 +1,32 @@
+{
+  "baseline_score": 6.7,
+  "optimal_score": 9.6,
+  "improvement": 2.8999999999999995,
+  "current_policy": {
+    "bank_rate_pct": 5.25,
+    "income_tax_basic_pct": 20.0,
+    "income_tax_higher_pct": 40.0,
+    "corporation_tax_pct": 25.0,
+    "govt_spend_gdp_pct": 44.0,
+    "vat_standard_pct": 20.0
+  },
+  "optimal_policy": {
+    "bank_rate_pct": 9.4403416147948,
+    "income_tax_basic_pct": 36.03597884515102,
+    "income_tax_higher_pct": 36.89884871512139,
+    "corporation_tax_pct": 12.908091814443337,
+    "govt_spend_gdp_pct": 48.4937942645341,
+    "vat_standard_pct": 27.45918949206981
+  },
+  "convergence": true,
+  "estimated_outcomes": {
+    "inflation": 1.6922769420149704,
+    "gdp_growth": 2.816220685606207,
+    "unemployment": 3.2918896571968967,
+    "psnb_gdp": 2.9158232364774785,
+    "psnd_gdp": 94.39882798123513,
+    "productivity": 1.2394092372138563,
+    "current_account": -3.8684135879328903,
+    "real_wages": 1.547132295198886
+  }
+}

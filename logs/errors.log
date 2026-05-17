@@ -1,0 +1,8 @@
+2026-05-17 02:08:45,048  ERROR     policy_optimiser — HTTP 403 fetching ONS ABMI (Real GDP (chained volume, £m)) | HTTPError: 403 Client Error: Forbidden for url: https://api.beta.ons.gov.uk/v1/datasets/qna/timeseries/ABMI/data
+2026-05-17 02:08:45,049  DEBUG     policy_optimiser — Traceback (most recent call last):
+  File "/home/user/UK-policy-optimiser/utils.py", line 73, in fetch_json
+    resp.raise_for_status()
+  File "/root/.local/lib/python3.11/site-packages/requests/models.py", line 1028, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://api.beta.ons.gov.uk/v1/datasets/qna/timeseries/ABMI/data
+
