@@ -159,6 +159,9 @@ def alert(msg: str) -> None:
     ALERTS.append(msg)
 
 
+MAX_SAVE_BYTES = 10 * 1024 * 1024  # 10 MB — skip saving oversized HTML files
+
+
 def fetch_url(url: str, save_path: Path | None = None,
               extra_headers: dict | None = None) -> tuple[int, str]:
     """GET with retry. Returns (status, text). Saves to save_path if given."""
@@ -168,7 +171,12 @@ def fetch_url(url: str, save_path: Path | None = None,
         try:
             resp = requests.get(url, headers=hdrs, timeout=TIMEOUT, allow_redirects=True)
             if save_path:
-                save_path.write_text(resp.text, encoding="utf-8", errors="replace")
+                encoded = resp.text.encode("utf-8", errors="replace")
+                if len(encoded) <= MAX_SAVE_BYTES:
+                    save_path.write_bytes(encoded)
+                else:
+                    log.warning("Skipping save of %s — too large (%d MB)",
+                                url, len(encoded) // (1024 * 1024))
             return resp.status_code, resp.text
         except Exception as exc:
             last_exc = exc
