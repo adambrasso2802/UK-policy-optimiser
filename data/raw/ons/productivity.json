@@ -1,0 +1,45 @@
+{
+  "metric": "Output per hour worked (index, 2023=100)",
+  "unit": "index (2023=100)",
+  "source": "ONS timeseries API",
+  "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/timeseries/lzvb/prdy/data",
+  "ons_uri": "/employmentandlabourmarket/peopleinwork/labourproductivity/timeseries/lzvb/prdy",
+  "records": [
+    {
+      "year": 2016,
+      "value": 94.3
+    },
+    {
+      "year": 2017,
+      "value": 96.3
+    },
+    {
+      "year": 2018,
+      "value": 96.9
+    },
+    {
+      "year": 2019,
+      "value": 96.7
+    },
+    {
+      "year": 2020,
+      "value": 98.2
+    },
+    {
+      "year": 2021,
+      "value": 99.6
+    },
+    {
+      "year": 2022,
+      "value": 100.4
+    },
+    {
+      "year": 2023,
+      "value": 100.0
+    },
+    {
+      "year": 2024,
+      "value": 99.2
+    }
+  ]
+}
