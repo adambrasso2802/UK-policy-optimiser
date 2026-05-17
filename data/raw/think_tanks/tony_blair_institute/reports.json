@@ -1,0 +1,108 @@
+{
+  "name": "Tony Blair Institute",
+  "lean": "centrist",
+  "url": "https://institute.global/insights",
+  "recent_reports": [
+    {
+      "title": "The Lifespan Fund: Reforming the State Pension for a More Affordable, Flexible and Fair FuturePaper | 1st May 2026A modern safety net should provide more support during working life while offering more flexibility over how and when support is drawn in later life.",
+      "date": "",
+      "url": "https://institute.global/insights/economic-prosperity/the-lifespan-fund-reforming-the-state-pension-for-a-more-affordable-flexible-and-fair-future",
+      "summary": "We propose replacing the state pension with the Lifespan Fund. Individuals would build credit through work and other recognised activities, draw on it during working life for defined purposes, rebuild it once back in employment, and convert it into a guaranteed pension at retirement.",
+      "key_recommendations": [
+        "On current projections, spending on the state pension will rise from around 5 per cent of GDP today to 7.8 per cent by 2070 [_] â an increase of more than Â£85 billion a year in todayâs terms, which is more than the annual defence budget."
+      ],
+      "hf_overlaps": [
+        "poverty_reduction"
+      ]
+    },
+    {
+      "title": "An Emergency Handbrake for UK Welfare: Stabilising Spending, Supporting PeoplePaper | 28th April 2026The UKâs welfare system needs urgent reform to curb costs, slow the rise in claimants and provide meaningful support to those who need it most.",
+      "date": "",
+      "url": "https://institute.global/insights/public-services/an-emergency-handbrake-for-uk-welfare-stabilising-spending-supporting-people",
+      "summary": "The government has rightly commissioned reviews to fundamentally reshape a welfare system that looks set to eclipse defence spending by the end of this decade. Meanwhile, on a daily basis, nearly 1,000 people in Britain sign on to benefits.",
+      "key_recommendations": [
+        "The government has rightly commissioned reviews to fundamentally reshape a welfare system that looks set to eclipse defence spending by the end of this decade.",
+        "[_] As part of the governmentâs effort to restore trust in the welfare system, we believe it could and should pull an emergency handbrake now that will slow the rise of claimants.",
+        "The handbrake is based on a simple idea: there are certain conditions that in the vast majority of cases do not limit an individualâs ability to work, and the default presumption should be that these ânon-work-limitingâ conditions no longer attract cash benefits.",
+        "It is a handbrake that can be pulled now, using secondary legislation ahead of more significant reform later in this parliament."
+      ],
+      "hf_overlaps": []
+    },
+    {
+      "title": "Public ServicesâWhere Do I Start?â: How Governments Can Prioritise AI Solutions for HealthCommentary | 27th April 2026With limited time and budgets, governments will benefit from TBIâs framework, which identifies AI solutions that can deliver real impact across health systems.",
+      "date": "",
+      "url": "https://institute.global/insights/public-services/where-do-i-start-how-governments-can-prioritise-ai-solutions-for-health",
+      "summary": "Diagnostics Tools that assist health-care professionals (HCPs) in analysing imaging, lab and other diagnostic test outputs. 1.1 Medical Imaging Assistance in the interpretation of X-rays, MRIs, CT scans and other imaging outputs when providing patient diagnoses.",
+      "key_recommendations": [
+        "Example use cases: Tools to assist community-health workers, providing information on potential diagnoses, tests and treatment decisions Triage decision support to help reduce waiting lists for appointments AI-guided medication-dosing recommendations 2.2 Inpatient Monitoring AI-powered monitoring systems to track patientsâ conditions over time while in hospital.",
+        "(Note: This is an emerging tool, as current regulation and policy prevent AI from being the sole provider of care in most settings.) Example use case: Mental-health chatbot for clinically validated therapy support 3.4 Wellness Personalised coaching for sleep, weight loss and disease prevention; often based on data from wearable devices."
+      ],
+      "hf_overlaps": [
+        "anti_austerity"
+      ]
+    },
+    {
+      "title": "Tech & DigitalisationTechnological Chokepoints: How to Balance Resilience and Leverage in a Weaponised EconomyPaper | 22nd April 2026Middle powers need a strategy to navigate technological interdependence: build resilience where it counts and use leverage wisely to stay competitive.",
+      "date": "",
+      "url": "https://institute.global/insights/tech-and-digitalisation/technological-chokepoints-how-to-balance-resilience-and-leverage",
+      "summary": "It is not possible for leaders to opt out of the technological revolution. Innovation, scientific advancements and the development and diffusion of frontier technologies are the fundamental building blocks of prosperity and power. Yet, as well as a source of growth, technology is also an arena for competition and conflict.",
+      "key_recommendations": [
+        "There is therefore a paradox: being part of this interdependent technological economy is necessary for competitiveness, security and building state capacity but, for precisely that reason, it is also an unequivocal source of vulnerability that must be grappled with.",
+        "To do this, leaders will be required to balance three competing priorities: Resilience: Individual countries must ensure that their economy, government and security are resilient in the face of potential disruption when trying to access key frontier technologies, regardless of the cause."
+      ],
+      "hf_overlaps": []
+    },
+    {
+      "title": "AI Transformation TrackerInteractive Explorer | 25th March 2026Explore data on the financing, diffusion and labour-market impacts of artificial intelligence.",
+      "date": "",
+      "url": "https://institute.global/insights/economic-prosperity/ai-transformation-tracker",
+      "summary": "",
+      "key_recommendations": [],
+      "hf_overlaps": []
+    },
+    {
+      "title": "Better Statistics, Better Government: Building a Future-Ready Evidence Base in the UKPaper | 25th March 2026To govern effectively in an AI-driven world, the UK must modernise its statistical system, ensuring timely, reliable data for informed decision-making.",
+      "date": "",
+      "url": "https://institute.global/insights/economic-prosperity/building-a-future-ready-evidence-base-in-the-uk",
+      "summary": "Good statistics are the foundation of good government â and of a well-functioning economy. Policymakers rely on them to make decisions and allocate scarce public resources while businesses and investors rely on them to plan, price risk and allocate capital.",
+      "key_recommendations": [
+        "Good statistics are the foundation of good government â and of a well-functioning economy.",
+        "When official statistics are slow or unreliable, the consequences cascade: policy is miscalibrated, investment is distorted, and the country loses a trusted baseline for judging what is working and what is not.",
+        "The governmentâs plan to introduce a digital ID offers a practical route to upgrade the UKâs core demographic evidence base â it should be used to underpin the census, starting in 2031, and to bolster migration and poverty statistics.",
+        "Alongside this, it should introduce a Real-Time Industry Classification â a dynamic, frequently updated picture of the economyâs sector structure â which would allow industrial strategy, skills policy and regional growth interventions to be guided by what is genuinely scaling in the economy."
+      ],
+      "hf_overlaps": [
+        "anti_austerity",
+        "infrastructure_investment",
+        "poverty_reduction"
+      ]
+    },
+    {
+      "title": "Who Controls Access to NHS Care in the Age of Big Tech?Commentary | 12th March 2026As patients increasingly turn to consumer AI assistants for health advice, outdated NHS navigation systems risk being bypassed entirely.",
+      "date": "",
+      "url": "https://institute.global/insights/public-services/who-controls-access-to-nhs-care-in-the-age-of-big-tech",
+      "summary": "Most of us have had the same experience in a car. You try the inbuilt sat-nav: expensive, impressive and fully integrated into the dashboard. But within minutes you realise that the maps are outdated, the traffic data is wrong and the routing is clunky â so you ignore it and open Google Maps on your phone.",
+      "key_recommendations": [
+        "It would be a large procurement, take years to implement and inevitably cost a great deal of money, but if it didnât fundamentally improve the consumer experience, it would be profoundly useless.",
+        "Theyâre asking, âShould I see a doctor?â âIs this urgent?â âWhat does this blood test mean?â And theyâre getting answers that are fast, personalised and â crucially â good enough (or, at least, that are perceived to be).",
+        "Because what looks like a convenient consumer tool today could become the greatest threat to the founding principles of the NHS, should the system fail to engage."
+      ],
+      "hf_overlaps": []
+    },
+    {
+      "title": "From Ambition to Delivery: How the Next Scottish Government Can Transform HealthPaper | 1st March 2026Scotland can modernise its NHS with a national patient app and faster rollout of proven technology, shifting care toward a preventative model.",
+      "date": "",
+      "url": "https://institute.global/insights/public-services/from-ambition-to-delivery-how-the-next-scottish-government-can-transform-health",
+      "summary": "The party that wins the Scottish parliamentary election in May will gain both a transformative opportunity and a critical responsibility: to reimagine the Scottish health system as one that is data-driven, preventative and better aligned to citizensâ needs. Scotland has structural advantages that make it well-placed to test and adopt new technologies at pace.",
+      "key_recommendations": [
+        "By taking advantage of technological advances and innovation, the next government must grasp the opportunity to move to a more sustainable, citizen-centred model of care, that improves access, enhances quality and supports people to stay healthier for longer.",
+        "[_] The next government must now convert long-standing ambition into delivery.",
+        "Ahead of the election, this paper sets out practical recommendations for the next government."
+      ],
+      "hf_overlaps": [
+        "productivity_growth",
+        "infrastructure_investment"
+      ]
+    }
+  ]
+}

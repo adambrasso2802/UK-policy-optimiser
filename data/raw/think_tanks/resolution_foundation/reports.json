@@ -1,0 +1,49 @@
+{
+  "name": "Resolution Foundation",
+  "lean": "centre-left",
+  "url": "https://www.resolutionfoundation.org/publications/",
+  "recent_reports": [
+    {
+      "title": "Labour Market Outlook Q1 2026",
+      "date": "2026-04-07",
+      "url": "https://www.resolutionfoundation.org/publications/labour-market-outlook-q1-2026/",
+      "summary": "The Employment Rights Act marks the biggest overhaul of workers’ rights in a generation. But even the most ambitious employment rights will benefit workers only if they are enforced effectively. And compliance with existing labour market rights is already patchy: an estimated 445,000 jobs were paid below the minimum wage in 2025, 1.4 million workers … Continued",
+      "key_recommendations": [],
+      "hf_overlaps": [
+        "poverty_reduction"
+      ]
+    },
+    {
+      "title": "Happy new tax year 2026",
+      "date": "2026-04-02",
+      "url": "https://www.resolutionfoundation.org/publications/happy-new-tax-year-2026/",
+      "summary": "The start of April marks the beginning of the new tax year, meaning households will face a wide range of tax, benefit and utility bill changes. Benefit changes in April will boost incomes for the poorest families, particularly the removal of the two-child limit, which will give back £4,560 this year to the affected families.",
+      "key_recommendations": [],
+      "hf_overlaps": []
+    },
+    {
+      "title": "Growth Mais-day",
+      "date": "2026-03-18",
+      "url": "https://www.resolutionfoundation.org/publications/growth-mais-day/",
+      "summary": "The Chancellor’s reaffirmation of her commitment to focusing on the UK’s miserable growth rate is welcome and reflects the scale of the UK’s challenge: a decade of exceptionally weak growth and a fragile outlook shaped by global risks. The Chancellor evolved her approach slightly and set out three new priorities: regional growth, innovation and closer … Continued",
+      "key_recommendations": [],
+      "hf_overlaps": []
+    },
+    {
+      "title": "Fiscal events and how to avoid them",
+      "date": "2026-02-19",
+      "url": "https://www.resolutionfoundation.org/publications/fiscal-events-and-how-to-avoid-them/",
+      "summary": "19 February 2026 by Elliott Christensen and Charlie McCurdy and James Smith",
+      "key_recommendations": [],
+      "hf_overlaps": []
+    },
+    {
+      "title": "Living Standards Outlook 2026",
+      "date": "2026-02-10",
+      "url": "https://www.resolutionfoundation.org/publications/living-standards-outlook-2026/",
+      "summary": "10 February 2026 by Alex Clegg and Louise Murphy and James Smith",
+      "key_recommendations": [],
+      "hf_overlaps": []
+    }
+  ]
+}
